@@ -2,239 +2,51 @@
   "siteInfo": {
     "title": "科技数码资讯日报",
     "subtitle": "发布日历 × 热榜聚合",
-    "updateTime": "2026-04-01 17:05",
+    "updateTime": "2026-04-01 18:52",
     "version": "1.0.0"
   },
   "releaseCalendar": [
-    {
-      "id": 1,
-      "product": "OPPO Find X9 Ultra",
-      "brand": "OPPO",
-      "releaseDate": "2026-04-21",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/2196F3/FFFFFF?text=OPPO+Find+X9"
-    },
-    {
-      "id": 2,
-      "product": "OPPO Enco Clip2",
-      "brand": "OPPO",
-      "releaseDate": "2026-04-21",
-      "category": "耳机",
-      "image": "https://via.placeholder.com/300x200/4CAF50/FFFFFF?text=OPPO+Enco"
-    },
-    {
-      "id": 3,
-      "product": "OPPO Watch X3 Mini",
-      "brand": "OPPO",
-      "releaseDate": "2026-04-21",
-      "category": "手表",
-      "image": "https://via.placeholder.com/300x200/FF9800/FFFFFF?text=OPPO+Watch"
-    },
-    {
-      "id": 4,
-      "product": "OPPO Find X9s Pro",
-      "brand": "OPPO",
-      "releaseDate": "2026-04-21",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/2196F3/FFFFFF?text=OPPO+X9s"
-    },
-    {
-      "id": 5,
-      "product": "OPPO Pad Mini",
-      "brand": "OPPO",
-      "releaseDate": "2026-04-21",
-      "category": "平板",
-      "image": "https://via.placeholder.com/300x200/9C27B0/FFFFFF?text=OPPO+Pad"
-    },
-    {
-      "id": 6,
-      "product": "OPPO Pad 5 Pro",
-      "brand": "OPPO",
-      "releaseDate": "2026-04-21",
-      "category": "平板",
-      "image": "https://via.placeholder.com/300x200/9C27B0/FFFFFF?text=OPPO+Pad+Pro"
-    },
-    {
-      "id": 7,
-      "product": "红魔游戏平板5Pro",
-      "brand": "红魔",
-      "releaseDate": "2026-04",
-      "category": "平板",
-      "image": "https://via.placeholder.com/300x200/F44336/FFFFFF?text=红魔+平板"
-    },
-    {
-      "id": 8,
-      "product": "荣耀WIN游戏本",
-      "brand": "荣耀",
-      "releaseDate": "2026-04",
-      "category": "笔记本",
-      "image": "https://via.placeholder.com/300x200/3F51B5/FFFFFF?text=荣耀+游戏本"
-    },
-    {
-      "id": 9,
-      "product": "荣耀X80i",
-      "brand": "荣耀",
-      "releaseDate": "2026-04",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/3F51B5/FFFFFF?text=荣耀+X80i"
-    },
-    {
-      "id": 10,
-      "product": "小米NAS",
-      "brand": "小米",
-      "releaseDate": "2026-H1",
-      "category": "存储",
-      "image": "https://via.placeholder.com/300x200/FF5722/FFFFFF?text=小米+NAS"
-    },
-    {
-      "id": 11,
-      "product": "AYANEO Pocket Play",
-      "brand": "AYANEO",
-      "releaseDate": "2026-H1",
-      "category": "掌机",
-      "image": "https://via.placeholder.com/300x200/00BCD4/FFFFFF?text=AYANEO"
-    },
-    {
-      "id": 12,
-      "product": "Steam Machine",
-      "brand": "Steam",
-      "releaseDate": "2026-H1",
-      "category": "掌机",
-      "image": "https://via.placeholder.com/300x200/1B5E20/FFFFFF?text=Steam+Machine"
-    },
-    {
-      "id": 13,
-      "product": "Steam Controller",
-      "brand": "Steam",
-      "releaseDate": "2026-H1",
-      "category": "手柄",
-      "image": "https://via.placeholder.com/300x200/1B5E20/FFFFFF?text=Steam+Controller"
-    },
-    {
-      "id": 14,
-      "product": "ROG XREAL R1",
-      "brand": "ROG",
-      "releaseDate": "2026-H1",
-      "category": "AR眼镜",
-      "image": "https://via.placeholder.com/300x200/E91E63/FFFFFF?text=ROG+XREAL"
-    },
-    {
-      "id": 15,
-      "product": "魅族23",
-      "brand": "魅族",
-      "releaseDate": "2026-H1",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/009688/FFFFFF?text=魅族23"
-    },
-    {
-      "id": 16,
-      "product": "影石Luna",
-      "brand": "影石",
-      "releaseDate": "2026-H1",
-      "category": "相机",
-      "image": "https://via.placeholder.com/300x200/795548/FFFFFF?text=影石+Luna"
-    },
-    {
-      "id": 17,
-      "product": "iPhone 18",
-      "brand": "Apple",
-      "releaseDate": "2026-H2",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/333333/FFFFFF?text=iPhone+18"
-    },
-    {
-      "id": 18,
-      "product": "荣耀Robot Phone",
-      "brand": "荣耀",
-      "releaseDate": "2026-H2",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/3F51B5/FFFFFF?text=荣耀+Robot"
-    },
-    {
-      "id": 19,
-      "product": "DJI Osmo Pocket 4",
-      "brand": "DJI",
-      "releaseDate": "TBD",
-      "category": "相机",
-      "image": "https://via.placeholder.com/300x200/607D8B/FFFFFF?text=DJI+Pocket"
-    },
-    {
-      "id": 20,
-      "product": "折叠屏iPhone",
-      "brand": "Apple",
-      "releaseDate": "TBD",
-      "category": "手机",
-      "image": "https://via.placeholder.com/300x200/333333/FFFFFF?text=iPhone+Fold"
-    }
+    {"id": 1, "product": "OPPO Find X9 Ultra", "brand": "OPPO", "releaseDate": "2026-04-21", "category": "手机"},
+    {"id": 2, "product": "OPPO Enco Clip2", "brand": "OPPO", "releaseDate": "2026-04-21", "category": "耳机"},
+    {"id": 3, "product": "OPPO Watch X3 Mini", "brand": "OPPO", "releaseDate": "2026-04-21", "category": "手表"},
+    {"id": 4, "product": "OPPO Find X9s Pro", "brand": "OPPO", "releaseDate": "2026-04-21", "category": "手机"},
+    {"id": 5, "product": "OPPO Pad Mini", "brand": "OPPO", "releaseDate": "2026-04-21", "category": "平板"},
+    {"id": 6, "product": "OPPO Pad 5 Pro", "brand": "OPPO", "releaseDate": "2026-04-21", "category": "平板"},
+    {"id": 7, "product": "红魔游戏平板5Pro", "brand": "红魔", "releaseDate": "2026-04", "category": "平板"},
+    {"id": 8, "product": "荣耀WIN游戏本", "brand": "荣耀", "releaseDate": "2026-04", "category": "笔记本"},
+    {"id": 9, "product": "荣耀X80i", "brand": "荣耀", "releaseDate": "2026-04", "category": "手机"},
+    {"id": 10, "product": "小米NAS", "brand": "小米", "releaseDate": "2026-H1", "category": "存储"},
+    {"id": 11, "product": "AYANEO Pocket Play", "brand": "AYANEO", "releaseDate": "2026-H1", "category": "掌机"},
+    {"id": 12, "product": "Steam Machine", "brand": "Steam", "releaseDate": "2026-H1", "category": "掌机"},
+    {"id": 13, "product": "Steam Controller", "brand": "Steam", "releaseDate": "2026-H1", "category": "手柄"},
+    {"id": 14, "product": "ROG XREAL R1", "brand": "ROG", "releaseDate": "2026-H1", "category": "AR眼镜"},
+    {"id": 15, "product": "魅族23", "brand": "魅族", "releaseDate": "2026-H1", "category": "手机"},
+    {"id": 16, "product": "影石Luna", "brand": "影石", "releaseDate": "2026-H1", "category": "相机"},
+    {"id": 17, "product": "iPhone 18", "brand": "Apple", "releaseDate": "2026-H2", "category": "手机"},
+    {"id": 18, "product": "荣耀Robot Phone", "brand": "荣耀", "releaseDate": "2026-H2", "category": "手机"},
+    {"id": 19, "product": "DJI Osmo Pocket 4", "brand": "DJI", "releaseDate": "TBD", "category": "相机"},
+    {"id": 20, "product": "折叠屏iPhone", "brand": "Apple", "releaseDate": "TBD", "category": "手机"}
   ],
   "hotLists": {
-    "bilibili": {
-      "name": "B站热门",
-      "icon": "📺",
-      "color": "#00A1D6",
-      "items": [
-        {"rank": 1, "title": "李荣浩手撕单依纯！老实人真被逼急了！", "hot": "623.6万", "url": "https://www.bilibili.com"},
-        {"rank": 2, "title": "评分9.0！杀死那个夜之城人！重看《赛博朋克：边缘行者》", "hot": "213.0万", "url": "https://www.bilibili.com"},
-        {"rank": 3, "title": "意外导致视野缺损，我靠画画走出了创作阴影", "hot": "131.6万", "url": "https://www.bilibili.com"},
-        {"rank": 4, "title": "增进友谊小游戏", "hot": "320.1万", "url": "https://www.bilibili.com"},
-        {"rank": 5, "title": "不同人类打喷嚏🗣︎Remix", "hot": "350.0万", "url": "https://www.bilibili.com"},
-        {"rank": 6, "title": "开头和结尾连在一起你就会得到一个30秒纯享rap", "hot": "262.6万", "url": "https://www.bilibili.com"},
-        {"rank": 7, "title": "城市大富翁（3）", "hot": "242.8万", "url": "https://www.bilibili.com"},
-        {"rank": 8, "title": "剧院演奏尖叫鸡版《波西米亚狂想曲》", "hot": "316.0万", "url": "https://www.bilibili.com"},
-        {"rank": 9, "title": "无限方块，无尽旅途", "hot": "140.3万", "url": "https://www.bilibili.com"},
-        {"rank": 10, "title": "模仿北京地铁引导员、公交售票员报站", "hot": "505.5万", "url": "https://www.bilibili.com"}
-      ]
-    },
-    "weibo": {
-      "name": "微博热搜",
-      "icon": "🔥",
-      "color": "#E6162D",
-      "items": [
-        {"rank": 1, "title": "张雪", "hot": "109万", "url": "https://weibo.com"},
-        {"rank": 2, "title": "国足9分钟内连丢2球", "hot": "82万", "url": "https://weibo.com"},
-        {"rank": 3, "title": "4月一批新规将施行", "hot": "65万", "url": "https://weibo.com"},
-        {"rank": 4, "title": "曾沛慈人气第一", "hot": "48万", "url": "https://weibo.com"},
-        {"rank": 5, "title": "麻辣烫里最夯的是啥菜", "hot": "33万", "url": "https://weibo.com"},
-        {"rank": 6, "title": "范世錡工作室回应被删", "hot": "30万", "url": "https://weibo.com"},
-        {"rank": 7, "title": "河南一高中近半历史老师无学生可教", "hot": "25万", "url": "https://weibo.com"},
-        {"rank": 8, "title": "月鳞绮纪", "hot": "22万", "url": "https://weibo.com"},
-        {"rank": 9, "title": "广州长隆回应狮子静坐淋雨", "hot": "21万", "url": "https://weibo.com"},
-        {"rank": 10, "title": "一年前离职的时候就预判了今天", "hot": "21万", "url": "https://weibo.com"}
-      ]
-    },
-    "ithome": {
-      "name": "IT之家热榜",
-      "icon": "💻",
-      "color": "#D32F2F",
-      "items": [
-        {"rank": 1, "title": "古尔曼：Apple Intelligence 在中国意外上线，苹果已将其下线", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 2, "title": "张雪回应禁止新手买 820RR 摩托车", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 3, "title": "凌晨惊喜：苹果 Apple Intelligence 国行 Beta 版分批上线", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 4, "title": "vivo X300 Ultra 手机发布：6999 元起", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 5, "title": "苹果京东旗舰店 4 月 1 日开启 Apple 50 周年庆直播", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 6, "title": "冠军摩托车缔造者张雪：未来五年吃掉国际大牌 50% 份额", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 7, "title": "vivo X300s 手机发布：4999 元起", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 8, "title": "苹果 iPhone 20 曝料：边框 1.1 毫米", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 9, "title": "苹果 iPhone 18 Pro 灵动岛挖孔迎来瘦身", "hot": "", "url": "https://www.ithome.com"},
-        {"rank": 10, "title": "小米澎湃 OS 3 Beta 版上线自研系统级输入法", "hot": "", "url": "https://www.ithome.com"}
-      ]
-    },
-    "coolapk": {
-      "name": "酷安热榜",
-      "icon": "📱",
-      "color": "#4CAF50",
-      "items": [
-        {"rank": 1, "title": "OPPO Find X9 Ultra 即将发布", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 2, "title": "红魔游戏平板5Pro 参数曝光", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 3, "title": "小米NAS 或将上半年发布", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 4, "title": "魅族23 最新爆料汇总", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 5, "title": "iPhone 18 系列最新消息", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 6, "title": "Steam 新硬件即将发布", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 7, "title": "ROG XREAL R1 AR眼镜", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 8, "title": "DJI Osmo Pocket 4 期待中", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 9, "title": "荣耀WIN游戏本 首款产品", "hot": "", "url": "https://www.coolapk.com"},
-        {"rank": 10, "title": "折叠屏iPhone 最新专利", "hot": "", "url": "https://www.coolapk.com"}
-      ]
-    }
+    "bilibili": {"name": "B站热门", "items": [
+      {"rank": 1, "title": "李荣浩手撕单依纯！", "hot": "623万"},
+      {"rank": 2, "title": "评分9.0！杀死那个夜之城人！", "hot": "213万"},
+      {"rank": 3, "title": "意外导致视野缺损", "hot": "131万"}
+    ]},
+    "weibo": {"name": "微博热搜", "items": [
+      {"rank": 1, "title": "张雪", "hot": "109万"},
+      {"rank": 2, "title": "国足9分钟内连丢2球", "hot": "82万"},
+      {"rank": 3, "title": "4月一批新规将施行", "hot": "65万"}
+    ]},
+    "ithome": {"name": "IT之家", "items": [
+      {"rank": 1, "title": "Apple Intelligence 中国意外上线"},
+      {"rank": 2, "title": "张雪回应禁止新手买摩托车"},
+      {"rank": 3, "title": "vivo X300 Ultra 发布"}
+    ]},
+    "coolapk": {"name": "酷安热榜", "items": [
+      {"rank": 1, "title": "OPPO Find X9 Ultra 即将发布"},
+      {"rank": 2, "title": "红魔游戏平板5Pro 参数曝光"},
+      {"rank": 3, "title": "小米NAS 或将上半年发布"}
+    ]}
   }
 }

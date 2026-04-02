@@ -1,71 +1,69 @@
 {
-  "update_time": "2026-04-02 20:03:14",
-  "date": "2026-04-02",
-  "platforms": [
-    {
-      "id": "weibo",
-      "name": "微博热搜",
-      "icon": "📱",
-      "update_time": "2026-04-02 19:56:10",
-      "hotlist": [
-        {"rank": 1, "title": "三部门约谈抖音淘天小红书", "hot": "106.7万", "url": "https://s.weibo.com/weibo?q=三部门约谈抖音淘天小红书"},
-        {"rank": 2, "title": "优思益", "hot": "76.1万", "url": "https://s.weibo.com/weibo?q=优思益"},
-        {"rank": 3, "title": "又是赏花好时节", "hot": "61万", "url": "https://s.weibo.com/weibo?q=又是赏花好时节"},
-        {"rank": 4, "title": "AI创造营", "hot": "60.3万", "url": "https://s.weibo.com/weibo?q=AI创造营"},
-        {"rank": 5, "title": "弟弟悄办父亲丧事墓碑漏刻姐姐名字", "hot": "36万", "url": "https://s.weibo.com/weibo?q=弟弟悄办父亲丧事墓碑漏刻姐姐名字"}
+  "updateTime": "2026-04-02 20:03:14",
+  "releaseCalendar": {
+    "products": [
+      {"name": "一加Ace 3 Pro", "releaseDate": "2026-04-21", "heat": "骁龙8 Gen3"},
+      {"name": "Redmi K70至尊版", "releaseDate": "2026-04", "heat": "配置曝光"},
+      {"name": "华为Pura 70系列", "releaseDate": "2026年上半年", "heat": "降价促销"},
+      {"name": "iPhone 16系列", "releaseDate": "2026年下半年", "heat": "爆料汇总"},
+      {"name": "小米手环9", "releaseDate": "未公布", "heat": "功能详解"}
+    ]
+  },
+  "hotLists": {
+    "weibo": {
+      "platform": "微博",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "三部门约谈抖音淘天小红书", "play": "106.7万"},
+        {"rank": 2, "title": "优思益", "play": "76.1万"},
+        {"rank": 3, "title": "又是赏花好时节", "play": "61万"},
+        {"rank": 4, "title": "AI创造营", "play": "60.3万"},
+        {"rank": 5, "title": "弟弟悄办父亲丧事墓碑漏刻姐姐名字", "play": "36万"}
       ]
     },
-    {
-      "id": "bilibili",
-      "name": "B站热榜",
-      "icon": "🎬",
-      "update_time": "2026-04-02 19:56:10",
-      "hotlist": [
-        {"rank": 1, "title": "鸟，为什么会飞？", "hot": "255.6万", "url": "https://www.bilibili.com/video/BV1example1"},
-        {"rank": 2, "title": "⚡对 对 子 战 神 2⚡", "hot": "361.2万", "url": "https://www.bilibili.com/video/BV1example2"},
-        {"rank": 3, "title": "【IGN】《鸣潮》共鸣者「绯雪」、「达妮娅」演示", "hot": "337万", "url": "https://www.bilibili.com/video/BV1example3"},
-        {"rank": 4, "title": "《崩坏：星穹铁道》动画短片：「Never Gonna Give You Up」", "hot": "201.7万", "url": "https://www.bilibili.com/video/BV1example4"},
-        {"rank": 5, "title": "有梦想就去追 因为勇敢 我的人生更精彩！", "hot": "201万", "url": "https://www.bilibili.com/video/BV1example5"}
+    "bilibili": {
+      "platform": "B站",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "鸟，为什么会飞？", "play": "255.6万"},
+        {"rank": 2, "title": "⚡对 对 子 战 神 2⚡", "play": "361.2万"},
+        {"rank": 3, "title": "【IGN】《鸣潮》共鸣者「绯雪」、「达妮娅」演示", "play": "337万"},
+        {"rank": 4, "title": "《崩坏：星穹铁道》动画短片：「Never Gonna Give You Up」", "play": "201.7万"},
+        {"rank": 5, "title": "有梦想就去追 因为勇敢 我的人生更精彩！", "play": "201万"}
       ]
     },
-    {
-      "id": "douyin",
-      "name": "抖音热搜",
-      "icon": "🎵",
-      "update_time": "2026-04-02 19:54:10",
-      "hotlist": [
-        {"rank": 1, "title": "有线耳机穿搭火了", "hot": "1138.8万", "url": "https://www.douyin.com/hot/1"},
-        {"rank": 2, "title": "抖音创作者关爱孤独症集结出动", "hot": "1110万", "url": "https://www.douyin.com/hot/2"},
-        {"rank": 3, "title": "未来之城正加速成型", "hot": "1097.3万", "url": "https://www.douyin.com/hot/3"},
-        {"rank": 4, "title": "来重庆吃个轻轨再走吧", "hot": "1097.1万", "url": "https://www.douyin.com/hot/4"},
-        {"rank": 5, "title": "那些被家人记录的最珍贵画面", "hot": "1035.5万", "url": "https://www.douyin.com/hot/5"}
+    "douyin": {
+      "platform": "抖音",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "有线耳机穿搭火了", "play": "1138.8万"},
+        {"rank": 2, "title": "抖音创作者关爱孤独症集结出动", "play": "1110万"},
+        {"rank": 3, "title": "未来之城正加速成型", "play": "1097.3万"},
+        {"rank": 4, "title": "来重庆吃个轻轨再走吧", "play": "1097.1万"},
+        {"rank": 5, "title": "那些被家人记录的最珍贵画面", "play": "1035.5万"}
       ]
     },
-    {
-      "id": "ithome",
-      "name": "IT之家",
-      "icon": "💻",
-      "update_time": "2026-04-02 19:56:27",
-      "hotlist": [
-        {"rank": 1, "title": "Win11 24H2功能更新完整指南", "hot": "", "url": "https://www.ithome.com/1"},
-        {"rank": 2, "title": "英特尔酷睿Ultra 200V系列处理器评测", "hot": "", "url": "https://www.ithome.com/2"},
-        {"rank": 3, "title": "华为Mate 70系列最新消息", "hot": "", "url": "https://www.ithome.com/3"},
-        {"rank": 4, "title": "苹果M4芯片MacBook Pro曝光", "hot": "", "url": "https://www.ithome.com/4"},
-        {"rank": 5, "title": "小米15 Ultra渲染图流出", "hot": "", "url": "https://www.ithome.com/5"}
+    "ithome": {
+      "platform": "IT之家",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "Win11 24H2功能更新完整指南", "play": ""},
+        {"rank": 2, "title": "英特尔酷睿Ultra 200V系列处理器评测", "play": ""},
+        {"rank": 3, "title": "华为Mate 70系列最新消息", "play": ""},
+        {"rank": 4, "title": "苹果M4芯片MacBook Pro曝光", "play": ""},
+        {"rank": 5, "title": "小米15 Ultra渲染图流出", "play": ""}
       ]
     },
-    {
-      "id": "coolapk",
-      "name": "酷安热榜",
-      "icon": "📱",
-      "update_time": "2026-04-02 19:56:43",
-      "hotlist": [
-        {"rank": 1, "title": "一加Ace 3 Pro发布，骁龙8 Gen3", "hot": "", "url": "https://www.coolapk.com/1"},
-        {"rank": 2, "title": "Redmi K70至尊版配置曝光", "hot": "", "url": "https://www.coolapk.com/2"},
-        {"rank": 3, "title": "华为Pura 70系列降价促销", "hot": "", "url": "https://www.coolapk.com/3"},
-        {"rank": 4, "title": "iPhone 16系列最新爆料汇总", "hot": "", "url": "https://www.coolapk.com/4"},
-        {"rank": 5, "title": "小米手环9功能详解", "hot": "", "url": "https://www.coolapk.com/5"}
+    "coolapk": {
+      "platform": "酷安",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "一加Ace 3 Pro发布，骁龙8 Gen3", "play": ""},
+        {"rank": 2, "title": "Redmi K70至尊版配置曝光", "play": ""},
+        {"rank": 3, "title": "华为Pura 70系列降价促销", "play": ""},
+        {"rank": 4, "title": "iPhone 16系列最新爆料汇总", "play": ""},
+        {"rank": 5, "title": "小米手环9功能详解", "play": ""}
       ]
     }
-  ]
+  }
 }

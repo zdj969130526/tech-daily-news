@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科技数码资讯日报</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+        .gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .loading { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .5; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="gradient text-white py-8 px-4 text-center">
+        <h1 class="text-3xl font-bold mb-2">🚀 科技数码资讯日报</h1>
+        <p class="opacity-80" id="update-time">加载中...</p>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8">
+        <!-- 发布日历部分 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="mr-2">📅</span> 数码发布日历
+            </h2>
+            <div id="release-calendar" class="space-y-4">
+                <div class="text-center text-gray-500 py-8">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 热榜部分 -->
+        <section>
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="mr-2">🔥</span> 今日热榜
+            </h2>
+            <div id="hot-lists" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="text-center text-gray-500 py-8 col-span-2">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-12 text-center">
+        <p class="text-gray-400 text-sm">© 2026 科技数码资讯日报 | Powered by OpenClaw</p>
+    </footer>
+
+    <script>
+        // 颜色配置
+        const dateColors = {
+            '2026-04-21': { bg: 'purple-600', light: 'purple-50' },
+            '2026-04': { bg: 'blue-600', light: 'blue-50' },
+            '2026年上半年': { bg: 'green-600', light: 'green-50' },
+            '2026年下半年': { bg: 'orange-600', light: 'orange-50' },
+            '未公布': { bg: 'gray-600', light: 'gray-50' }
+        };
+
+        const platformColors = {
+            'B站': { bg: 'pink-500', icon: '📺' },
+            '微博': { bg: 'red-500', icon: '🔥' },
+            'IT之家': { bg: 'red-700', icon: '💻' },
+            '酷安': { bg: 'green-500', icon: '📱' },
+            '抖音': { bg: 'black', icon: '🎵' }
+        };
+
+        // 格式化日期显示
+        function formatDate(dateStr) {
+            if (dateStr === '未公布') return '未公布';
+            if (dateStr === '2026年上半年' || dateStr === '2026年下半年') return dateStr;
+            if (dateStr.includes('-04-21')) return '4月21日';
+            if (dateStr.includes('-04')) return '4月';
+            return dateStr;
+        }
+
+        // 渲染发布日历
+        function renderReleaseCalendar(products) {
+            const container = document.getElementById('release-calendar');
+
+            // 按发布日期分组
+            const grouped = {};
+            products.forEach(product => {
+                const date = formatDate(product.releaseDate);
+                if (!grouped[date]) grouped[date] = [];
+                grouped[date].push(product);
+            });
+
+            // 按日期排序
+            const sortedDates = Object.keys(grouped).sort((a, b) => {
+                const order = ['4月21日', '4月', '2026年上半年', '2026年下半年', '未公布'];
+                return order.indexOf(a) - order.indexOf(b);
+            });
+
+            // 渲染
+            container.innerHTML = sortedDates.map(date => {
+                const colorKey = Object.keys(dateColors).find(key => formatDate(key) === date) || '未公布';
+                const color = dateColors[colorKey] || dateColors['未公布'];
+                const prods = grouped[date];
+
+                return `
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <h3 class="font-bold text-${color.bg} mb-3">${date}</h3>
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                            ${prods.map(p => `
+                                <span class="bg-${color.light} px-2 py-1 rounded flex justify-between items-center">
+                                    <span>${p.name}</span>
+                                    <span class="text-xs text-gray-500">${p.heat}</span>
+                                </span>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 渲染热榜
+        function renderHotLists(hotLists) {
+            const container = document.getElementById('hot-lists');
+            const platforms = Object.keys(hotLists).filter(key => hotLists[key].status === 'success');
+
+            container.innerHTML = platforms.map(platform => {
+                const data = hotLists[platform];
+                const color = platformColors[data.platform] || { bg: 'gray-500', icon: '📊' };
+                const items = data.items || [];
+
+                return `
+                    <div class="bg-white rounded-lg shadow overflow-hidden">
+                        <div class="bg-${color.bg} text-white px-4 py-2 font-bold">
+                            ${color.icon} ${data.platform}热门
+                        </div>
+                        <ul class="divide-y text-sm">
+                            ${items.slice(0, 5).map((item, idx) => `
+                                <li class="px-4 py-2 hover:bg-gray-50">
+                                    <span class="font-bold text-gray-400 mr-2">${item.rank || idx + 1}.</span>
+                                    ${item.title}
+                                    ${item.play ? `<span class="text-gray-400 text-xs ml-2">(${item.play})</span>` : ''}
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                `;
+            }).join('');
+
+            // 如果没有成功的热榜
+            if (platforms.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center text-gray-500 py-8 col-span-2">
+                        暂无热榜数据
+                    </div>
+                `;
+            }
+        }
+
+        // 加载数据
+        async function loadData() {
+            try {
+                const response = await fetch('./data.json');
+                if (!response.ok) throw new Error('数据加载失败');
+
+                const data = await response.json();
+
+                // 更新时间
+                document.getElementById('update-time').textContent =
+                    `发布日历 × 热榜聚合 | ${data.updateTime} 更新`;
+
+                // 渲染发布日历
+                if (data.releaseCalendar && data.releaseCalendar.products) {
+                    renderReleaseCalendar(data.releaseCalendar.products);
+                }
+
+                // 渲染热榜
+                if (data.hotLists) {
+                    renderHotLists(data.hotLists);
+                }
+
+            } catch (error) {
+                console.error('加载数据失败:', error);
+                document.getElementById('update-time').textContent = '数据加载失败，请刷新重试';
+                document.getElementById('release-calendar').innerHTML = `
+                    <div class="text-center text-red-500 py-8">
+                        数据加载失败，请稍后刷新页面
+                    </div>
+                `;
+                document.getElementById('hot-lists').innerHTML = `
+                    <div class="text-center text-red-500 py-8 col-span-2">
+                        数据加载失败，请稍后刷新页面
+                    </div>
+                `;
+            }
+        }
+
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

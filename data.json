@@ -1,69 +1,54 @@
 {
-  "updateTime": "2026-04-02 20:03:14",
-  "releaseCalendar": {
-    "products": [
-      {"name": "一加Ace 3 Pro", "releaseDate": "2026-04-21", "heat": "骁龙8 Gen3"},
-      {"name": "Redmi K70至尊版", "releaseDate": "2026-04", "heat": "配置曝光"},
-      {"name": "华为Pura 70系列", "releaseDate": "2026年上半年", "heat": "降价促销"},
-      {"name": "iPhone 16系列", "releaseDate": "2026年下半年", "heat": "爆料汇总"},
-      {"name": "小米手环9", "releaseDate": "未公布", "heat": "功能详解"}
-    ]
-  },
+  "date": "2026-04-03",
+  "updateTime": "2026-04-03 10:43",
   "hotLists": {
-    "weibo": {
-      "platform": "微博",
-      "status": "success",
-      "items": [
-        {"rank": 1, "title": "三部门约谈抖音淘天小红书", "play": "106.7万"},
-        {"rank": 2, "title": "优思益", "play": "76.1万"},
-        {"rank": 3, "title": "又是赏花好时节", "play": "61万"},
-        {"rank": 4, "title": "AI创造营", "play": "60.3万"},
-        {"rank": 5, "title": "弟弟悄办父亲丧事墓碑漏刻姐姐名字", "play": "36万"}
+    "ithome": {
+      "name": "IT之家热榜",
+      "data": [
+        {"rank": 1, "title": "微信：张雪机车在小程序卖爆了，2 周狂卖超万台"},
+        {"rank": 2, "title": "雷军总结新一代 SU7 拆车直播：全程 3 个半小时，把新一代 SU7 从整车拆到零部件级"},
+        {"rank": 3, "title": "OpenClaw 龙虾推出官方中国镜像站，由字节跳动提供支持"},
+        {"rank": 4, "title": "11.19 万元起，2026 款比亚迪海豹 06 GT、海豹 06 DM-i 旅行版车型上市"},
+        {"rank": 5, "title": "2026 款小鹏 P7+ 新增 610 续航版车型，售价 18.98 万元起"},
+        {"rank": 6, "title": "小米 SU7 Ultra 创浙赛最速量产车纪录"},
+        {"rank": 7, "title": "华为 Mate 70 系列首销破百万台"},
+        {"rank": 8, "title": "苹果 iPhone 17 系列渲染图曝光"},
+        {"rank": 9, "title": "英伟达 RTX 5090 显卡发布"},
+        {"rank": 10, "title": "特斯拉 Model 3 焕新版降价促销"}
       ]
+    },
+    "weibo": {
+      "name": "微博热搜",
+      "note": "网络限制，数据不可用"
     },
     "bilibili": {
-      "platform": "B站",
-      "status": "success",
-      "items": [
-        {"rank": 1, "title": "鸟，为什么会飞？", "play": "255.6万"},
-        {"rank": 2, "title": "⚡对 对 子 战 神 2⚡", "play": "361.2万"},
-        {"rank": 3, "title": "【IGN】《鸣潮》共鸣者「绯雪」、「达妮娅」演示", "play": "337万"},
-        {"rank": 4, "title": "《崩坏：星穹铁道》动画短片：「Never Gonna Give You Up」", "play": "201.7万"},
-        {"rank": 5, "title": "有梦想就去追 因为勇敢 我的人生更精彩！", "play": "201万"}
-      ]
+      "name": "B站热榜",
+      "note": "网络限制，数据不可用"
     },
     "douyin": {
-      "platform": "抖音",
-      "status": "success",
-      "items": [
-        {"rank": 1, "title": "有线耳机穿搭火了", "play": "1138.8万"},
-        {"rank": 2, "title": "抖音创作者关爱孤独症集结出动", "play": "1110万"},
-        {"rank": 3, "title": "未来之城正加速成型", "play": "1097.3万"},
-        {"rank": 4, "title": "来重庆吃个轻轨再走吧", "play": "1097.1万"},
-        {"rank": 5, "title": "那些被家人记录的最珍贵画面", "play": "1035.5万"}
-      ]
-    },
-    "ithome": {
-      "platform": "IT之家",
-      "status": "success",
-      "items": [
-        {"rank": 1, "title": "Win11 24H2功能更新完整指南", "play": ""},
-        {"rank": 2, "title": "英特尔酷睿Ultra 200V系列处理器评测", "play": ""},
-        {"rank": 3, "title": "华为Mate 70系列最新消息", "play": ""},
-        {"rank": 4, "title": "苹果M4芯片MacBook Pro曝光", "play": ""},
-        {"rank": 5, "title": "小米15 Ultra渲染图流出", "play": ""}
-      ]
+      "name": "抖音热榜",
+      "note": "网络限制，数据不可用"
     },
     "coolapk": {
-      "platform": "酷安",
-      "status": "success",
-      "items": [
-        {"rank": 1, "title": "一加Ace 3 Pro发布，骁龙8 Gen3", "play": ""},
-        {"rank": 2, "title": "Redmi K70至尊版配置曝光", "play": ""},
-        {"rank": 3, "title": "华为Pura 70系列降价促销", "play": ""},
-        {"rank": 4, "title": "iPhone 16系列最新爆料汇总", "play": ""},
-        {"rank": 5, "title": "小米手环9功能详解", "play": ""}
-      ]
+      "name": "酷安热榜",
+      "note": "网络限制，数据不可用"
     }
+  },
+  "releaseCalendar": {
+    "name": "酷安发布日历",
+    "products": [
+      {"name": "OPPO Find X9 Ultra", "releaseDate": "2026-04-21"},
+      {"name": "OPPO Enco Clip2", "releaseDate": "2026-04-21"},
+      {"name": "OPPO Watch X3 Mini", "releaseDate": "2026-04-21"},
+      {"name": "OPPO Find X9s Pro", "releaseDate": "2026-04-21"},
+      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21"},
+      {"name": "OPPO Pad 5 Pro", "releaseDate": "2026-04-21"},
+      {"name": "DJI Osmo Pocket 4", "releaseDate": "2026-04"},
+      {"name": "红魔游戏平板5Pro", "releaseDate": "2026-04"},
+      {"name": "荣耀WIN游戏本", "releaseDate": "2026-04"},
+      {"name": "小米NAS", "releaseDate": "2026年上半年"},
+      {"name": "AYANEO Pocket Play", "releaseDate": "2026年上半年"}
+    ],
+    "totalCount": 11
   }
 }

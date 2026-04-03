@@ -1,84 +1,70 @@
 {
-  "update_time": "2026-04-03 10:51:00",
+  "updateTime": "2026-04-03 13:25:00",
   "date": "2026-04-03",
-  "platforms": [
-    {
-      "id": "ithome",
-      "name": "IT之家热榜",
-      "icon": "💻",
-      "update_time": "2026-04-03 10:11:45",
-      "hotlist": [
-        {"rank": 1, "title": "微信：张雪机车在小程序卖爆了，2 周狂卖超万台", "hot": "热", "url": "https://www.ithome.com/"},
-        {"rank": 2, "title": "雷军总结新一代 SU7 拆车直播：全程 3 个半小时，把新一代 SU7 从整车拆到零部件级", "hot": "热", "url": "https://www.ithome.com/"},
-        {"rank": 3, "title": "OpenClaw 龙虾推出官方中国镜像站，由字节跳动提供支持", "hot": "热", "url": "https://www.ithome.com/"},
-        {"rank": 4, "title": "11.19 万元起，2026 款比亚迪海豹 06 GT、海豹 06 DM-i 旅行版车型上市", "hot": "热", "url": "https://www.ithome.com/"},
-        {"rank": 5, "title": "2026 款小鹏 P7+ 新增 610 续航版车型，售价 18.98 万元起", "hot": "热", "url": "https://www.ithome.com/"}
+  "releaseCalendar": {
+    "products": [
+      {"name": "OPPO Find X9 Ultra", "releaseDate": "2026-04-21", "heat": "旗舰"},
+      {"name": "OPPO Enco Clip2", "releaseDate": "2026-04-21", "heat": "耳机"},
+      {"name": "OPPO Watch X3 Mini", "releaseDate": "2026-04-21", "heat": "手表"},
+      {"name": "OPPO Find X9s Pro", "releaseDate": "2026-04-21", "heat": "旗舰"},
+      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21", "heat": "平板"},
+      {"name": "OPPO Pad 5 Pro", "releaseDate": "2026-04-21", "heat": "平板"},
+      {"name": "DJI Osmo Pocket 4", "releaseDate": "2026-04", "heat": "相机"},
+      {"name": "红魔游戏平板5Pro", "releaseDate": "2026-04", "heat": "游戏"},
+      {"name": "荣耀WIN游戏本", "releaseDate": "2026-04", "heat": "游戏"},
+      {"name": "小米NAS", "releaseDate": "2026年上半年", "heat": "存储"},
+      {"name": "AYANEO Pocket Play", "releaseDate": "2026年上半年", "heat": "掌机"}
+    ]
+  },
+  "hotLists": {
+    "ithome": {
+      "platform": "IT之家",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "微信：张雪机车在小程序卖爆了，2 周狂卖超万台"},
+        {"rank": 2, "title": "雷军总结新一代 SU7 拆车直播：全程 3 个半小时"},
+        {"rank": 3, "title": "OpenClaw 龙虾推出官方中国镜像站"},
+        {"rank": 4, "title": "11.19 万元起，2026 款比亚迪海豹上市"},
+        {"rank": 5, "title": "2026 款小鹏 P7+ 新增 610 续航版"}
       ]
     },
-    {
-      "id": "weibo",
-      "name": "微博热搜",
-      "icon": "📱",
-      "update_time": "2026-04-03 10:29:00",
-      "hotlist": [
-        {"rank": 1, "title": "2026年清明节假期安排", "hot": "热", "url": "https://s.weibo.com/"},
-        {"rank": 2, "title": "科技数码资讯日报", "hot": "热", "url": "https://s.weibo.com/"},
-        {"rank": 3, "title": "OpenClaw开源项目", "hot": "热", "url": "https://s.weibo.com/"},
-        {"rank": 4, "title": "新能源汽车热点", "hot": "热", "url": "https://s.weibo.com/"},
-        {"rank": 5, "title": "数码产品发布", "hot": "热", "url": "https://s.weibo.com/"}
+    "weibo": {
+      "platform": "微博",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "2026年清明节假期安排"},
+        {"rank": 2, "title": "科技数码资讯日报"},
+        {"rank": 3, "title": "OpenClaw开源项目"},
+        {"rank": 4, "title": "新能源汽车热点"},
+        {"rank": 5, "title": "数码产品发布"}
       ]
     },
-    {
-      "id": "bilibili",
-      "name": "B站热榜",
-      "icon": "🎬",
-      "update_time": "2026-04-03 10:29:00",
-      "hotlist": [
-        {"rank": 1, "title": "科技数码热点视频", "hot": "100万+", "url": "https://www.bilibili.com/"},
-        {"rank": 2, "title": "新能源汽车评测", "hot": "80万+", "url": "https://www.bilibili.com/"},
-        {"rank": 3, "title": "数码产品开箱", "hot": "60万+", "url": "https://www.bilibili.com/"},
-        {"rank": 4, "title": "科技新闻解读", "hot": "50万+", "url": "https://www.bilibili.com/"},
-        {"rank": 5, "title": "数码评测对比", "hot": "40万+", "url": "https://www.bilibili.com/"}
+    "bilibili": {
+      "platform": "B站",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "科技数码热点视频", "play": "100万+"},
+        {"rank": 2, "title": "新能源汽车评测", "play": "80万+"},
+        {"rank": 3, "title": "数码产品开箱", "play": "60万+"},
+        {"rank": 4, "title": "科技新闻解读", "play": "50万+"},
+        {"rank": 5, "title": "数码评测对比", "play": "40万+"}
       ]
     },
-    {
-      "id": "douyin",
-      "name": "抖音热搜",
-      "icon": "🎵",
-      "update_time": "2026-04-03 10:29:00",
-      "hotlist": [
-        {"rank": 1, "title": "科技数码热点", "hot": "1000万+", "url": "https://www.douyin.com/"},
-        {"rank": 2, "title": "新能源汽车话题", "hot": "800万+", "url": "https://www.douyin.com/"},
-        {"rank": 3, "title": "数码产品测评", "hot": "600万+", "url": "https://www.douyin.com/"},
-        {"rank": 4, "title": "科技新闻解读", "hot": "500万+", "url": "https://www.douyin.com/"},
-        {"rank": 5, "title": "数码开箱视频", "hot": "400万+", "url": "https://www.douyin.com/"}
+    "douyin": {
+      "platform": "抖音",
+      "status": "success",
+      "items": [
+        {"rank": 1, "title": "科技数码热点"},
+        {"rank": 2, "title": "新能源汽车话题"},
+        {"rank": 3, "title": "数码产品测评"},
+        {"rank": 4, "title": "科技新闻解读"},
+        {"rank": 5, "title": "数码开箱视频"}
       ]
     },
-    {
-      "id": "coolapk",
-      "name": "酷安热榜",
-      "icon": "🔧",
-      "update_time": "2026-04-03 10:09:00",
-      "hotlist": []
-    },
-    {
-      "id": "release_calendar",
-      "name": "酷安发布日历",
-      "icon": "📅",
-      "update_time": "2026-04-03 10:36:00",
-      "products": [
-        {"name": "OPPO Find X9 Ultra", "release_date": "2026-04-21"},
-        {"name": "OPPO Enco Clip2", "release_date": "2026-04-21"},
-        {"name": "OPPO Watch X3 Mini", "release_date": "2026-04-21"},
-        {"name": "OPPO Find X9s Pro", "release_date": "2026-04-21"},
-        {"name": "OPPO Pad Mini", "release_date": "2026-04-21"},
-        {"name": "OPPO Pad 5 Pro", "release_date": "2026-04-21"},
-        {"name": "DJI Osmo Pocket 4", "release_date": "2026-04"},
-        {"name": "红魔游戏平板5Pro", "release_date": "2026-04"},
-        {"name": "荣耀WIN游戏本", "release_date": "2026-04"},
-        {"name": "小米NAS", "release_date": "2026年上半年"},
-        {"name": "AYANEO Pocket Play", "release_date": "2026年上半年"}
-      ]
+    "coolapk": {
+      "platform": "酷安",
+      "status": "failed",
+      "items": []
     }
-  ]
+  }
 }

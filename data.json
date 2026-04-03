@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-04-03 13:25:00",
+  "updateTime": "2026-04-03 15:00:00",
   "date": "2026-04-03",
   "releaseCalendar": {
     "products": [
@@ -7,11 +7,20 @@
       {"name": "OPPO Enco Clip2", "releaseDate": "2026-04-21", "heat": "耳机"},
       {"name": "OPPO Watch X3 Mini", "releaseDate": "2026-04-21", "heat": "手表"},
       {"name": "OPPO Find X9s Pro", "releaseDate": "2026-04-21", "heat": "旗舰"},
-      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21", "heat": "平板"},
+      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21", "heat": "小平板"},
       {"name": "OPPO Pad 5 Pro", "releaseDate": "2026-04-21", "heat": "平板"},
+      {"name": "华为 Pura 90系列", "releaseDate": "2026-04-22", "heat": "旗舰"},
+      {"name": "华为 Pura X2", "releaseDate": "2026-04-22", "heat": "折叠屏"},
+      {"name": "华为平板新品", "releaseDate": "2026-04-22", "heat": "平板"},
+      {"name": "华为穿戴新品", "releaseDate": "2026-04-22", "heat": "穿戴"},
+      {"name": "一加 Ace6 至尊版", "releaseDate": "2026-04", "heat": "性能"},
+      {"name": "iQOO Neo11s", "releaseDate": "2026-04", "heat": "游戏"},
+      {"name": "尚界Z7", "releaseDate": "2026-04", "heat": "汽车"},
+      {"name": "尚界Z7 T", "releaseDate": "2026-04", "heat": "汽车"},
       {"name": "DJI Osmo Pocket 4", "releaseDate": "2026-04", "heat": "相机"},
       {"name": "红魔游戏平板5Pro", "releaseDate": "2026-04", "heat": "游戏"},
       {"name": "荣耀WIN游戏本", "releaseDate": "2026-04", "heat": "游戏"},
+      {"name": "荣耀数字系列", "releaseDate": "2026-05中", "heat": "中端"},
       {"name": "小米NAS", "releaseDate": "2026年上半年", "heat": "存储"},
       {"name": "AYANEO Pocket Play", "releaseDate": "2026年上半年", "heat": "掌机"}
     ]

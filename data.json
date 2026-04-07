@@ -1,78 +1,56 @@
 {
-  "date": "2026-04-07",
-  "update_time": "2026-04-07 11:20:00",
-  "platforms": [
-    {
-      "id": "weibo",
-      "name": "微博热搜",
-      "icon": "https://weibo.com/favicon.ico",
-      "update_time": "2026-04-07T03:16:22.100Z",
-      "list": [
-        {"rank": 1, "title": "陈丽华逝世", "hot": 0},
-        {"rank": 2, "title": "车祸截瘫女子起诉肇事失联男友", "hot": 0},
-        {"rank": 3, "title": "清明文旅市场三线齐热", "hot": 0},
-        {"rank": 4, "title": "月鳞绮纪直播", "hot": 0},
-        {"rank": 5, "title": "谢依霖用郭碧婷送的杯子装酱油", "hot": 0},
-        {"rank": 6, "title": "亮灯取件方式", "hot": 0},
-        {"rank": 7, "title": "以色列总理警告特朗普勿仓促停火", "hot": 0},
-        {"rank": 8, "title": "朝鲜回应李在明", "hot": 0},
-        {"rank": 9, "title": "雪饼猴一句老太太让何赛飞破防了", "hot": 0},
-        {"rank": 10, "title": "短线交易新规来了", "hot": 0}
+  "updateTime": "2026-04-07 11:30:00",
+  "releaseCalendar": {
+    "products": [
+      {"name": "OPPO Find X9 Ultra", "releaseDate": "2026-04-21", "heat": "165.8万"},
+      {"name": "OPPO Find X9s Pro", "releaseDate": "2026-04-21", "heat": "21.3万"},
+      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21", "heat": "21.3万"},
+      {"name": "OPPO Enco Clip2", "releaseDate": "2026-04-21", "heat": "6.2万"},
+      {"name": "OPPO Watch X3 Mini", "releaseDate": "2026-04-21", "heat": "9709"},
+      {"name": "OPPO Pad 5 Pro", "releaseDate": "2026-04-21", "heat": "1.6万"},
+      {"name": "DJI Osmo Pocket 4", "releaseDate": "2026-04", "heat": "1.4万"},
+      {"name": "红魔游戏平板5 Pro", "releaseDate": "2026-04", "heat": "1.7万"},
+      {"name": "荣耀WIN游戏本", "releaseDate": "2026-04", "heat": "9802"},
+      {"name": "荣耀MagicBook Pro 16 2026", "releaseDate": "2026-04", "heat": "2.4万"},
+      {"name": "魅族23", "releaseDate": "2026年上半年", "heat": "2.1万"},
+      {"name": "小米NAS", "releaseDate": "2026年上半年", "heat": "7068"},
+      {"name": "iPhone 18", "releaseDate": "2026年下半年", "heat": "6.2万"},
+      {"name": "折叠屏iPhone", "releaseDate": "未公布", "heat": "1.2万"}
+    ]
+  },
+  "hotLists": {
+    "weibo": {
+      "status": "success",
+      "platform": "微博",
+      "items": [
+        {"rank": 1, "title": "陈丽华逝世"},
+        {"rank": 2, "title": "车祸截瘫女子起诉肇事失联男友"},
+        {"rank": 3, "title": "清明文旅市场三线齐热"},
+        {"rank": 4, "title": "月鳞绮纪直播"},
+        {"rank": 5, "title": "谢依霖用郭碧婷送的杯子装酱油"}
       ]
     },
-    {
-      "id": "bilibili",
-      "name": "B站热门",
-      "icon": "https://www.bilibili.com/favicon.ico",
-      "update_time": "2026-04-07T03:03:31.167Z",
-      "list": [
-        {"rank": 1, "title": "我被开除了...那就去旅行!!!", "hot": 0},
-        {"rank": 2, "title": "朗诵马说（但读到马就马叫）", "hot": 0},
-        {"rank": 3, "title": "什么叫你爹转生成你女朋友？然后你俩开了一把？", "hot": 0},
-        {"rank": 4, "title": "《求职》", "hot": 0},
-        {"rank": 5, "title": "《金牌打野》", "hot": 0},
-        {"rank": 6, "title": "幸福是如童话般美好的念想，而生活的疲惫却更贴近我的日常", "hot": 0},
-        {"rank": 7, "title": "重窝 擒巨物！", "hot": 0},
-        {"rank": 8, "title": "【特效向】燕双鹰vs全明星【完结】", "hot": 0},
-        {"rank": 9, "title": "《青蛙上河图》", "hot": 0},
-        {"rank": 10, "title": "他用一百美元，办了场奥运会", "hot": 0}
+    "bilibili": {
+      "status": "success",
+      "platform": "B站",
+      "items": [
+        {"rank": 1, "title": "我被开除了...那就去旅行!!!", "play": "450万"},
+        {"rank": 2, "title": "朗诵马说（但读到马就马叫）", "play": "400万"},
+        {"rank": 3, "title": "什么叫你爹转生成你女朋友？", "play": "429万"},
+        {"rank": 4, "title": "《求职》"},
+        {"rank": 5, "title": "《金牌打野》"}
       ]
     },
-    {
-      "id": "ithome",
-      "name": "IT之家",
-      "icon": "https://www.ithome.com/favicon.ico",
-      "update_time": "2026-04-07T03:04:00.486Z",
-      "list": [
-        {"rank": 1, "title": "鸿蒙智行 2026 款问界 M9 无伪装实车上路", "hot": 168},
-        {"rank": 2, "title": "小米胡馨心预告新品将至", "hot": 123},
-        {"rank": 3, "title": "雷军晒小米 YU7 梅森·马吉拉涂装版", "hot": 147},
-        {"rank": 4, "title": "我国钠离子电池取得重大突破", "hot": 126},
-        {"rank": 5, "title": "M5 MacBook Air 京东补货", "hot": 157},
-        {"rank": 6, "title": "苹果首款折叠屏手机 iPhone Fold 已在试产", "hot": 108},
-        {"rank": 7, "title": "iPhone 18 Pro 有望提供灰银深红三色", "hot": 103},
-        {"rank": 8, "title": "2026 款问界 M9 实车再曝", "hot": 214},
-        {"rank": 9, "title": "雷军庆祝小米公司创办 16 周年", "hot": 149},
-        {"rank": 10, "title": "NASA 阿耳忒弥斯 2 号宇航员抵达月球空间", "hot": 167}
-      ]
-    },
-    {
-      "id": "coolapk-calendar",
-      "name": "酷安发布日历",
-      "icon": "https://coolapk.com/favicon.ico",
-      "update_time": "2026-04-07T02:09:00.000Z",
-      "list": [
-        {"rank": 1, "title": "OPPO Find X9 Ultra", "hot": 1658000, "release_date": "2026-04-21"},
-        {"rank": 2, "title": "OPPO Find X9s Pro", "hot": 213000, "release_date": "2026-04-21"},
-        {"rank": 3, "title": "OPPO Pad Mini", "hot": 213000, "release_date": "2026-04-21"},
-        {"rank": 4, "title": "OPPO Enco Clip2", "hot": 62000, "release_date": "2026-04-21"},
-        {"rank": 5, "title": "DJI Osmo Pocket 4", "hot": 14000, "release_date": "2026-04"},
-        {"rank": 6, "title": "红魔游戏平板5 Pro", "hot": 17000, "release_date": "2026-04"},
-        {"rank": 7, "title": "魅族23", "hot": 21000, "release_date": "2026年上半年"},
-        {"rank": 8, "title": "小米NAS", "hot": 7068, "release_date": "2026年上半年"},
-        {"rank": 9, "title": "iPhone 18", "hot": 62000, "release_date": "2026年下半年"},
-        {"rank": 10, "title": "折叠屏iPhone", "hot": 12000, "release_date": "待定"}
+    "ithome": {
+      "status": "success",
+      "platform": "IT之家",
+      "items": [
+        {"rank": 1, "title": "鸿蒙智行 2026 款问界 M9 无伪装实车上路"},
+        {"rank": 2, "title": "小米胡馨心预告新品将至"},
+        {"rank": 3, "title": "雷军晒小米 YU7 梅森·马吉拉涂装版"},
+        {"rank": 4, "title": "我国钠离子电池取得重大突破"},
+        {"rank": 5, "title": "M5 MacBook Air 京东补货"}
       ]
     }
-  ]
+  }
 }

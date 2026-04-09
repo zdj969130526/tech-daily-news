@@ -1,21 +1,40 @@
+
 {
-  "updateTime": "2026-04-07 11:30:00",
+  "updateTime": "2026-04-09 11:16:00",
   "releaseCalendar": {
     "products": [
-      {"name": "OPPO Find X9 Ultra", "releaseDate": "2026-04-21", "heat": "165.8万"},
-      {"name": "OPPO Find X9s Pro", "releaseDate": "2026-04-21", "heat": "21.3万"},
-      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21", "heat": "21.3万"},
-      {"name": "OPPO Enco Clip2", "releaseDate": "2026-04-21", "heat": "6.2万"},
-      {"name": "OPPO Watch X3 Mini", "releaseDate": "2026-04-21", "heat": "9709"},
-      {"name": "OPPO Pad 5 Pro", "releaseDate": "2026-04-21", "heat": "1.6万"},
-      {"name": "DJI Osmo Pocket 4", "releaseDate": "2026-04", "heat": "1.4万"},
-      {"name": "红魔游戏平板5 Pro", "releaseDate": "2026-04", "heat": "1.7万"},
-      {"name": "荣耀WIN游戏本", "releaseDate": "2026-04", "heat": "9802"},
-      {"name": "荣耀MagicBook Pro 16 2026", "releaseDate": "2026-04", "heat": "2.4万"},
-      {"name": "魅族23", "releaseDate": "2026年上半年", "heat": "2.1万"},
-      {"name": "小米NAS", "releaseDate": "2026年上半年", "heat": "7068"},
-      {"name": "iPhone 18", "releaseDate": "2026年下半年", "heat": "6.2万"},
-      {"name": "折叠屏iPhone", "releaseDate": "未公布", "heat": "1.2万"}
+      {"name": "OPPO Find X9 Ultra", "releaseDate": "2026-04-21", "heat": "193.1万"},
+      {"name": "OPPO Enco Clip2", "releaseDate": "2026-04-21", "heat": "7.4万"},
+      {"name": "OPPO Watch X3 Mini", "releaseDate": "2026-04-21", "heat": "1.2万"},
+      {"name": "OPPO Find X9s Pro", "releaseDate": "2026-04-21", "heat": "27.3万"},
+      {"name": "OPPO Pad Mini", "releaseDate": "2026-04-21", "heat": "28.5万"},
+      {"name": "OPPO Pad 5 Pro", "releaseDate": "2026-04-21", "heat": "2.5万"},
+      {"name": "OPPO 120W 超能舱超级闪充", "releaseDate": "2026-04-21", "heat": "8742"},
+      {"name": "荣耀WIN游戏本", "releaseDate": "2026-04-23", "heat": "1.7万"},
+      {"name": "荣耀MagicBook 14 2026", "releaseDate": "2026-04-23", "heat": "4547"},
+      {"name": "荣耀MagicBook 16 2026", "releaseDate": "2026-04-23", "heat": "4126"},
+      {"name": "荣耀MagicBook Pro 14 2026", "releaseDate": "2026-04-23", "heat": "9216"},
+      {"name": "荣耀MagicBook Pro 16 2026", "releaseDate": "2026-04-23", "heat": "1.3万"},
+      {"name": "荣耀MagicBook X14 Plus 2026", "releaseDate": "2026-04-23", "heat": "314"},
+      {"name": "荣耀MagicBook X16 Plus 2026", "releaseDate": "2026-04-23", "heat": "6244"},
+      {"name": "DJI Osmo Pocket 4", "releaseDate": "2026-04", "heat": "1.6万"},
+      {"name": "红魔游戏平板5Pro", "releaseDate": "2026-04", "heat": "1.8万"},
+      {"name": "REDMI K90 Max", "releaseDate": "2026-04", "heat": "62.7万"},
+      {"name": "REDMI K Pad 2", "releaseDate": "2026-04", "heat": "9.8万"},
+      {"name": "小米NAS", "releaseDate": "2026年上半年", "heat": "7948"},
+      {"name": "AYANEO Pocket Play", "releaseDate": "2026年上半年", "heat": "1145"},
+      {"name": "Steam Machine", "releaseDate": "2026年上半年", "heat": "1355"},
+      {"name": "Steam Controller", "releaseDate": "2026年上半年", "heat": "424"},
+      {"name": "Steam Frame", "releaseDate": "2026年上半年", "heat": "417"},
+      {"name": "ROG XREAL R1", "releaseDate": "2026年上半年", "heat": "746"},
+      {"name": "魅族23", "releaseDate": "2026年上半年", "heat": "1.4万"},
+      {"name": "影石Luna", "releaseDate": "2026年上半年", "heat": "1574"},
+      {"name": "海信Hi Reader 2026特别纪念版", "releaseDate": "2026年上半年", "heat": "1335"},
+      {"name": "华为Pura90", "releaseDate": "2026年上半年", "heat": "23.3万"},
+      {"name": "华为AI眼镜", "releaseDate": "2026年上半年", "heat": "1222"},
+      {"name": "iPhone 18", "releaseDate": "2026年下半年", "heat": "5.9万"},
+      {"name": "荣耀Robot Phone", "releaseDate": "2026年下半年", "heat": "5118"},
+      {"name": "折叠屏iPhone", "releaseDate": "未公布", "heat": "4.0万"}
     ]
   },
   "hotLists": {
@@ -23,34 +42,50 @@
       "status": "success",
       "platform": "微博",
       "items": [
-        {"rank": 1, "title": "陈丽华逝世"},
-        {"rank": 2, "title": "车祸截瘫女子起诉肇事失联男友"},
-        {"rank": 3, "title": "清明文旅市场三线齐热"},
-        {"rank": 4, "title": "月鳞绮纪直播"},
-        {"rank": 5, "title": "谢依霖用郭碧婷送的杯子装酱油"}
+        {"rank": 1, "title": "宁波男篮当场裁掉外援"},
+        {"rank": 2, "title": "卤菜店使用四姐二字被索赔50万"},
+        {"rank": 3, "title": "虚假摆拍深山救助流浪女3人被查"},
+        {"rank": 4, "title": "巧乐兹新产品经理不是人"},
+        {"rank": 5, "title": "以色列政坛集体破防"}
       ]
     },
     "bilibili": {
       "status": "success",
       "platform": "B站",
       "items": [
-        {"rank": 1, "title": "我被开除了...那就去旅行!!!", "play": "450万"},
-        {"rank": 2, "title": "朗诵马说（但读到马就马叫）", "play": "400万"},
-        {"rank": 3, "title": "什么叫你爹转生成你女朋友？", "play": "429万"},
-        {"rank": 4, "title": "《求职》"},
-        {"rank": 5, "title": "《金牌打野》"}
+        {"rank": 1, "title": "当你穿进老钱班21", "play": "456万"},
+        {"rank": 2, "title": "住手☆！不要用1月新番玷污我啊啊啊！！【泛式】", "play": "245万"},
+        {"rank": 3, "title": "朗诵马说（但读到马就马叫）", "play": "400万"},
+        {"rank": 4, "title": "什么叫你爹转生成你女朋友？", "play": "429万"},
+        {"rank": 5, "title": "《求职》", "play": "380万"}
       ]
     },
     "ithome": {
       "status": "success",
       "platform": "IT之家",
       "items": [
-        {"rank": 1, "title": "鸿蒙智行 2026 款问界 M9 无伪装实车上路"},
-        {"rank": 2, "title": "小米胡馨心预告新品将至"},
-        {"rank": 3, "title": "雷军晒小米 YU7 梅森·马吉拉涂装版"},
-        {"rank": 4, "title": "我国钠离子电池取得重大突破"},
-        {"rank": 5, "title": "M5 MacBook Air 京东补货"}
+        {"rank": 1, "title": "B站视频播放页暂停广告官宣 4 月 10 日上线"},
+        {"rank": 2, "title": "华为余承东批评团队零零售设计没做好：核心原因出在审美上"},
+        {"rank": 3, "title": "小米官宣计划 6 款充电宝升级新品，全面满足新国标全项要求"},
+        {"rank": 4, "title": "曝京东全面拦截员工使用外部 AI，美团内部开始限制阿里 Qwen 模型"},
+        {"rank": 5, "title": "《黑袍纠察队》最终季首播，前两集已上线亚马逊 Prime Video"}
       ]
+    },
+    "douyin": {
+      "status": "success",
+      "platform": "抖音",
+      "items": [
+        {"rank": 1, "title": "武汉暴雨"},
+        {"rank": 2, "title": "我就这样美美走进春夏"},
+        {"rank": 3, "title": "3月我国物流业务活动趋于活跃"},
+        {"rank": 4, "title": "高级穿搭万能公式"},
+        {"rank": 5, "title": "河南三地招商数据造假"}
+      ]
+    },
+    "coolapk": {
+      "status": "failed",
+      "platform": "酷安",
+      "items": []
     }
   }
 }

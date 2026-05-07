@@ -63,10 +63,27 @@
 
         const platformColors = {
             'B站': { bg: 'pink-500', icon: '📺' },
+            'B站热搜': { bg: 'pink-500', icon: '📺' },
+            'B站日榜': { bg: 'pink-500', icon: '📺' },
             '微博': { bg: 'red-500', icon: '🔥' },
+            '百度': { bg: 'blue-600', icon: '🔎' },
             'IT之家': { bg: 'red-700', icon: '💻' },
             '酷安': { bg: 'green-500', icon: '📱' },
-            '抖音': { bg: 'black', icon: '🎵' }
+            '抖音': { bg: 'black', icon: '🎵' },
+            '头条': { bg: 'red-600', icon: '📰' },
+            '知乎热榜': { bg: 'blue-500', icon: '💡' },
+            '搜狗': { bg: 'orange-500', icon: '🔍' },
+            '搜狐': { bg: 'yellow-600', icon: '🗞️' },
+            '少数派': { bg: 'red-500', icon: '⚡' },
+            'CSDN': { bg: 'red-700', icon: '💻' },
+            '稀土掘金': { bg: 'blue-500', icon: '💎' },
+            'GitHub': { bg: 'gray-800', icon: '⭐' },
+            '网易新闻': { bg: 'red-600', icon: '📰' },
+            'AcFun': { bg: 'orange-500', icon: '📺' },
+            '爱范儿': { bg: 'gray-700', icon: '📱' },
+            '51CTO': { bg: 'blue-700', icon: '💻' },
+            '安全KER': { bg: 'green-700', icon: '🛡️' },
+            '历史上的今天': { bg: 'amber-700', icon: '📜' }
         };
 
         // 格式化日期显示
@@ -121,7 +138,7 @@
         // 渲染热榜
         function renderHotLists(hotLists) {
             const container = document.getElementById('hot-lists');
-            const platforms = Object.keys(hotLists).filter(key => hotLists[key].status === 'success');
+            const platforms = Object.keys(hotLists).filter(key => hotLists[key].status === 'success' && hotLists[key].items?.length);
 
             container.innerHTML = platforms.map(platform => {
                 const data = hotLists[platform];
@@ -137,7 +154,9 @@
                             ${items.slice(0, 5).map((item, idx) => `
                                 <li class="px-4 py-2 hover:bg-gray-50">
                                     <span class="font-bold text-gray-400 mr-2">${item.rank || idx + 1}.</span>
-                                    ${item.title}
+                                    ${item.url && item.url !== '#'
+                                        ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">${item.title}</a>`
+                                        : item.title}
                                     ${item.play ? `<span class="text-gray-400 text-xs ml-2">(${item.play})</span>` : ''}
                                 </li>
                             `).join('')}
@@ -156,17 +175,52 @@
             }
         }
 
+        function normalizeHotCache(payload) {
+            const result = {};
+            const sourceMap = {};
+            (payload.sources || []).forEach(source => {
+                sourceMap[source.id] = source;
+            });
+
+            (payload.items || []).forEach(item => {
+                if (!item.sourceId) return;
+                if (!result[item.sourceId]) {
+                    const source = sourceMap[item.sourceId] || {};
+                    result[item.sourceId] = {
+                        status: source.status === 'failed' ? 'failed' : 'success',
+                        platform: item.sourceName || source.name || item.sourceId,
+                        items: []
+                    };
+                }
+
+                result[item.sourceId].items.push({
+                    rank: item.rank,
+                    title: item.title,
+                    play: item.hot || '',
+                    url: item.url || '#'
+                });
+            });
+
+            return result;
+        }
+
+        async function fetchJson(url) {
+            const response = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
+            if (!response.ok) throw new Error(`${url} 加载失败`);
+            return response.json();
+        }
+
         // 加载数据
         async function loadData() {
             try {
-                const response = await fetch('./data.json');
-                if (!response.ok) throw new Error('数据加载失败');
-
-                const data = await response.json();
+                const [data, hotCache] = await Promise.all([
+                    fetchJson('./data.json'),
+                    fetchJson('./data/hot-cache.json')
+                ]);
 
                 // 更新时间
                 document.getElementById('update-time').textContent =
-                    `发布日历 × 热榜聚合 | ${data.updateTime} 更新`;
+                    `发布日历 × 热榜聚合 | ${hotCache.updatedAt || data.updateTime} 更新`;
 
                 // 渲染发布日历
                 if (data.releaseCalendar && data.releaseCalendar.products) {
@@ -174,9 +228,7 @@
                 }
 
                 // 渲染热榜
-                if (data.hotLists) {
-                    renderHotLists(data.hotLists);
-                }
+                renderHotLists(normalizeHotCache(hotCache));
 
             } catch (error) {
                 console.error('加载数据失败:', error);

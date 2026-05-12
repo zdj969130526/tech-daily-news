@@ -88,16 +88,6 @@
         };
 
         // 格式化日期显示
-        function formatDate(dateStr) {
-            if (dateStr === '未公布') return '未公布';
-            if (/^\d{4}年(上半年|下半年)$/.test(dateStr)) return dateStr;
-            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-            if (exact) return `${Number(exact[2])}月${Number(exact[3])}日`;
-            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
-            if (month) return `${Number(month[2])}月`;
-            return dateStr;
-        }
-
         function releaseDateSortValue(dateStr) {
             const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
             if (exact) return Number(`${exact[1]}${exact[2]}${exact[3]}`);
@@ -106,6 +96,51 @@
             if (/上半年/.test(dateStr)) return 99990101;
             if (/下半年/.test(dateStr)) return 99990701;
             return 99999999;
+        }
+
+        function releaseMonthKey(dateStr) {
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return `${exact[1]}-${exact[2]}`;
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) return `${month[1]}-${month[2]}`;
+            if (/^\d{4}年上半年$/.test(dateStr)) return `${dateStr}-month`;
+            if (/^\d{4}年下半年$/.test(dateStr)) return `${dateStr}-month`;
+            return '待定-month';
+        }
+
+        function releaseMonthLabel(dateStr) {
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return `${Number(exact[2])}月`;
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) return `${Number(month[2])}月`;
+            if (/^\d{4}年上半年$/.test(dateStr)) return dateStr;
+            if (/^\d{4}年下半年$/.test(dateStr)) return dateStr;
+            return '待定';
+        }
+
+        function releaseMonthSortValue(dateStr) {
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return Number(`${exact[1]}${exact[2]}00`);
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) return Number(`${month[1]}${month[2]}00`);
+            if (/^\d{4}年上半年$/.test(dateStr)) return 99990100;
+            if (/^\d{4}年下半年$/.test(dateStr)) return 99990700;
+            return 99999999;
+        }
+
+        function releaseDayKey(dateStr) {
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return `${exact[3]}日`;
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) return '待定';
+            if (/^\d{4}年(上半年|下半年)$/.test(dateStr)) return '待定';
+            return '待定';
+        }
+
+        function releaseDaySortValue(dateStr) {
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return Number(exact[3]);
+            return 999;
         }
 
         function isUpcomingRelease(dateStr) {
@@ -139,35 +174,60 @@
                 return;
             }
 
-            // 按发布日期分组
+            // 按月份 -> 日期分组
             const grouped = {};
             upcomingProducts.forEach(product => {
                 const rawDate = product.releaseDate || '未公布';
-                const date = formatDate(rawDate);
-                if (!grouped[date]) grouped[date] = { rawDate, products: [] };
-                grouped[date].products.push(product);
+                const monthKey = releaseMonthKey(rawDate);
+                const monthLabel = releaseMonthLabel(rawDate);
+                const dayKey = releaseDayKey(rawDate);
+                if (!grouped[monthKey]) {
+                    grouped[monthKey] = { rawDate, monthLabel, days: {} };
+                }
+                if (!grouped[monthKey].days[dayKey]) {
+                    grouped[monthKey].days[dayKey] = { rawDate, products: [] };
+                }
+                grouped[monthKey].days[dayKey].products.push(product);
             });
 
-            // 按日期排序
-            const sortedDates = Object.keys(grouped).sort((a, b) => {
-                return releaseDateSortValue(grouped[a].rawDate) - releaseDateSortValue(grouped[b].rawDate);
+            // 按月份排序
+            const sortedMonths = Object.keys(grouped).sort((a, b) => {
+                return releaseMonthSortValue(grouped[a].rawDate) - releaseMonthSortValue(grouped[b].rawDate);
             });
 
-            // 渲染
-            container.innerHTML = sortedDates.map((date, index) => {
-                const color = dateColors[index % dateColors.length];
-                const prods = grouped[date].products;
+            container.innerHTML = sortedMonths.map((monthKey, monthIndex) => {
+                const color = dateColors[monthIndex % dateColors.length];
+                const month = grouped[monthKey];
+                const sortedDays = Object.keys(month.days).sort((a, b) => {
+                    return releaseDaySortValue(month.days[a].rawDate) - releaseDaySortValue(month.days[b].rawDate);
+                });
 
                 return `
                     <div class="bg-white rounded-lg shadow p-4">
-                        <h3 class="font-bold text-${color.bg} mb-3">${date}</h3>
-                        <div class="grid grid-cols-2 gap-2 text-sm">
-                            ${prods.map(p => `
-                                <span class="bg-${color.light} px-2 py-1 rounded flex justify-between items-center">
-                                    ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">${p.name}</a>` : `<span>${p.name}</span>`}
-                                    <span class="text-xs text-gray-500">${p.heat}</span>
-                                </span>
-                            `).join('')}
+                        <div class="flex items-center justify-between gap-4 mb-3">
+                            <h3 class="font-bold text-${color.bg}">${month.monthLabel}</h3>
+                            <span class="text-xs text-gray-500">${sortedDays.reduce((total, dayKey) => total + (month.days[dayKey].products || []).length, 0)} 条</span>
+                        </div>
+                        <div class="space-y-3">
+                            ${sortedDays.map(dayKey => {
+                                const day = month.days[dayKey];
+                                const prods = day.products || [];
+                                return `
+                                    <div class="rounded-lg border border-${color.light} bg-${color.light} p-3">
+                                        <div class="flex items-center justify-between gap-4 mb-2">
+                                            <span class="font-semibold text-gray-700">${dayKey}</span>
+                                            <span class="text-xs text-gray-500">${prods.length} 条</span>
+                                        </div>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                                            ${prods.map(p => `
+                                                <span class="bg-white/80 px-2 py-1 rounded flex items-center">
+                                                    ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">${p.name}</a>` : `<span>${p.name}</span>`}
+                                                </span>
+                                            `).join('')}
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
                         </div>
                     </div>
                 `;

@@ -108,13 +108,40 @@
             return 99999999;
         }
 
+        function isUpcomingRelease(dateStr) {
+            const now = new Date();
+            const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) {
+                const target = new Date(Number(exact[1]), Number(exact[2]) - 1, Number(exact[3]));
+                return target >= today;
+            }
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) {
+                return Number(`${month[1]}${month[2]}`) >= Number(`${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}`);
+            }
+            if (/^\d{4}年上半年$/.test(dateStr)) return now.getMonth() < 6;
+            if (/^\d{4}年下半年$/.test(dateStr)) return true;
+            return dateStr === '未公布';
+        }
+
         // 渲染发布日历
         function renderReleaseCalendar(products) {
             const container = document.getElementById('release-calendar');
+            const upcomingProducts = (products || []).filter(product => isUpcomingRelease(product.releaseDate || '未公布'));
+
+            if (!upcomingProducts.length) {
+                container.innerHTML = `
+                    <div class="text-center text-gray-500 py-8">
+                        暂无待发布新品预告
+                    </div>
+                `;
+                return;
+            }
 
             // 按发布日期分组
             const grouped = {};
-            products.forEach(product => {
+            upcomingProducts.forEach(product => {
                 const rawDate = product.releaseDate || '未公布';
                 const date = formatDate(rawDate);
                 if (!grouped[date]) grouped[date] = { rawDate, products: [] };

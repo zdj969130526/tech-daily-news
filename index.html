@@ -53,13 +53,14 @@
 
     <script>
         // 颜色配置
-        const dateColors = {
-            '2026-04-21': { bg: 'purple-600', light: 'purple-50' },
-            '2026-04': { bg: 'blue-600', light: 'blue-50' },
-            '2026年上半年': { bg: 'green-600', light: 'green-50' },
-            '2026年下半年': { bg: 'orange-600', light: 'orange-50' },
-            '未公布': { bg: 'gray-600', light: 'gray-50' }
-        };
+        const dateColors = [
+            { bg: 'purple-600', light: 'purple-50' },
+            { bg: 'blue-600', light: 'blue-50' },
+            { bg: 'green-600', light: 'green-50' },
+            { bg: 'orange-600', light: 'orange-50' },
+            { bg: 'rose-600', light: 'rose-50' },
+            { bg: 'cyan-700', light: 'cyan-50' }
+        ];
 
         const platformColors = {
             'B站': { bg: 'pink-500', icon: '📺' },
@@ -89,10 +90,22 @@
         // 格式化日期显示
         function formatDate(dateStr) {
             if (dateStr === '未公布') return '未公布';
-            if (dateStr === '2026年上半年' || dateStr === '2026年下半年') return dateStr;
-            if (dateStr.includes('-04-21')) return '4月21日';
-            if (dateStr.includes('-04')) return '4月';
+            if (/^\d{4}年(上半年|下半年)$/.test(dateStr)) return dateStr;
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return `${Number(exact[2])}月${Number(exact[3])}日`;
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) return `${Number(month[2])}月`;
             return dateStr;
+        }
+
+        function releaseDateSortValue(dateStr) {
+            const exact = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (exact) return Number(`${exact[1]}${exact[2]}${exact[3]}`);
+            const month = dateStr.match(/^(\d{4})-(\d{2})$/);
+            if (month) return Number(`${month[1]}${month[2]}99`);
+            if (/上半年/.test(dateStr)) return 99990101;
+            if (/下半年/.test(dateStr)) return 99990701;
+            return 99999999;
         }
 
         // 渲染发布日历
@@ -102,22 +115,21 @@
             // 按发布日期分组
             const grouped = {};
             products.forEach(product => {
-                const date = formatDate(product.releaseDate);
-                if (!grouped[date]) grouped[date] = [];
-                grouped[date].push(product);
+                const rawDate = product.releaseDate || '未公布';
+                const date = formatDate(rawDate);
+                if (!grouped[date]) grouped[date] = { rawDate, products: [] };
+                grouped[date].products.push(product);
             });
 
             // 按日期排序
             const sortedDates = Object.keys(grouped).sort((a, b) => {
-                const order = ['4月21日', '4月', '2026年上半年', '2026年下半年', '未公布'];
-                return order.indexOf(a) - order.indexOf(b);
+                return releaseDateSortValue(grouped[a].rawDate) - releaseDateSortValue(grouped[b].rawDate);
             });
 
             // 渲染
-            container.innerHTML = sortedDates.map(date => {
-                const colorKey = Object.keys(dateColors).find(key => formatDate(key) === date) || '未公布';
-                const color = dateColors[colorKey] || dateColors['未公布'];
-                const prods = grouped[date];
+            container.innerHTML = sortedDates.map((date, index) => {
+                const color = dateColors[index % dateColors.length];
+                const prods = grouped[date].products;
 
                 return `
                     <div class="bg-white rounded-lg shadow p-4">
@@ -125,7 +137,7 @@
                         <div class="grid grid-cols-2 gap-2 text-sm">
                             ${prods.map(p => `
                                 <span class="bg-${color.light} px-2 py-1 rounded flex justify-between items-center">
-                                    <span>${p.name}</span>
+                                    ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">${p.name}</a>` : `<span>${p.name}</span>`}
                                     <span class="text-xs text-gray-500">${p.heat}</span>
                                 </span>
                             `).join('')}

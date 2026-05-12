@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-12 17:24:14",
+  "updateTime": "2026-05-12 17:25:59",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -194,19 +194,9 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5297347907747934&launchid=10000360-page_H5"
       },
       {
-        "name": "魅族成立以来",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E9%AD%85%E6%97%8F&containerid=100808034772923bd68db5e4ad18ce7ddb74e2&launchid=10000360-page_H5"
-      },
-      {
         "name": "vivo X300",
         "releaseDate": "2026-09-22",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%85%89%E5%B9%B4%E6%99%A8%E6%8A%A5%23&extparam=%23%E5%85%89%E5%B9%B4%E6%99%A8%E6%8A%A5%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "魅族成立以来",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/p/index?extparam=%E9%AD%85%E6%97%8F&containerid=100808034772923bd68db5e4ad18ce7ddb74e2&launchid=10000360-page_H5"
       },
       {
         "name": "vivo X300",

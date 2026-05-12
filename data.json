@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-12 11:57:10",
+  "updateTime": "2026-05-12 12:13:37",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -126,7 +126,7 @@
       "enabled": true,
       "status": "ok",
       "count": 28,
-      "latencyMs": 96,
+      "latencyMs": 114,
       "message": "正常"
     },
     {
@@ -137,7 +137,7 @@
       "enabled": true,
       "status": "empty",
       "count": 0,
-      "latencyMs": 91,
+      "latencyMs": 153,
       "message": "未解析到新品预告"
     },
     {
@@ -148,7 +148,7 @@
       "enabled": true,
       "status": "empty",
       "count": 0,
-      "latencyMs": 109,
+      "latencyMs": 150,
       "message": "未解析到新品预告"
     },
     {
@@ -159,7 +159,7 @@
       "enabled": true,
       "status": "empty",
       "count": 0,
-      "latencyMs": 268,
+      "latencyMs": 286,
       "message": "未解析到新品预告"
     },
     {
@@ -170,7 +170,7 @@
       "enabled": true,
       "status": "empty",
       "count": 0,
-      "latencyMs": 395,
+      "latencyMs": 480,
       "message": "未解析到新品预告"
     }
   ],

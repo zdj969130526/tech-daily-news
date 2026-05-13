@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-12 18:15:28",
+  "updateTime": "2026-05-13 10:09:43",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,39 +119,34 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "REDMI Book Pro 2026",
-        "releaseDate": "2026-05-12",
+        "name": "iQOO 15 Ultra新配色是藏不住了",
+        "releaseDate": "2026-05-13",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "REDMI K Pad 2",
-        "releaseDate": "2026-05-12",
+        "name": "iQOO旗舰系列感觉又有动作了",
+        "releaseDate": "2026-05-13",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "一加 Ace 6T",
-        "releaseDate": "2026-05-12",
+        "releaseDate": "2026-05-13",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%94%9F%E6%B4%BB%E6%89%8B%E8%AE%B0%23&isnewpage=1&launchid=10000360-page_H5"
       },
       {
-        "name": "大疆 Pocket 4",
-        "releaseDate": "2026-05-12",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86pocket4%23&extparam=%23%E5%A4%A7%E7%96%86pocket4%23&launchid=10000360-page_H5"
+        "name": "大疆 Pocket4P",
+        "releaseDate": "2026-05-13",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86Pocket4P%E5%8D%87%E7%BA%A7%E4%BA%86%E4%BB%80%E4%B9%88%23&extparam=%23%E5%A4%A7%E7%96%86Pocket4P%E5%8D%87%E7%BA%A7%E4%BA%86%E4%BB%80%E4%B9%88%23&launchid=10000360-page_H5"
       },
       {
-        "name": "大疆 Pocket4P",
-        "releaseDate": "2026-05-12",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86Pocket4P%E5%8D%87%E7%BA%A7%E4%BA%86%E4%BB%80%E4%B9%88%23&extparam=%23%E5%A4%A7%E7%96%86Pocket4P%E5%8D%87%E7%BA%A7%E4%BA%86%E4%BB%80%E4%B9%88%23&launchid=10000360-page_H5"
+        "name": "大疆 pocket4",
+        "releaseDate": "2026-05-13",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86pocket4%23&extparam=%23%E5%A4%A7%E7%96%86pocket4%23&launchid=10000360-page_H5"
       },
       {
         "name": "OPPO Reno16",
         "releaseDate": "2026-05-14",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23OPPO+Reno16%23&extparam=%23OPPO+Reno16%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-05-14",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "华为乾崑智驾ADS 4",
@@ -164,9 +159,39 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%99%BA%E7%95%8CV9%E4%BA%BA%E7%94%9F%E4%B8%BB%E5%9C%BA%E8%87%AA%E5%9C%A8%E8%BD%AC%E5%9C%BA%23&extparam=%23%E6%99%BA%E7%95%8CV9%E4%BA%BA%E7%94%9F%E4%B8%BB%E5%9C%BA%E8%87%AA%E5%9C%A8%E8%BD%AC%E5%9C%BA%23&launchid=10000360-page_H5"
       },
       {
+        "name": "大疆 Pocket 4P",
+        "releaseDate": "2026-05-15",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "REDMI Book Pro 2026",
+        "releaseDate": "2026-05-19",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "REDMI K Pad 2",
+        "releaseDate": "2026-05-19",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "联想 YOGA Air 14 Ultra",
         "releaseDate": "2026-05-19",
         "url": "https://video.weibo.com/show?fid=1034%3A5297340744138816&launchid=10000360-page_H5"
+      },
+      {
+        "name": "iQOO 15T开启",
+        "releaseDate": "2026-05",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "iQOO 15T详细规格看图3",
+        "releaseDate": "2026-05",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23iQOO15T%23&extparam=%23iQOO15T%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "iQOO Pad6 Pro",
+        "releaseDate": "2026-05",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "小米 VGT概念超跑",
@@ -182,6 +207,26 @@
         "name": "华为 nova16",
         "releaseDate": "2026-06-01",
         "url": "https://video.weibo.com/show?fid=1034%3A5297347907747934&launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果首款折叠屏的期待值还是很高",
+        "releaseDate": "2026-09-01",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E6%96%B0CEO%E9%A6%96%E7%A7%80%E5%AE%9A%E6%A1%A3%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E8%8B%B9%E6%9E%9C%E6%96%B0CEO%E9%A6%96%E7%A7%80%E5%AE%9A%E6%A1%A3%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为 Mate 90",
+        "releaseDate": "2026-09",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果两大头部厂商的年度旗舰产品将再度在9月档期正面相遇",
+        "releaseDate": "2026-09",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果预计在本月完成Pro系列两款机型的OLED面板审",
+        "releaseDate": "2026-09",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E5%B1%8F%E5%8D%A0%E6%AF%94%E6%9C%80%E9%AB%98%E6%89%8B%E6%9C%BA%E6%9B%9D%E5%85%89%23&extparam=%23%E8%8B%B9%E6%9E%9C%E5%B1%8F%E5%8D%A0%E6%AF%94%E6%9C%80%E9%AB%98%E6%89%8B%E6%9C%BA%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-13 11:26:59",
+  "updateTime": "2026-05-13 11:27:58",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,11 +119,6 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "ROG幻16双屏",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%88%B1%E8%8C%83%E5%84%BF%E5%9C%A8%E7%8E%B0%E5%9C%BA%23&launchid=10000360-page_H5"
-      },
-      {
         "name": "一加 Ace 6T",
         "releaseDate": "2026-05-13",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%94%9F%E6%B4%BB%E6%89%8B%E8%AE%B0%23&isnewpage=1&launchid=10000360-page_H5"
@@ -137,46 +132,6 @@
         "name": "大疆 pocket4",
         "releaseDate": "2026-05-13",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86pocket4%23&extparam=%23%E5%A4%A7%E7%96%86pocket4%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "机械革命预热水冷游戏本旷世 X",
-        "releaseDate": "2026-05-13",
-        "url": "https://weibo.cn/sinaurl?launchid=10000360-page_H5&u=https%3A%2F%2Fwww.ithome.com%2F0%2F620%2F541.htm"
-      },
-      {
-        "name": "极米刚刚开完2026",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%8A%95%E5%BD%B1%E4%BB%AA&containerid=10080873c1f2958b5e2b1dab9c52fc13529af6&launchid=10000360-page_H5"
-      },
-      {
-        "name": "极米史上最硬核的一次技术秀",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%8A%95%E5%BD%B1%E4%BB%AA&containerid=10080873c1f2958b5e2b1dab9c52fc13529af6&launchid=10000360-page_H5"
-      },
-      {
-        "name": "海信& Vidda",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "海信正在从 “电视巨头” 向全场景显示生态转型",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "海信自己的定位还是十分清晰的——以显示技术为核心",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "索尼 A7R6",
-        "releaseDate": "2026-05-13",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405296233433661498&launchid=10000360-page_H5"
-      },
-      {
-        "name": "索尼佳能抢着同一天发",
-        "releaseDate": "2026-05-13",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "OPPO Reno16",
@@ -199,61 +154,6 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "索尼 A7R6",
-        "releaseDate": "2026-05-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "索尼 Xperia 1 VIII",
-        "releaseDate": "2026-05-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "联想小天 × YOGA AIPC新品强大AI功能体验 前所未有的场景玩法联想消费AIPC&AI手机发售体验会5月16日 19",
-        "releaseDate": "2026-05-16",
-        "url": "https://video.weibo.com/show?fid=1034%3A5034595557507086&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔 11S Pro系列了快来了",
-        "releaseDate": "2026-05-18",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%95%B0%E7%A0%81%E9%97%B2%E8%81%8A%E7%AB%99&containerid=1008087cc78e563453101a530846eb3cb85646&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔 11SPro 行业独家真全面屏搭载第五代骁龙8至尊领先版移动平台5月18日 15",
-        "releaseDate": "2026-05-18",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%BA%A2%E9%AD%9411SPro%23&extparam=%23%E7%BA%A2%E9%AD%9411SPro%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔 11SPro搭载第五代骁龙8至尊领先版移动平台5月18日 15",
-        "releaseDate": "2026-05-18",
-        "url": "https://video.weibo.com/show?fid=1034%3A5297818621902862&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔 11spro 红魔11spro",
-        "releaseDate": "2026-05-18",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%BA%A2%E9%AD%9411spro%23&extparam=%23%E7%BA%A2%E9%AD%9411spro%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔定制周边",
-        "releaseDate": "2026-05-18",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5297327679477297&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔自研红芯R4双芯",
-        "releaseDate": "2026-05-18",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%95%B0%E7%A0%81%E9%97%B2%E8%81%8A%E7%AB%99&containerid=1008087cc78e563453101a530846eb3cb85646&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔超未来旗舰红魔11SPro 重新定义未来电竞性能美学",
-        "releaseDate": "2026-05-18",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5297327679477297&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔这新手机是真舍得堆料啊红魔11S Pro搭载第五代骁龙8至尊领先",
-        "releaseDate": "2026-05-18",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%BA%A2%E9%AD%9411spro%23&extparam=%23%E7%BA%A2%E9%AD%9411spro%23&launchid=10000360-page_H5"
-      },
-      {
         "name": "REDMI Book Pro 2026",
         "releaseDate": "2026-05-19",
         "url": "https://m.weibo.cn/api/container/getIndex"
@@ -262,71 +162,6 @@
         "name": "REDMI K Pad 2",
         "releaseDate": "2026-05-19",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "联想 AI主机",
-        "releaseDate": "2026-05-19",
-        "url": "https://video.weibo.com/show?fid=1034%3A5298069068251245&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 AI平板拯救者Y900",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%BD%93%E8%82%B2%E6%95%85%E4%BA%8B%E6%9D%80%E7%A5%9E&containerid=10080859db38b54ce854ee06d86de54eed04a1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 YOGA Air 14 Ultra",
-        "releaseDate": "2026-05-19",
-        "url": "https://video.weibo.com/show?fid=1034%3A5297340744138816&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 YOGA 天禧AI我的专属超能搭档",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A9%E7%A6%A7AI%E6%88%91%E7%9A%84%E4%B8%93%E5%B1%9E%E8%B6%85%E8%83%BD%E6%90%AD%E6%A1%A3%23&extparam=%23%E5%A4%A9%E7%A6%A7AI%E6%88%91%E7%9A%84%E4%B8%93%E5%B1%9E%E8%B6%85%E8%83%BD%E6%90%AD%E6%A1%A3%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 moto razr fold",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%BD%93%E8%82%B2%E6%95%85%E4%BA%8B%E6%9D%80%E7%A5%9E&containerid=10080859db38b54ce854ee06d86de54eed04a1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 moto首款大折叠手机——联想moto razr 网页链接",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "联想 moto首款大折叠联想motorazrfold AI",
-        "releaseDate": "2026-05-19",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A2322403925f61366a71ac0dc44359a4f8cdb8c&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想五一大促",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A9%E7%A6%A7AI%E6%88%91%E7%9A%84%E4%B8%93%E5%B1%9E%E8%B6%85%E8%83%BD%E6%90%AD%E6%A1%A3%23&extparam=%23%E5%A4%A9%E7%A6%A7AI%E6%88%91%E7%9A%84%E4%B8%93%E5%B1%9E%E8%B6%85%E8%83%BD%E6%90%AD%E6%A1%A3%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想天禧 AI 一体多端全场景新品超能之夜门票",
-        "releaseDate": "2026-05-19",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5296693588264247&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想天禧AI 一体多端全场景新品超能之夜",
-        "releaseDate": "2026-05-19",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A2322403925f61366a71ac0dc44359a4f8cdb8c&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想天禧AI的微博",
-        "releaseDate": "2026-05-19",
-        "url": "https://video.weibo.com/show?fid=1034%3A5298069068251245&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想拯救者Y7000X以及联想YOGA Air 14 Ultra都会亮相",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%BD%93%E8%82%B2%E6%95%85%E4%BA%8B%E6%9D%80%E7%A5%9E&containerid=10080859db38b54ce854ee06d86de54eed04a1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想欢迎大家关注联想超话",
-        "releaseDate": "2026-05-19",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%81%94%E6%83%B3&containerid=100808a607eb1a8c13b4def6195455a987ca5c&launchid=10000360-page_H5"
       },
       {
         "name": "iQOO neo11pro呀",
@@ -364,19 +199,9 @@
         "url": "https://www.ithome.com/rss/"
       },
       {
-        "name": "索尼 stateofplay",
-        "releaseDate": "2026-05-27",
-        "url": "https://video.weibo.com/show?fid=1034%3A5265790828478494&launchid=10000360-page_H5"
-      },
-      {
-        "name": "索尼举行的State Of Play",
-        "releaseDate": "2026-05-27",
-        "url": "https://video.weibo.com/show?fid=1034%3A5265790828478494&launchid=10000360-page_H5"
-      },
-      {
-        "name": "ROG绝梦 24 显示器",
-        "releaseDate": "2026-05",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG+DAY+%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23ROG+DAY+%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
+        "name": "iQOO 15T 手机全新配色「青云」亮相",
+        "releaseDate": "2026-05-30",
+        "url": "https://www.ithome.com/rss/"
       },
       {
         "name": "iQOO 15T来了~未来舱Deco颜值拉满",
@@ -399,39 +224,9 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%9B%B7%E5%86%9B%E5%AE%98%E5%AE%A3%E5%B0%8F%E7%B1%B3YU7GT5%E6%9C%88%E5%BA%95%E5%8F%91%E5%B8%83%23&extparam=%23%E9%9B%B7%E5%86%9B%E5%AE%98%E5%AE%A3%E5%B0%8F%E7%B1%B3YU7GT5%E6%9C%88%E5%BA%95%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
       },
       {
-        "name": "索尼这新Xperia 1 VIII终于要来了",
-        "releaseDate": "2026-05",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%A7%91%E6%8A%80%E6%95%B0%E7%A0%81%23&isnewpage=1&launchid=10000360-page_H5"
-      },
-      {
         "name": "华为 nova 16",
         "releaseDate": "2026-06-01",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAnova+16%E7%B3%BB%E5%88%97%E6%89%8B%E6%9C%BA%E8%A2%AB%E6%9B%9D6%E6%9C%881%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%8D%8E%E4%B8%BAnova+16%E7%B3%BB%E5%88%97%E6%89%8B%E6%9C%BA%E8%A2%AB%E6%9B%9D6%E6%9C%881%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "影石创新（688775",
-        "releaseDate": "2026-06-11",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%8A%95%E8%B5%84%E6%97%A5%E5%8E%86%23&isnewpage=1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔电竞平板3 Pro",
-        "releaseDate": "2026-06-11",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "联想 AI“一体多端”战略暨消费新品夏季",
-        "releaseDate": "2026-06-25",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A2322403cc232edde542e7f9c56883436b84dc0&launchid=10000360-page_H5"
-      },
-      {
-        "name": "影石 2025夏季全景更新",
-        "releaseDate": "2026-07-15",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
-      },
-      {
-        "name": "影石 Insta360的微博 影石2025夏季全景更新",
-        "releaseDate": "2026-07-15",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
       },
       {
         "name": "三星 Flip8以及三星Galaxy Watch9",
@@ -454,16 +249,6 @@
         "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
       },
       {
-        "name": "影石同级别产品低近300元",
-        "releaseDate": "2026-07-31",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405207958958243863&launchid=10000360-page_H5"
-      },
-      {
-        "name": "影石的主导地位",
-        "releaseDate": "2026-07-31",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405207958958243863&launchid=10000360-page_H5"
-      },
-      {
         "name": "三星 Z Flip 8除搭载全新Soc（为Exynos2600）之外的升级点",
         "releaseDate": "2026-07",
         "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
@@ -479,29 +264,9 @@
         "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
       },
       {
-        "name": "索尼 stateofplay",
-        "releaseDate": "2026-08-04",
-        "url": "https://video.weibo.com/show?fid=1034%3A5265777352441930&launchid=10000360-page_H5"
-      },
-      {
-        "name": "索尼 stateofplay",
-        "releaseDate": "2026-08-09",
-        "url": "https://video.weibo.com/show?fid=1034%3A5174051224879113&launchid=10000360-page_H5"
-      },
-      {
-        "name": "影石 Insta360 Go Ultra 渲染图此前已经",
-        "releaseDate": "2026-08-21",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
-      },
-      {
         "name": "苹果首款折叠屏的期待值还是很高",
         "releaseDate": "2026-09-01",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E6%96%B0CEO%E9%A6%96%E7%A7%80%E5%AE%9A%E6%A1%A3%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E8%8B%B9%E6%9E%9C%E6%96%B0CEO%E9%A6%96%E7%A7%80%E5%AE%9A%E6%A1%A3%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "海信激光电视 极果的微博",
-        "releaseDate": "2026-09",
-        "url": "https://video.weibo.com/show?fid=1034%3A4946237804183639&launchid=10000360-page_H5"
       },
       {
         "name": "苹果两大头部厂商的年度旗舰产品将再度在9月档期正面相遇",
@@ -512,11 +277,6 @@
         "name": "苹果预计在本月完成Pro系列两款机型的OLED面板审",
         "releaseDate": "2026-09",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E5%B1%8F%E5%8D%A0%E6%AF%94%E6%9C%80%E9%AB%98%E6%89%8B%E6%9C%BA%E6%9B%9D%E5%85%89%23&extparam=%23%E8%8B%B9%E6%9E%9C%E5%B1%8F%E5%8D%A0%E6%AF%94%E6%9C%80%E9%AB%98%E6%89%8B%E6%9C%BA%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "努比亚 Z80Ultra开箱来啦",
-        "releaseDate": "2026-10-22",
-        "url": "https://video.weibo.com/show?fid=1034%3A5220606288003134&launchid=10000360-page_H5"
       }
     ]
   }

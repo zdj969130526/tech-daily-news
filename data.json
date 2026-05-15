@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-15 13:18:15",
+  "updateTime": "2026-05-15 15:06:05",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,6 +119,11 @@
   "releaseCalendar": {
     "products": [
       {
+        "name": "ROG魔导士 Falchion Ace 75 HE 磁轴键盘新增熔岩红配色",
+        "releaseDate": "2026-05-15",
+        "url": "https://www.ithome.com/rss/"
+      },
+      {
         "name": "iQOO旗舰家族新添一员大将",
         "releaseDate": "2026-05-15",
         "url": "https://m.weibo.cn/p/index?extparam=iqoo&containerid=1008081cc40088ec90b2d26a307607aad84da9&launchid=10000360-page_H5"
@@ -164,6 +169,11 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%B0%86%E5%8F%91%E5%B8%83%E9%A6%96%E6%AC%BE%E8%80%B3%E5%A4%B9%E8%80%B3%E6%9C%BA%23&extparam=%23%E5%B0%8F%E7%B1%B3%E5%B0%86%E5%8F%91%E5%B8%83%E9%A6%96%E6%AC%BE%E8%80%B3%E5%A4%B9%E8%80%B3%E6%9C%BA%23&launchid=10000360-page_H5"
       },
       {
+        "name": "华为 AIDC战略&",
+        "releaseDate": "2026-05-16",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "大疆 Pocket 4P",
         "releaseDate": "2026-05-17",
         "url": "https://m.weibo.cn/api/container/getIndex"
@@ -199,7 +209,7 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23iQOO15T%23&extparam=%23iQOO15T%23&launchid=10000360-page_H5"
       },
       {
-        "name": "iQOO超话 欢迎各位酷客回家 在这里你可以看到各类使用技巧 1230277人关注",
+        "name": "iQOO超话 欢迎各位酷客回家 在这里你可以看到各类使用技巧 1230280人关注",
         "releaseDate": "2026-05-20",
         "url": "https://m.weibo.cn/p/index?extparam=iqoo&containerid=1008081cc40088ec90b2d26a307607aad84da9&launchid=10000360-page_H5"
       },
@@ -224,19 +234,29 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "荣耀 600系列这是直接",
+        "name": "荣耀 600系列极窄边界",
+        "releaseDate": "2026-05-25",
+        "url": "https://video.weibo.com/show?fid=1034%3A5298841985941562&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀 600高光搭子荣耀星时刻 荣耀600",
         "releaseDate": "2026-05-25",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80600%23&extparam=%23%E8%8D%A3%E8%80%80600%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀 WIN」系列再添硬核担当",
+        "releaseDate": "2026-05-25",
+        "url": "https://video.weibo.com/show?fid=1034%3A5298841985941562&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀主题《一起去露营吧》",
+        "releaseDate": "2026-05-25",
+        "url": "https://video.weibo.com/show?fid=1034%3A5298841985941562&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀平板20以及荣耀手表6Plus",
         "releaseDate": "2026-05-25",
         "url": "https://m.weibo.cn/p/index?extparam=%E6%95%B0%E7%A0%81%E9%97%B2%E8%81%8A%E7%AB%99&containerid=1008087cc78e563453101a530846eb3cb85646&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀手表6Plus以科学运动",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "荣耀数字手机全球代言人 20260514肖战荣耀手机600系列宣传",
@@ -276,12 +296,7 @@
       {
         "name": "华为 nova16",
         "releaseDate": "2026-06-01",
-        "url": "https://video.weibo.com/show?fid=1034%3A5297347907747934&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为智能光伏2026战略＆",
-        "releaseDate": "2026-06-03",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "url": "https://video.weibo.com/show?fid=1034%3A5297077044052054&launchid=10000360-page_H5"
       },
       {
         "name": "华为 HDC 2026",
@@ -289,24 +304,14 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%B8%BF%E8%92%997%23&extparam=%23%E9%B8%BF%E8%92%997%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为乾崑智驾系统",
-        "releaseDate": "2026-09-19",
-        "url": "https://video.weibo.com/show?fid=1034%3A5298762701275166&launchid=10000360-page_H5"
+        "name": "苹果首款折叠屏的期待值还是很高",
+        "releaseDate": "2026-09-01",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E6%96%B0CEO%E9%A6%96%E7%A7%80%E5%AE%9A%E6%A1%A3%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E8%8B%B9%E6%9E%9C%E6%96%B0CEO%E9%A6%96%E7%A7%80%E5%AE%9A%E6%A1%A3%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为乾崑豪华SUV 15万级标配华为乾崑SUV 全新深蓝S07",
-        "releaseDate": "2026-09-19",
-        "url": "https://video.weibo.com/show?fid=1034%3A5298762701275166&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果官方最终确认信息",
+        "name": "苹果折叠机的一些笔记",
         "releaseDate": "2026-09",
-        "url": "https://m.s.weibo.com/applink/go2?noclose=1&url=sinaweibo%3A%2F%2Fsearchall%3Fcontainerid%3D230958%26type%3D200%26q%3Diphone18%26t%3D761%26extparam%3Ddfp%253D200%2526share_page_id%253D23296463416dba32bfa1a3a45ca30f76794b3d%2526cot%253D1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果打破了十五年来全系同步",
-        "releaseDate": "2026-09",
-        "url": "https://m.s.weibo.com/applink/go2?noclose=1&url=sinaweibo%3A%2F%2Fsearchall%3Fcontainerid%3D230958%26type%3D200%26q%3Diphone18%26t%3D761%26extparam%3Ddfp%253D200%2526share_page_id%253D23296463416dba32bfa1a3a45ca30f76794b3d%2526cot%253D1&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%89%88%E4%B8%BB%E8%AE%A1%E5%88%92%E2%80%9C%E5%8E%9F%E5%88%9B%2B%E9%A6%96%E5%8F%91%E2%80%9D%E4%BC%98%E8%B4%A8%E5%86%85%E5%AE%B9%E7%99%BE%E4%B8%87%E6%BF%80%E5%8A%B1%E8%AE%A1%E5%88%92%23&extparam=%23%E7%89%88%E4%B8%BB%E8%AE%A1%E5%88%92%E2%80%9C%E5%8E%9F%E5%88%9B%2B%E9%A6%96%E5%8F%91%E2%80%9D%E4%BC%98%E8%B4%A8%E5%86%85%E5%AE%B9%E7%99%BE%E4%B8%87%E6%BF%80%E5%8A%B1%E8%AE%A1%E5%88%92%23&launchid=10000360-page_H5"
       },
       {
         "name": "苹果预计在本月完成Pro系列两款机型的OLED面板审",
@@ -314,9 +319,9 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E5%B1%8F%E5%8D%A0%E6%AF%94%E6%9C%80%E9%AB%98%E6%89%8B%E6%9C%BA%E6%9B%9D%E5%85%89%23&extparam=%23%E8%8B%B9%E6%9E%9C%E5%B1%8F%E5%8D%A0%E6%AF%94%E6%9C%80%E9%AB%98%E6%89%8B%E6%9C%BA%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为 Mate90",
+        "name": "荣耀 Robot Phone",
         "releaseDate": "2026-10",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80%E5%AE%98%E5%AE%A3%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%89%8B%E6%9C%BAQ3%E4%B8%8A%E5%B8%82%23&extparam=%23%E8%8D%A3%E8%80%80%E5%AE%98%E5%AE%A3%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%89%8B%E6%9C%BAQ3%E4%B8%8A%E5%B8%82%23&launchid=10000360-page_H5"
       }
     ]
   }

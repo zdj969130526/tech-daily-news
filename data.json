@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-20 12:46:27",
+  "updateTime": "2026-05-20 15:03:42",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,17 +119,7 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "iQOO 15T Googo咕咕数码的微博",
-        "releaseDate": "2026-05-20",
-        "url": "https://video.weibo.com/show?fid=1034%3A5300616076132375&launchid=10000360-page_H5"
-      },
-      {
         "name": "iQOO 15T起售价",
-        "releaseDate": "2026-05-20",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "iQOO 15T青云配色的美图吧天玑9500 Monster",
         "releaseDate": "2026-05-20",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
@@ -164,9 +154,14 @@
         "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5292284447819509&launchid=10000360-page_H5"
       },
       {
-        "name": "大疆 Pocket4P",
+        "name": "小米 YU7 G",
         "releaseDate": "2026-05-20",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86Pocket4P%E5%8D%87%E7%BA%A7%E4%BA%86%E4%BB%80%E4%B9%88%23&extparam=%23%E5%A4%A7%E7%96%86Pocket4P%E5%8D%87%E7%BA%A7%E4%BA%86%E4%BB%80%E4%B9%88%23&launchid=10000360-page_H5"
+        "url": "https://video.weibo.com/show?fid=1034%3A5300664709087346&launchid=10000360-page_H5"
+      },
+      {
+        "name": "小米 YU7 GT",
+        "releaseDate": "2026-05-20",
+        "url": "https://video.weibo.com/show?fid=1034%3A5300664709087346&launchid=10000360-page_H5"
       },
       {
         "name": "小米 YU7 GT和小米17Max",
@@ -174,14 +169,29 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "联想“天禧”电脑一键上网开启国人互联网时代",
+        "name": "小米 YU7GT定价",
         "releaseDate": "2026-05-20",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405300523254546455&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E5%B0%8F%E7%B1%B3YU7GT%E5%AE%9A%E4%BB%B7%23&extparam=%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94%E5%B0%8F%E7%B1%B3YU7GT%E5%AE%9A%E4%BB%B7%23&launchid=10000360-page_H5"
       },
       {
-        "name": "小米 yu7gt",
+        "name": "小米 YU7GT肯定会有点小贵",
+        "releaseDate": "2026-05-20",
+        "url": "https://video.weibo.com/show?fid=1034%3A5300664709087346&launchid=10000360-page_H5"
+      },
+      {
+        "name": "小米 YU7 GT",
         "releaseDate": "2026-05-21",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3yu7gt%23&extparam=%23%E5%B0%8F%E7%B1%B3yu7gt%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "小米 YU7 GT了",
+        "releaseDate": "2026-05-21",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&extparam=%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "小米 YU7标准续航",
+        "releaseDate": "2026-05-21",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "小米就是这么良心",
@@ -189,9 +199,29 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3yu7gt%23&extparam=%23%E5%B0%8F%E7%B1%B3yu7gt%23&launchid=10000360-page_H5"
       },
       {
+        "name": "小米手环10 Pro",
+        "releaseDate": "2026-05-21",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "小米手环10 Pro）和科技家电",
+        "releaseDate": "2026-05-21",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&extparam=%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&launchid=10000360-page_H5"
+      },
+      {
         "name": "小米汽车回应YU7GT试驾开放时间小米汽车回应YU7GT命名小米YU7GT",
         "releaseDate": "2026-05-21",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%9B%9E%E5%BA%94YU7GT%E8%AF%95%E9%A9%BE%E5%BC%80%E6%94%BE%E6%97%B6%E9%97%B4%23&extparam=%23%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%9B%9E%E5%BA%94YU7GT%E8%AF%95%E9%A9%BE%E5%BC%80%E6%94%BE%E6%97%B6%E9%97%B4%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "小米的纯电产品线最后一块拼图补齐",
+        "releaseDate": "2026-05-21",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&extparam=%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "小米的轿车和SUV都覆盖有常规款和性能款虽然说小米YU7 GT是性能向的车",
+        "releaseDate": "2026-05-21",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&extparam=%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&launchid=10000360-page_H5"
       },
       {
         "name": "大疆 Pocket 4P",
@@ -214,37 +244,12 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&extparam=%23%E5%B0%8F%E7%B1%B3YU7GT%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A3%23&launchid=10000360-page_H5"
       },
       {
-        "name": "OPPO官方近日",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "OPPO新品整体宣发节奏是小红书优先",
         "releaseDate": "2026-05-25",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "荣耀 600 腰果招募令",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80600%23&extparam=%23%E8%8D%A3%E8%80%80600%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 600 超级版一部（版本颜色随机",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80600%23&extparam=%23%E8%8D%A3%E8%80%80600%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 600系列4K闪光微单Live",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80600%23&extparam=%23%E8%8D%A3%E8%80%80600%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 600系列4K闪光微单Live超级4K实况神机",
-        "releaseDate": "2026-05-25",
-        "url": "https://video.weibo.com/show?fid=1034%3A5300421703696439&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 600转发",
         "releaseDate": "2026-05-25",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80600%23&extparam=%23%E8%8D%A3%E8%80%80600%23&launchid=10000360-page_H5"
       },
@@ -279,24 +284,19 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "华为全栈技术深度赋能",
-        "releaseDate": "2026-05-27",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E4%BD%99%E6%89%BF%E4%B8%9C%E6%9B%9D%E9%97%AE%E7%95%8CM9%E6%90%BA140%E9%A1%B9%E5%88%9B%E6%96%B0%E7%A7%91%E6%8A%80%23&extparam=%23%E4%BD%99%E6%89%BF%E4%B8%9C%E6%9B%9D%E9%97%AE%E7%95%8CM9%E6%90%BA140%E9%A1%B9%E5%88%9B%E6%96%B0%E7%A7%91%E6%8A%80%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为全栈科技守住智能高地",
-        "releaseDate": "2026-05-27",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "华为的智驾加上问界的底盘",
         "releaseDate": "2026-05-27",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E4%BD%99%E6%89%BF%E4%B8%9C%E6%9B%9D%E9%97%AE%E7%95%8CM9%E6%90%BA140%E9%A1%B9%E5%88%9B%E6%96%B0%E7%A7%91%E6%8A%80%23&extparam=%23%E4%BD%99%E6%89%BF%E4%B8%9C%E6%9B%9D%E9%97%AE%E7%95%8CM9%E6%90%BA140%E9%A1%B9%E5%88%9B%E6%96%B0%E7%A7%91%E6%8A%80%23&launchid=10000360-page_H5"
       },
       {
-        "name": "vivo 5月29日19",
+        "name": "华为赋能的智能科技",
+        "releaseDate": "2026-05-27",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E4%BD%99%E6%89%BF%E4%B8%9C%E6%9B%9D%E9%97%AE%E7%95%8CM9%E6%90%BA140%E9%A1%B9%E5%88%9B%E6%96%B0%E7%A7%91%E6%8A%80%23&extparam=%23%E4%BD%99%E6%89%BF%E4%B8%9C%E6%9B%9D%E9%97%AE%E7%95%8CM9%E6%90%BA140%E9%A1%B9%E5%88%9B%E6%96%B0%E7%A7%91%E6%8A%80%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "iQOO 15T和iQOO Pad 6 Pro",
         "releaseDate": "2026-05-29",
-        "url": "https://m.weibo.cn/p/index?containerid=10080881937d70030e2b2f2486ac114be03160_-_lbs&lcardid=frompoi&extparam=frompoi&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "vivo S60 发",
@@ -344,12 +344,17 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5300420914905123&launchid=10000360-page_H5"
       },
       {
-        "name": "荣耀 WIN Turbo",
+        "name": "小米 17 Max和小米YU7 GT",
         "releaseDate": "2026-05-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80WIN+Turbo%23&extparam=%23%E8%8D%A3%E8%80%80WIN+Turbo%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "荣耀 WIN Turbo超耐玩",
+        "name": "荣耀 Earbuds耳夹式耳机Pro",
+        "releaseDate": "2026-05-29",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%94%B5%E5%BD%B1%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%23&extparam=%23%E7%94%B5%E5%BD%B1%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀 WIN Turbo",
         "releaseDate": "2026-05-29",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80WIN+Turbo%23&extparam=%23%E8%8D%A3%E8%80%80WIN+Turbo%23&launchid=10000360-page_H5"
       },
@@ -359,14 +364,14 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5298661505302554&launchid=10000360-page_H5"
       },
       {
-        "name": "iQOO 15T详细规格看图3",
-        "releaseDate": "2026-05",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23iQOO15T%23&extparam=%23iQOO15T%23&launchid=10000360-page_H5"
+        "name": "华为产品相关使用问题的时候请使用文明语言",
+        "releaseDate": "2026-06-01",
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
       },
       {
-        "name": "华为 MatePadProMax",
+        "name": "华为产品相关的玩机技巧和美拍",
         "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAMatePadProMax%E5%9B%BD%E5%86%85%E5%AE%98%E5%AE%A3%E9%A2%84%E5%94%AE%23&extparam=%23%E5%8D%8E%E4%B8%BAMatePadProMax%E5%9B%BD%E5%86%85%E5%AE%98%E5%AE%A3%E9%A2%84%E5%94%AE%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
       },
       {
         "name": "华为 nova16 或 6月1号",
@@ -374,39 +379,9 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "华为又不用开",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 17 小米17",
-        "releaseDate": "2026-09-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317%23&extparam=%23%E5%B0%8F%E7%B1%B317%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 17ProMax外观也",
-        "releaseDate": "2026-09-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317%23&extparam=%23%E5%B0%8F%E7%B1%B317%23&launchid=10000360-page_H5"
-      },
-      {
         "name": "荣耀 Magic8",
         "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%8D%A3%E8%80%80&containerid=1008082d32f2a6c9294a3dccbbe5a6ab89d8b2&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀不相关的厂家Tag",
-        "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%8D%A3%E8%80%80&containerid=1008082d32f2a6c9294a3dccbbe5a6ab89d8b2&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀粉丝（腰果朋友）提供最新产品",
-        "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%8D%A3%E8%80%80&containerid=1008082d32f2a6c9294a3dccbbe5a6ab89d8b2&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀这里是荣耀超话",
-        "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%8D%A3%E8%80%80&containerid=1008082d32f2a6c9294a3dccbbe5a6ab89d8b2&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       }
     ]
   }

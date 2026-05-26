@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-25 16:13:07",
+  "updateTime": "2026-05-26 10:24:45",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,103 +119,8 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "OPPO 525感觉是线上",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/p/index?extparam=%E7%87%95%E9%BA%A6%E5%A8%81%E5%8C%96&containerid=1008086253f29fc5baa4a93932fe4112c09c92&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO Bubble超玩自拍屏我还挺感兴趣",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "OPPO Reno16",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23OPPO+Reno16%23&extparam=%23OPPO+Reno16%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO Reno16宋雨琦同款OPPOReno16OPPOReno16实况神机 OPPO Reno16",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23OPPO+Reno16%23&extparam=%23OPPO+Reno16%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO Reno16实况神机 OPPO Reno16",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23OPPO+Reno16%23&extparam=%23OPPO+Reno16%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO叫怦然星动",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "OPPO新品整体宣发节奏是小红书优先",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "OPPO是侧重产品外观和Slogan了",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "OPPO是跟上一代同步",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "iQOO 15T依然是在扛不住压力的情况下",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "iQOO Pad6 Pro",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo叫星星海",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo好像是新选的田曦薇",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo是5月29号",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "一加 Ace 6T",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%94%9F%E6%B4%BB%E6%89%8B%E8%AE%B0%23&isnewpage=1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加枪神游戏",
-        "releaseDate": "2026-05-25",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5292284447819509&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀全新夹耳式",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80600%E4%B8%8A%E5%B8%82%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E8%8D%A3%E8%80%80600%E4%B8%8A%E5%B8%82%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀叫幸运星",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀是强调代言人",
-        "releaseDate": "2026-05-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀的广告都安排上了",
-        "releaseDate": "2026-05-25",
+        "releaseDate": "2026-05-26",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
@@ -229,13 +134,53 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-05-27",
+        "name": "iQOO 15T依然是在扛不住压力的情况下",
+        "releaseDate": "2026-05-26",
         "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "iQOO Pad6 Pro",
+        "releaseDate": "2026-05-26",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "vivo S60 系列也差不多就",
+        "releaseDate": "2026-05-26",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B7%AE%E8%AF%84%E8%AF%B4%E6%95%B0%E7%A0%81%23&extparam=%23%E5%B7%AE%E8%AF%84%E8%AF%B4%E6%95%B0%E7%A0%81%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加 Ace 6T",
+        "releaseDate": "2026-05-26",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%94%9F%E6%B4%BB%E6%89%8B%E8%AE%B0%23&isnewpage=1&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加枪神游戏",
+        "releaseDate": "2026-05-26",
+        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5292284447819509&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀是强调代言人",
+        "releaseDate": "2026-05-26",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "荣耀的广告都安排上了",
+        "releaseDate": "2026-05-26",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "魅族 AI拍摄眼镜",
+        "releaseDate": "2026-05-26",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A2322403e87794fda5f3fb90828cdc853b9cab8&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀》《逆战",
         "releaseDate": "2026-05-27",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "大疆 Pocket 4P",
+        "releaseDate": "2026-05-28",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
@@ -259,11 +204,6 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5300243365822478&launchid=10000360-page_H5"
       },
       {
-        "name": "vivo S60系列地广KV✨ 排面直接拉满",
-        "releaseDate": "2026-05-29",
-        "url": "https://weibo.com/u/1809745371?launchid=10000360-page_H5"
-      },
-      {
         "name": "vivo S60系列来了",
         "releaseDate": "2026-05-29",
         "url": "https://video.weibo.com/show?fid=1034%3A5300420914905123&launchid=10000360-page_H5"
@@ -274,11 +214,6 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5300243365822478&launchid=10000360-page_H5"
       },
       {
-        "name": "vivo S60系列适配度绝了",
-        "releaseDate": "2026-05-29",
-        "url": "https://weibo.com/u/1809745371?launchid=10000360-page_H5"
-      },
-      {
         "name": "vivo的审美真的每次都稳稳",
         "releaseDate": "2026-05-29",
         "url": "https://video.weibo.com/show?fid=1034%3A5300420914905123&launchid=10000360-page_H5"
@@ -287,16 +222,6 @@
         "name": "vivo这次把广告拍到星星海去真的选对了啦",
         "releaseDate": "2026-05-29",
         "url": "https://video.weibo.com/show?fid=1034%3A5300420914905123&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为乾崑ADS 5智驾系统果然名不虚传",
-        "releaseDate": "2026-05-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%90%AF%E5%A2%83GT7%23&extparam=%23%E5%90%AF%E5%A2%83GT7%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为全栈技术上车",
-        "releaseDate": "2026-05-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%90%AF%E5%A2%83GT7%23&extparam=%23%E5%90%AF%E5%A2%83GT7%23&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀 WIN Turbo",
@@ -324,9 +249,19 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5298661505302554&launchid=10000360-page_H5"
       },
       {
-        "name": "华为 Nova16系列呀",
+        "name": "vivo S60系列都在本月",
         "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23nova16%E5%85%A8%E6%96%B0%E9%85%8D%E8%89%B2%E5%A5%BD%E5%A4%8F%E5%A4%A9%23&extparam=%23nova16%E5%85%A8%E6%96%B0%E9%85%8D%E8%89%B2%E5%A5%BD%E5%A4%8F%E5%A4%A9%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "华为 MatePad",
+        "releaseDate": "2026-06-01",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAMatePad%23&extparam=%23%E5%8D%8E%E4%B8%BAMatePad%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为 MatePad Pro Max登场",
+        "releaseDate": "2026-06-01",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAMatePad%23&extparam=%23%E5%8D%8E%E4%B8%BAMatePad%23&launchid=10000360-page_H5"
       },
       {
         "name": "华为 nova16",
@@ -339,9 +274,14 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "华为 nova16系列双色外观公布 华为nova16",
+        "name": "华为 nova16来了",
         "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAnova16%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%881%E6%97%A5%23&extparam=%23%E5%8D%8E%E4%B8%BAnova16%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%881%E6%97%A5%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAnova16%E6%9D%A5%E4%BA%86%23&extparam=%23%E5%8D%8E%E4%B8%BAnova16%E6%9D%A5%E4%BA%86%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为 nova16来了 预热已开",
+        "releaseDate": "2026-06-01",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAnova16%E6%9D%A5%E4%BA%86%23&extparam=%23%E5%8D%8E%E4%B8%BAnova16%E6%9D%A5%E4%BA%86%23&launchid=10000360-page_H5"
       },
       {
         "name": "华为一步步突破封锁",
@@ -349,9 +289,14 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&extparam=%23%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为何刚的微博",
+        "name": "华为产品相关使用问题的时候请使用文明语言",
         "releaseDate": "2026-06-01",
-        "url": "https://video.weibo.com/show?fid=1034%3A5302384541237307&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为产品相关的玩机技巧和美拍",
+        "releaseDate": "2026-06-01",
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
       },
       {
         "name": "华为半导体领域新突破",
@@ -364,34 +309,49 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&extparam=%23%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&launchid=10000360-page_H5"
       },
       {
+        "name": "华为微信鸿蒙版微信华为nova16",
+        "releaseDate": "2026-06-01",
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
+      },
+      {
         "name": "华为畅享90系列面市代表全面回归",
         "releaseDate": "2026-06-01",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&extparam=%23%E5%8D%8E%E4%B8%BA%E5%8D%8A%E5%AF%BC%E4%BD%93%E9%A2%86%E5%9F%9F%E6%96%B0%E7%AA%81%E7%A0%B4%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为终端的微博",
-        "releaseDate": "2026-06-01",
-        "url": "https://video.weibo.com/show?fid=1034%3A5302194363105333&launchid=10000360-page_H5"
-      },
-      {
-        "name": "魅族 Lucky 08的外观设计",
-        "releaseDate": "2026-09-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E4%BA%BF%E7%82%B9%E6%9B%9D%E5%85%89%E8%AE%A1%E5%88%92%23&extparam=%23%E4%BA%BF%E7%82%B9%E6%9B%9D%E5%85%89%E8%AE%A1%E5%88%92%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "魅族电竞定制座舱",
-        "releaseDate": "2026-09-25",
+        "name": "苹果全球开发者大会WWDC 2026",
+        "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "魅族 Lucky 08",
-        "releaseDate": "2026-09",
+        "name": "苹果后的首场公开亮相",
+        "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "一加 Ace6T",
-        "releaseDate": "2026-12-03",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "苹果开发者大会完成任期最后一次主题演讲",
+        "releaseDate": "2026-06-08",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BA%93%E5%85%8B%E5%B0%86%E8%BF%8E%E8%8B%B9%E6%9E%9CCEO%E5%91%8A%E5%88%AB%E6%BC%94%E8%AE%B2%23&extparam=%23%E5%BA%93%E5%85%8B%E5%B0%86%E8%BF%8E%E8%8B%B9%E6%9E%9CCEO%E5%91%8A%E5%88%AB%E6%BC%94%E8%AE%B2%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果 WWDC26",
+        "releaseDate": "2026-06-09",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果将举行主题演讲",
+        "releaseDate": "2026-06-09",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果年度全球开发者大会WWDC 2026",
+        "releaseDate": "2026-06-09",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果留下了多项新品研",
+        "releaseDate": "2026-06-09",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
       }
     ]
   }

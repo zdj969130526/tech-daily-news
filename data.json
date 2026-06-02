@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 17:32:06",
+  "updateTime": "2026-06-02 14:42:38",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,244 +119,79 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "OPPO Reno16",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "极米刚刚开完2026",
+        "releaseDate": "2026-06-02",
+        "url": "https://m.weibo.cn/p/index?extparam=%E6%8A%95%E5%BD%B1%E4%BB%AA&containerid=10080873c1f2958b5e2b1dab9c52fc13529af6&launchid=10000360-page_H5"
       },
       {
-        "name": "OPPO是侧重产品外观和Slogan了",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "极米史上最硬核的一次技术秀",
+        "releaseDate": "2026-06-02",
+        "url": "https://m.weibo.cn/p/index?extparam=%E6%8A%95%E5%BD%B1%E4%BB%AA&containerid=10080873c1f2958b5e2b1dab9c52fc13529af6&launchid=10000360-page_H5"
       },
       {
-        "name": "vivo S60 19",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo S60”闪闪发光",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23vivo+S60%23&extparam=%23vivo+S60%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo S60元气版和S60",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo s60我喜欢我 vivo S60",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23vivo+S60%23&extparam=%23vivo+S60%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 Ace 6T",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%94%9F%E6%B4%BB%E6%89%8B%E8%AE%B0%23&isnewpage=1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为 nova16",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAnova16%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%881%E6%97%A5%23&extparam=%23%E5%8D%8E%E4%B8%BAnova16%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%881%E6%97%A5%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆已经离不开耳夹耳机了",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094753D76BA5F44899&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 17T系列的主讲人——“TJ Walton”",
-        "releaseDate": "2026-06-01",
-        "url": "https://video.weibo.com/show?fid=1034%3A5304995806118011&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米集团合伙人",
-        "releaseDate": "2026-06-01",
-        "url": "https://video.weibo.com/show?fid=1034%3A5304995806118011&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 600超级版和荣耀600 Pro",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀 winturbo手机本月",
-        "releaseDate": "2026-06-01",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405304963516727512&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀是强调代言人",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀的广告都安排上了",
-        "releaseDate": "2026-06-01",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀第四台 “ 万级 ” 大电池机型来啦",
-        "releaseDate": "2026-06-01",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405304963516727512&launchid=10000360-page_H5"
-      },
-      {
-        "name": "REDMI Book Pro 2026",
+        "name": "海信声学团队历时98天",
         "releaseDate": "2026-06-02",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "REDMI K Pad 2",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo卓尔不凡",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/p/index?extparam=vivo&containerid=100808b09207f5c299c42708e1badb72c04025&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo或者iQOO手机记录的精彩瞬间",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/p/index?extparam=vivo&containerid=100808b09207f5c299c42708e1badb72c04025&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo欢迎广大V粉融入蓝厂大家庭❤️ 敢于追求极致",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/p/index?extparam=vivo&containerid=100808b09207f5c299c42708e1badb72c04025&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo相关使用问题请文明用语",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/p/index?extparam=vivo&containerid=100808b09207f5c299c42708e1badb72c04025&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo相关玩机技巧和美图",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/p/index?extparam=vivo&containerid=100808b09207f5c299c42708e1badb72c04025&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo立志做一个有信仰的品牌",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/p/index?extparam=vivo&containerid=100808b09207f5c299c42708e1badb72c04025&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米会玩…所以",
-        "releaseDate": "2026-06-02",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-06-03",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米汽车回应YU7GT试驾开放时间小米汽车回应YU7GT命名小米YU7GT",
-        "releaseDate": "2026-06-04",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%9B%9E%E5%BA%94YU7GT%E8%AF%95%E9%A9%BE%E5%BC%80%E6%94%BE%E6%97%B6%E9%97%B4%23&extparam=%23%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%9B%9E%E5%BA%94YU7GT%E8%AF%95%E9%A9%BE%E5%BC%80%E6%94%BE%E6%97%B6%E9%97%B4%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为 FreeClip 2 耳夹耳机典藏",
-        "releaseDate": "2026-06-06",
+        "name": "苹果隔空投送",
+        "releaseDate": "2026-06-07",
         "url": "https://www.ithome.com/rss/"
       },
       {
-        "name": "华为 MatePad Pro Max",
-        "releaseDate": "2026-06-08",
-        "url": "https://www.ithome.com/rss/"
+        "name": "影石创新（688775",
+        "releaseDate": "2026-06-11",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%8A%95%E8%B5%84%E6%97%A5%E5%8E%86%23&isnewpage=1&launchid=10000360-page_H5"
       },
       {
-        "name": "华为最全 AI 修图",
-        "releaseDate": "2026-06-08",
-        "url": "https://www.ithome.com/rss/"
-      },
-      {
-        "name": "小米 17T 盲订",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 17T系列的两款",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 17T系列的主讲人",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 17T系列的主讲人是该产品线的产品经理TJ Walton",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%A3%E5%B8%83%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&extparam=%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%A3%E5%B8%83%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米今年累计交付应该快破",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&extparam=%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米备战做的是真充足",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米对17T系列的重视程度拉满了",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&extparam=%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米数字系列的下位（海外只有数字",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米的人才梯队起来了",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&extparam=%23%E5%B0%8F%E7%B1%B3%E5%8F%91%E5%B8%83%E4%BC%9A%E6%96%B0%E4%B8%BB%E8%AE%B2%E4%BA%BA%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为音悦家 App 开启公测",
-        "releaseDate": "2026-06-20",
-        "url": "https://www.ithome.com/rss/"
-      },
-      {
-        "name": "ROG Ally X20 掌机泄露",
+        "name": "影石吴克群出任影翎 AG 全景无人机首席体验官",
         "releaseDate": "2026-06-30",
         "url": "https://www.ithome.com/rss/"
       },
       {
-        "name": "REDMI所形成的互补形式",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%A2%E4%BC%9F%E5%86%B0%E5%AE%A3%E5%B8%83%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%9B%BD%E5%86%85%E5%8D%B3%E5%B0%86%E5%8F%91%E5%B8%83%23&extparam=%23%E5%8D%A2%E4%BC%9F%E5%86%B0%E5%AE%A3%E5%B8%83%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%9B%BD%E5%86%85%E5%8D%B3%E5%B0%86%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
+        "name": "影石 2025夏季全景更新",
+        "releaseDate": "2026-07-15",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
       },
       {
-        "name": "小米 17系列的大家族了",
-        "releaseDate": "2026-06",
+        "name": "影石 Insta360的微博 影石2025夏季全景更新",
+        "releaseDate": "2026-07-15",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石同级别产品低近300元",
+        "releaseDate": "2026-07-31",
+        "url": "https://weibo.com/ttarticle/p/show?id=2309405207958958243863&launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石的主导地位",
+        "releaseDate": "2026-07-31",
+        "url": "https://weibo.com/ttarticle/p/show?id=2309405207958958243863&launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石 Insta360 Go Ultra 渲染图此前已经",
+        "releaseDate": "2026-08-21",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石 Insta360的微博",
+        "releaseDate": "2026-08-21",
+        "url": "https://video.weibo.com/show?fid=1034%3A5201689091702802&launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石新品相机掉进水里",
+        "releaseDate": "2026-08-21",
+        "url": "https://video.weibo.com/show?fid=1034%3A5201689091702802&launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石创新市值一周大涨168亿元近日",
+        "releaseDate": "2026-12-04",
+        "url": "https://finance.sina.com.cn/stock/marketresearch/2025-11-29/doc-infyzzeh6420713.shtml?launchid=10000360-page_H5"
+      },
+      {
+        "name": "影石影翎全景无人机空中",
+        "releaseDate": "2026-12-04",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀全国大赛总决赛和电竞世界杯的落地地点",
-        "releaseDate": "2026-10",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F&containerid=1008088d0d930fa23920135c3ffdf942213730&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀全新文创主题皮肤王者2026周年庆",
-        "releaseDate": "2026-10",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F&containerid=1008088d0d930fa23920135c3ffdf942213730&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆 Mavic3的主摄",
-        "releaseDate": "2026-11-02",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%A4%A7%E7%96%86&containerid=100808905efd41d23773a308d9d343216e8636&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆用户超话",
-        "releaseDate": "2026-11-02",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%A4%A7%E7%96%86&containerid=100808905efd41d23773a308d9d343216e8636&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo S60系列亮点解析",
-        "releaseDate": "2026年上半年",
-        "url": "https://www.ithome.com/0/958/306.htm"
       }
     ]
   }

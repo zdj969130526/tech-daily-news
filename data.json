@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 16:10:31",
+  "updateTime": "2026-06-08 10:49:21",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,79 +119,34 @@
   "releaseCalendar": {
     "products": [
       {
+        "name": "OPPO Reno16",
+        "releaseDate": "2026-06-08",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "iQOO 15T依然是在扛不住压力的情况下",
-        "releaseDate": "2026-06-05",
+        "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "iQOO Pad6 Pro",
-        "releaseDate": "2026-06-05",
+        "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "vivo S60 19",
-        "releaseDate": "2026-06-05",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo S60元气版和S60",
-        "releaseDate": "2026-06-05",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "一加枪神游戏",
+        "releaseDate": "2026-06-08",
+        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5292284447819509&launchid=10000360-page_H5"
       },
       {
         "name": "大疆已经离不开耳夹耳机了",
-        "releaseDate": "2026-06-05",
+        "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094753D76BA5F44899&launchid=10000360-page_H5"
       },
       {
-        "name": "荣耀 600的4K Live确实很适合拍毛孩子",
-        "releaseDate": "2026-06-05",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094757D169AAFF439B&launchid=10000360-page_H5"
-      },
-      {
-        "name": "魅族 21Note手机特种兵",
-        "releaseDate": "2026-06-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "魅族 LIVE AI 真无线 Hi-Fi 降噪耳机配备索尼半导体解决方案 CXD3784 专业级降噪芯片",
-        "releaseDate": "2026-06-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "魅族 LIVEAI真无线Hi-Fi降噪",
-        "releaseDate": "2026-06-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-06-07",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 17T 还有三天",
+        "name": "小米 17T 小米17T",
         "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 17TPro 会搭载天玑9500旗舰芯片",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 17TPro搭载天玑9500旗舰芯片",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317TPro%23&extparam=%23%E5%B0%8F%E7%B1%B317TPro%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 17T系列的两款",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 17T系列的主讲人",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "小米 17T系列的主讲人是该产品线的产品经理TJ Walton",
@@ -219,39 +174,49 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
       },
       {
-        "name": "小米数字系列重回高通",
-        "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
-      },
-      {
         "name": "小米时隔六年重",
         "releaseDate": "2026-06-08",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%AE%9A%E6%A1%A36%E6%9C%888%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
       },
       {
-        "name": "小米金沙江电池坐",
+        "name": "小米的管理层确实都很注意形象管理",
         "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/p/index?containerid=100808852861b8913ea3aa2db9a3a911e8e360_-_lbs&lcardid=frompoi&extparam=frompoi&launchid=10000360-page_H5"
       },
       {
-        "name": "小米金沙江电池配置大家都了解的差不多了",
+        "name": "苹果 iOS 多端互通",
         "releaseDate": "2026-06-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317TPro%23&extparam=%23%E5%B0%8F%E7%B1%B317TPro%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果下半年新品前瞻",
+        "releaseDate": "2026-06-08",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "荣耀 600的4K Live确实很适合拍毛孩子",
+        "releaseDate": "2026-06-08",
+        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094757D169AAFF439B&launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果 AI以及库克在",
+        "releaseDate": "2026-06-09",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E9%A2%84%E7%83%ADWWDC26%23&extparam=%23%E8%8B%B9%E6%9E%9C%E9%A2%84%E7%83%ADWWDC26%23&launchid=10000360-page_H5"
       },
       {
         "name": "苹果 WWDC26",
         "releaseDate": "2026-06-09",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
+        "url": "https://video.weibo.com/show?fid=1034%3A5306868667449393&launchid=10000360-page_H5"
       },
       {
         "name": "苹果将举行主题演讲",
         "releaseDate": "2026-06-09",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "苹果年度全球开发者大会WWDC 2026",
         "releaseDate": "2026-06-09",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "苹果留下了多项新品研",
@@ -259,19 +224,29 @@
         "url": "https://finance.sina.com.cn/tech/roll/2026-05-25/doc-inhzafpt5238782.shtml?launchid=10000360-page_H5"
       },
       {
-        "name": "REDMI所形成的互补形式",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%A2%E4%BC%9F%E5%86%B0%E5%AE%A3%E5%B8%83%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%9B%BD%E5%86%85%E5%8D%B3%E5%B0%86%E5%8F%91%E5%B8%83%23&extparam=%23%E5%8D%A2%E4%BC%9F%E5%86%B0%E5%AE%A3%E5%B8%83%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E5%9B%BD%E5%86%85%E5%8D%B3%E5%B0%86%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
+        "name": "苹果预热WWDC26",
+        "releaseDate": "2026-06-09",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E9%A2%84%E7%83%ADWWDC26%23&extparam=%23%E8%8B%B9%E6%9E%9C%E9%A2%84%E7%83%ADWWDC26%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "大疆 Pocket 4P",
+        "releaseDate": "2026-06-10",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果折叠终于落地6",
+        "releaseDate": "2026-06-25",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果首款折叠iPhone Fold",
+        "releaseDate": "2026-06-25",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "小米 17系列的大家族了",
         "releaseDate": "2026-06",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "苹果秋季官方",
-        "releaseDate": "2026-09",
-        "url": "https://m.s.weibo.com/applink/go2?noclose=1&url=sinaweibo%3A%2F%2Fsearchall%3Fcontainerid%3D230958%26type%3D200%26q%3Diphone18promax%25E9%2585%258D%25E8%2589%25B2%26t%3D761%26extparam%3Ddfp%253D200%2526share_page_id%253D2329642b78dabaf94d608b2a291aa50a949928%2526cot%253D1&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀全国大赛总决赛和电竞世界杯的落地地点",

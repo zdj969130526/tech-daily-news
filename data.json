@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 16:12:01",
+  "updateTime": "2026-06-11 11:20:49",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,9 +119,64 @@
   "releaseCalendar": {
     "products": [
       {
+        "name": "iQOO 15T依然是在扛不住压力的情况下",
+        "releaseDate": "2026-06-11",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "iQOO Pad6 Pro",
+        "releaseDate": "2026-06-11",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "一加 Turbo 6X",
+        "releaseDate": "2026-06-11",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加手机的微博 一加 Turbo 6X 系列新品首发 一加 Turbo 6X",
+        "releaseDate": "2026-06-11",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加 Turbo 6X",
+        "releaseDate": "2026-06-12",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "大疆 Pocket 4P",
+        "releaseDate": "2026-06-13",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "REDMI所形成的互补形式",
+        "releaseDate": "2026-06",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E4%BB%8A%E6%97%A5%E5%8F%91%E5%B8%83%23&extparam=%23%E5%B0%8F%E7%B1%B317T%E7%B3%BB%E5%88%97%E4%BB%8A%E6%97%A5%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "大疆 6月18",
+        "releaseDate": "2026-06",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
+      },
+      {
         "name": "华为 mate90华为Mate90",
         "releaseDate": "2026-09-15",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAmate90%23&extparam=%23%E5%8D%8E%E4%B8%BAmate90%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "魅族 22超声波指纹依旧",
+        "releaseDate": "2026-09-15",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "荣耀全国大赛总决赛和电竞世界杯的落地地点",
+        "releaseDate": "2026-10",
+        "url": "https://m.weibo.cn/p/index?extparam=%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F&containerid=1008088d0d930fa23920135c3ffdf942213730&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀全新文创主题皮肤王者2026周年庆",
+        "releaseDate": "2026-10",
+        "url": "https://m.weibo.cn/p/index?extparam=%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F&containerid=1008088d0d930fa23920135c3ffdf942213730&launchid=10000360-page_H5"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 14:14:51",
+  "updateTime": "2026-06-15 16:11:07",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -199,14 +199,9 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80ProMax%23&extparam=%23%E8%8D%A3%E8%80%80X80ProMax%23&launchid=10000360-page_H5"
       },
       {
-        "name": "荣耀 X80 Pro Max 6月22日登场",
-        "releaseDate": "2026-06-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "荣耀 X80 Pro Max 全新登场",
         "releaseDate": "2026-06-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80ProMax%23&extparam=%23%E8%8D%A3%E8%80%80X80ProMax%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/p/index?containerid=100808ce409783958293f9246ae796a06c2bc0_-_lbs&lcardid=frompoi&extparam=frompoi&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀 X80ProMax 11000mAh超大电池登场",
@@ -215,11 +210,6 @@
       },
       {
         "name": "荣耀 X80ProMax荣耀",
-        "releaseDate": "2026-06-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80ProMax%23&extparam=%23%E8%8D%A3%E8%80%80X80ProMax%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 X80ProMax要来了",
         "releaseDate": "2026-06-22",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80ProMax%23&extparam=%23%E8%8D%A3%E8%80%80X80ProMax%23&launchid=10000360-page_H5"
       },
@@ -242,11 +232,6 @@
         "name": "荣耀手机荣耀x80promax荣耀 荣耀",
         "releaseDate": "2026-06-22",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80%23&isnewpage=1&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀旗下电池容量最大的产品",
-        "releaseDate": "2026-06-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "小米 YU7 前排也有零重力",

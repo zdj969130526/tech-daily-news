@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:14:06",
+  "updateTime": "2026-06-16 14:16:51",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -124,6 +124,26 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%82%A3%E5%B9%B4%E4%BB%8A%E5%A4%A9%23&extparam=%23%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%82%A3%E5%B9%B4%E4%BB%8A%E5%A4%A9%23&launchid=10000360-page_H5"
       },
       {
+        "name": "iQOO 15T依然是在扛不住压力的情况下",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "iQOO Pad6 Pro",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "vivo X Fold6",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23QNEWS%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "vivo X Fold6折叠屏旗舰",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23QNEWS%23&launchid=10000360-page_H5"
+      },
+      {
         "name": "一加 OnePlus Never Settle",
         "releaseDate": "2026-06-16",
         "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
@@ -137,6 +157,11 @@
         "name": "一加枪神游戏",
         "releaseDate": "2026-06-16",
         "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5292284447819509&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为小米或引入 — 端",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "大疆 5项专利侵权",
@@ -159,9 +184,19 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&extparam=%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&launchid=10000360-page_H5"
       },
       {
-        "name": "苹果 iOS 多端互通",
+        "name": "小米或引入 — 端",
         "releaseDate": "2026-06-16",
         "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果供应链的最新",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4%E5%8F%91%E5%B8%83%23&extparam=%23%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果首款折叠屏iPhone推迟至明年",
+        "releaseDate": "2026-06-16",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4%E5%8F%91%E5%B8%83%23&extparam=%23%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%8E%A8%E8%BF%9F%E8%87%B3%E6%98%8E%E5%B9%B4%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
       },
       {
         "name": "大疆 Pocket3以及影石的GO ultra",
@@ -172,11 +207,6 @@
         "name": "大疆的Pocket4 Pro以及影石家的纠结中",
         "releaseDate": "2026-06-17",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀 X80 Pro Max 全新登场",
-        "releaseDate": "2026-06-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80ProMax%23&extparam=%23%E8%8D%A3%E8%80%80X80ProMax%23&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀 X80ProMax 11000mAh超大青海湖电池手机来了",
@@ -199,29 +229,24 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%85%A8%E6%96%B0%E7%90%86%E6%83%B3L8%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%8823%E6%97%A5%23&extparam=%23%E5%85%A8%E6%96%B0%E7%90%86%E6%83%B3L8%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%8823%E6%97%A5%23&launchid=10000360-page_H5"
       },
       {
-        "name": "苹果折叠终于落地6",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "苹果首款折叠iPhone Fold",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "vivo X Fold6",
         "releaseDate": "2026-06-26",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23vivo+X+Fold6%23&extparam=%23vivo+X+Fold6%23&launchid=10000360-page_H5"
+        "url": "https://video.weibo.com/show?fid=1034%3A5310380621365309&launchid=10000360-page_H5"
       },
       {
-        "name": "vivo X Fold6",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "vivo X Fold6大折叠",
+        "releaseDate": "2026-06-26",
+        "url": "https://video.weibo.com/show?fid=1034%3A5310408840642660&launchid=10000360-page_H5"
       },
       {
-        "name": "vivo能否守住大折叠的江山",
+        "name": "vivo官网及各电商平台官方旗舰店开启",
+        "releaseDate": "2026-06-26",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23vivo+X+Fold6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%8826%E6%97%A5%23&extparam=%23vivo+X+Fold6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A36%E6%9C%8826%E6%97%A5%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "vivo xfold6",
         "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23vivoxfold6%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23vivoxfold6%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
       },
       {
         "name": "大疆 6月18",
@@ -229,19 +254,9 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
       },
       {
-        "name": "荣耀 X80 Pro Max已经",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80Promax%23&extparam=%23%E8%8D%A3%E8%80%80X80Promax%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀 win系列身上的10000mAh大容量电池",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80Promax%23&extparam=%23%E8%8D%A3%E8%80%80X80Promax%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀旗下电池容量最大",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80X80Promax%23&extparam=%23%E8%8D%A3%E8%80%80X80Promax%23&launchid=10000360-page_H5"
+        "name": "苹果又要召开一年一度",
+        "releaseDate": "2026-07",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "魅族 22超声波指纹依旧",

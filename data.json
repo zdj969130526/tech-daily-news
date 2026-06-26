@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 18:04:53",
+  "updateTime": "2026-06-26 10:50:17",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -118,56 +118,6 @@
   },
   "releaseCalendar": {
     "products": [
-      {
-        "name": "OPPO Reno16",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "OPPO Reno16 Series 5G",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/p/index?extparam=NamtanFilm&containerid=100808c17698fb82fd000aea43628804612a40&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO夏日派对",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%82%A3%E5%B9%B4%E4%BB%8A%E5%A4%A9%23&extparam=%23%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%82%A3%E5%B9%B4%E4%BB%8A%E5%A4%A9%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 OnePlus Never Settle",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加手机x王濛",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加枪神游戏",
-        "releaseDate": "2026-06-25",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5292284447819509&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆 5项专利侵权",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&extparam=%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆在美起诉影石",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&extparam=%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆影石互诉侵权",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&extparam=%23%E5%A4%A7%E7%96%86%E5%BD%B1%E7%9F%B3%E4%BA%92%E8%AF%89%E4%BE%B5%E6%9D%83%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果三年独家量产认证",
-        "releaseDate": "2026-06-25",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
       {
         "name": "vivo TWS 5 Pro",
         "releaseDate": "2026-06-26",

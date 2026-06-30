@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 16:56:07",
+  "updateTime": "2026-06-30 10:14:01",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,62 +119,42 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "OPPO夏日派对",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%82%A3%E5%B9%B4%E4%BB%8A%E5%A4%A9%23&extparam=%23%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%82%A3%E5%B9%B4%E4%BB%8A%E5%A4%A9%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo X Fold6」起售价第一个猜对的安排 18",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094450D064A4FA469B&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 OnePlus Never Settle",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 Turbo 6X",
-        "releaseDate": "2026-06-29",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加手机的微博 一加 Turbo 6X 系列新品首发 一加 Turbo 6X",
-        "releaseDate": "2026-06-29",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加给红米造成的压力有多大看看卢总的反应就知道了",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%9C%9F%E6%88%91GT%E3%80%82Neo5%E3%80%82SE%23&extparam=%23%E7%9C%9F%E6%88%91GT%E3%80%82Neo5%E3%80%82SE%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果 2027新品前瞻",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9B%9D%E8%8B%B9%E6%9E%9C%E8%A2%AB%E8%BF%AB%E6%8F%90%E5%89%8D%E6%94%BE%E5%BC%832nm%E5%88%B6%E7%A8%8B%23&extparam=%23%E6%9B%9D%E8%8B%B9%E6%9E%9C%E8%A2%AB%E8%BF%AB%E6%8F%90%E5%89%8D%E6%94%BE%E5%BC%832nm%E5%88%B6%E7%A8%8B%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果被迫提前放弃2nm制程",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9B%9D%E8%8B%B9%E6%9E%9C%E8%A2%AB%E8%BF%AB%E6%8F%90%E5%89%8D%E6%94%BE%E5%BC%832nm%E5%88%B6%E7%A8%8B%23&extparam=%23%E6%9B%9D%E8%8B%B9%E6%9E%9C%E8%A2%AB%E8%BF%AB%E6%8F%90%E5%89%8D%E6%94%BE%E5%BC%832nm%E5%88%B6%E7%A8%8B%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果这样的大客户",
-        "releaseDate": "2026-06-29",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9B%9D%E8%8B%B9%E6%9E%9C%E8%A2%AB%E8%BF%AB%E6%8F%90%E5%89%8D%E6%94%BE%E5%BC%832nm%E5%88%B6%E7%A8%8B%23&extparam=%23%E6%9B%9D%E8%8B%B9%E6%9E%9C%E8%A2%AB%E8%BF%AB%E6%8F%90%E5%89%8D%E6%94%BE%E5%BC%832nm%E5%88%B6%E7%A8%8B%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "REDMI Buds 8",
-        "releaseDate": "2026-06-30",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5313997516836902&launchid=10000360-page_H5"
-      },
-      {
         "name": "REDMI K90至尊",
         "releaseDate": "2026-06-30",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23REDMI+K90%E8%87%B3%E5%B0%8A%E7%89%88%E5%AE%9A%E6%A1%A36%E6%9C%8830%E6%97%A5%23&extparam=%23REDMI+K90%E8%87%B3%E5%B0%8A%E7%89%88%E5%AE%9A%E6%A1%A36%E6%9C%8830%E6%97%A5%23&launchid=10000360-page_H5"
       },
       {
-        "name": "REDMI K90至尊版价格多少",
+        "name": "vivo X Fold6」起售价第一个猜对的安排 18",
+        "releaseDate": "2026-06-30",
+        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094450D064A4FA469B&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加 OnePlus Never Settle",
+        "releaseDate": "2026-06-30",
+        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加 Turbo 6X",
+        "releaseDate": "2026-06-30",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加手机的微博 一加 Turbo 6X 系列新品首发 一加 Turbo 6X",
+        "releaseDate": "2026-06-30",
+        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
+      },
+      {
+        "name": "一加给红米造成的压力有多大看看卢总的反应就知道了",
+        "releaseDate": "2026-06-30",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%9C%9F%E6%88%91GT%E3%80%82Neo5%E3%80%82SE%23&extparam=%23%E7%9C%9F%E6%88%91GT%E3%80%82Neo5%E3%80%82SE%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为 Mate 90",
+        "releaseDate": "2026-06-30",
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%94%90%E6%88%88%E7%9A%84%E8%82%A5%E5%94%90%E8%AF%B4&containerid=1008087e96d3c2f5d2d9d7c42de1e9d913f9c4&launchid=10000360-page_H5"
+      },
+      {
+        "name": "小米 18系列新品机型",
         "releaseDate": "2026-06-30",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
@@ -194,28 +174,23 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23k90%E8%87%B3%E5%B0%8A%E7%89%88%23&extparam=%23k90%E8%87%B3%E5%B0%8A%E7%89%88%23&launchid=10000360-page_H5"
       },
       {
+        "name": "REDMI K90至尊",
+        "releaseDate": "2026-06",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "vivo X Fold6",
         "releaseDate": "2026-06",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-07-01",
+        "releaseDate": "2026-07-02",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "三星 Galaxy Z Fold8",
-        "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%95%B0%E7%A0%81%E8%B5%84%E8%AE%AF%23&isnewpage=1&launchid=10000360-page_H5"
       },
       {
         "name": "苹果至2027年将推约20款",
         "releaseDate": "2026-07",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "REDMI Note 15 Pro",
-        "releaseDate": "2026-08-21",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
@@ -226,11 +201,16 @@
       {
         "name": "苹果更倾向于将",
         "releaseDate": "2026-09-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%8A%98%E5%8F%A0iPhone%E6%88%96%E4%B8%8E18Pro%E5%90%8C%E6%97%B6%E5%8F%91%E5%B8%83%23&extparam=%23%E6%8A%98%E5%8F%A0iPhone%E6%88%96%E4%B8%8E18Pro%E5%90%8C%E6%97%B6%E5%8F%91%E5%B8%83%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23iPhone18Pro%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E5%8D%87%E7%BA%A7%23&extparam=%23iPhone18Pro%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E5%8D%87%E7%BA%A7%23&launchid=10000360-page_H5"
       },
       {
         "name": "魅族 22超声波指纹依旧",
         "releaseDate": "2026-09-15",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "小米 18系列9月24号 晚7点",
+        "releaseDate": "2026-09-22",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
@@ -282,6 +262,11 @@
         "name": "OPPO超级话题里",
         "releaseDate": "2026-10-16",
         "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
+      },
+      {
+        "name": "iQOO Neo11一机制胜",
+        "releaseDate": "2026-10-30",
+        "url": "https://m.weibo.cn/p/index?extparam=iqoo&containerid=1008081cc40088ec90b2d26a307607aad84da9&launchid=10000360-page_H5"
       },
       {
         "name": "OPPO Reno15",

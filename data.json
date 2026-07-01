@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-30 15:47:07",
+  "updateTime": "2026-07-01 10:45:39",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,79 +119,64 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "REDMI K90至尊",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23REDMI+K90%E8%87%B3%E5%B0%8A%E7%89%88%E5%AE%9A%E6%A1%A36%E6%9C%8830%E6%97%A5%23&extparam=%23REDMI+K90%E8%87%B3%E5%B0%8A%E7%89%88%E5%AE%9A%E6%A1%A36%E6%9C%8830%E6%97%A5%23&launchid=10000360-page_H5"
+        "name": "vivo X Fold6",
+        "releaseDate": "2026-07-01",
+        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094253D46CA1F54793&launchid=10000360-page_H5"
       },
       {
         "name": "vivo X Fold6」起售价第一个猜对的安排 18",
-        "releaseDate": "2026-06-30",
+        "releaseDate": "2026-07-01",
         "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094450D064A4FA469B&launchid=10000360-page_H5"
       },
       {
         "name": "一加 OnePlus Never Settle",
-        "releaseDate": "2026-06-30",
+        "releaseDate": "2026-07-01",
         "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
       },
       {
         "name": "一加 Turbo 6X",
-        "releaseDate": "2026-06-30",
+        "releaseDate": "2026-07-01",
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
       },
       {
         "name": "一加手机的微博 一加 Turbo 6X 系列新品首发 一加 Turbo 6X",
-        "releaseDate": "2026-06-30",
+        "releaseDate": "2026-07-01",
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
       },
       {
-        "name": "一加给红米造成的压力有多大看看卢总的反应就知道了",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%9C%9F%E6%88%91GT%E3%80%82Neo5%E3%80%82SE%23&extparam=%23%E7%9C%9F%E6%88%91GT%E3%80%82Neo5%E3%80%82SE%23&launchid=10000360-page_H5"
+        "name": "OPPO Reno 16系列率先打响头阵",
+        "releaseDate": "2026-07-02",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%237%E6%9C%88%E4%BA%94%E6%AC%BE%E6%96%B0%E6%9C%BA%E5%89%8D%E7%9E%BB%EF%BC%9AOPPO+Reno+16%E9%A2%86%E8%A1%94%23&extparam=%237%E6%9C%88%E4%BA%94%E6%AC%BE%E6%96%B0%E6%9C%BA%E5%89%8D%E7%9E%BB%EF%BC%9AOPPO+Reno+16%E9%A2%86%E8%A1%94%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为 Mate 90",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%94%90%E6%88%88%E7%9A%84%E8%82%A5%E5%94%90%E8%AF%B4&containerid=1008087e96d3c2f5d2d9d7c42de1e9d913f9c4&launchid=10000360-page_H5"
+        "name": "OPPO Reno 16领衔",
+        "releaseDate": "2026-07-02",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%237%E6%9C%88%E4%BA%94%E6%AC%BE%E6%96%B0%E6%9C%BA%E5%89%8D%E7%9E%BB%EF%BC%9AOPPO+Reno+16%E9%A2%86%E8%A1%94%23&extparam=%237%E6%9C%88%E4%BA%94%E6%AC%BE%E6%96%B0%E6%9C%BA%E5%89%8D%E7%9E%BB%EF%BC%9AOPPO+Reno+16%E9%A2%86%E8%A1%94%23&launchid=10000360-page_H5"
       },
       {
-        "name": "小米 18系列新品机型",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米 REDMI K90 至尊",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23k90%E8%87%B3%E5%B0%8A%E7%89%88%23&extparam=%23k90%E8%87%B3%E5%B0%8A%E7%89%88%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米商城APP",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米集团合伙人",
-        "releaseDate": "2026-06-30",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23k90%E8%87%B3%E5%B0%8A%E7%89%88%23&extparam=%23k90%E8%87%B3%E5%B0%8A%E7%89%88%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "REDMI K90至尊",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "vivo X Fold6",
-        "releaseDate": "2026-06",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "大疆新一代麦克风产品DJI Mic Mini 2S",
+        "releaseDate": "2026-07-02",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E7%96%86%E5%AE%A3%E5%B8%837%E6%9C%882%E6%97%A5%E5%8F%91%E5%B8%83Mic+Mini+2S%E9%BA%A6%E5%85%8B%E9%A3%8E%23&extparam=%23%E5%A4%A7%E7%96%86%E5%AE%A3%E5%B8%837%E6%9C%882%E6%97%A5%E5%8F%91%E5%B8%83Mic+Mini+2S%E9%BA%A6%E5%85%8B%E9%A3%8E%23&launchid=10000360-page_H5"
       },
       {
         "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-07-02",
+        "releaseDate": "2026-07-03",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "苹果至2027年将推约20款",
         "releaseDate": "2026-07",
         "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果至2027年将推约20款 含iPhone Ultra — 彭博社古尔曼列出苹果未来18个月产品路线图",
+        "releaseDate": "2026-07",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "联想 AI平板拯救者Y700无极",
+        "releaseDate": "2026-08",
+        "url": "https://www.ithome.com/0/970/627.htm"
       },
       {
         "name": "苹果下一代旗舰机型iPhone 18 Pro系列可能于2026年",
@@ -201,7 +186,17 @@
       {
         "name": "苹果更倾向于将",
         "releaseDate": "2026-09-08",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23iPhone18Pro%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E5%8D%87%E7%BA%A7%23&extparam=%23iPhone18Pro%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E5%8D%87%E7%BA%A7%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果科技春晚",
+        "releaseDate": "2026-09-08",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "苹果还将首次带来折叠屏iPhone Ultra",
+        "releaseDate": "2026-09-08",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "魅族 22超声波指纹依旧",
@@ -211,7 +206,7 @@
       {
         "name": "小米 18系列9月24号 晚7点",
         "releaseDate": "2026-09-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3&containerid=1008082be446577762bb6cec8681f5e2d67d18&launchid=10000360-page_H5"
       },
       {
         "name": "华为四家头部品牌都敲定在9月举办",
@@ -224,29 +219,24 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E5%8D%8E%E4%B8%BA%E9%AB%98%E9%80%9A%E8%81%94%E5%8F%91%E7%A7%91%E5%9B%9B%E5%A4%A7Soc%E9%BD%90%E8%81%9A9%E6%9C%88%23&extparam=%23%E8%8B%B9%E6%9E%9C%E5%8D%8E%E4%B8%BA%E9%AB%98%E9%80%9A%E8%81%94%E5%8F%91%E7%A7%91%E5%9B%9B%E5%A4%A7Soc%E9%BD%90%E8%81%9A9%E6%9C%88%23&launchid=10000360-page_H5"
       },
       {
+        "name": "小米科技 本超话是米粉的聚集地",
+        "releaseDate": "2026-09",
+        "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3%E7%A7%91%E6%8A%80&containerid=1008085e51bd12e9aa65ff3dab96110bda3bda&launchid=10000360-page_H5"
+      },
+      {
         "name": "苹果今年9月的秋季",
         "releaseDate": "2026-09",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23iPhone18%E6%A0%87%E5%87%86%E7%89%88%E6%9C%80%E6%96%B0%E7%88%86%E6%96%99%23&extparam=%23iPhone18%E6%A0%87%E5%87%86%E7%89%88%E6%9C%80%E6%96%B0%E7%88%86%E6%96%99%23&launchid=10000360-page_H5"
       },
       {
-        "name": "苹果的“错峰”大招",
+        "name": "苹果印度代工厂大规模泄密",
+        "releaseDate": "2026-09",
+        "url": "https://m.s.weibo.com/applink/go2?noclose=1&url=sinaweibo%3A%2F%2Fsearchall%3Fcontainerid%3D230958%26type%3D200%26q%3Diphone18pro%25E6%259C%2580%25E6%2596%25B0%25E7%2588%2586%25E6%2596%2599%25E6%25B1%2587%25E6%2580%25BB%26t%3D761%26extparam%3Ddfp%253D200%2526share_page_id%253D23296492b8d9ce6b5683d7d4c33befe9dd17ef%2526cot%253D1&launchid=10000360-page_H5"
+      },
+      {
+        "name": "苹果在印度最重要的制造伙伴",
         "releaseDate": "2026-09",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "OPPO开发者大会来了",
-        "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO超级话题里",
-        "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO这次应该能端上不少实用的AI新功能～",
-        "releaseDate": "2026-10-15",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
       },
       {
         "name": "OPPO Find X9",
@@ -271,7 +261,7 @@
       {
         "name": "OPPO Reno15",
         "releaseDate": "2026-11-17",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&extparam=%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&launchid=10000360-page_H5"
       },
       {
         "name": "OPPO Reno15OPPO Reno15",
@@ -281,6 +271,11 @@
       {
         "name": "一加 Ace6T",
         "releaseDate": "2026-11-24",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "一加 Ace6T",
+        "releaseDate": "2026-12-03",
         "url": "https://m.weibo.cn/api/container/getIndex"
       }
     ]

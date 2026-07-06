@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 10:27:25",
+  "updateTime": "2026-07-06 16:20:25",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,129 +119,9 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "OPPO Reno16幸运草真的狠狠戳中我💚清透半夏青机身",
-        "releaseDate": "2026-07-06",
-        "url": "https://video.weibo.com/show?fid=1034%3A5314884443766855&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo X Fold6",
-        "releaseDate": "2026-07-06",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094253D46CA1F54793&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo X Fold6」起售价第一个猜对的安排 18",
-        "releaseDate": "2026-07-06",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094450D064A4FA469B&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 15T 采用 6",
-        "releaseDate": "2026-07-06",
-        "url": "https://video.weibo.com/show?fid=1034%3A5280400298410063&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 OnePlus Never Settle",
-        "releaseDate": "2026-07-06",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 Turbo 6X",
-        "releaseDate": "2026-07-06",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加今年主推的 165Hz",
-        "releaseDate": "2026-07-06",
-        "url": "https://video.weibo.com/show?fid=1034%3A5280400298410063&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加手机的微博 一加 Turbo 6X 系列新品首发 一加 Turbo 6X",
-        "releaseDate": "2026-07-06",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为松山湖基地交付",
-        "releaseDate": "2026-07-08",
+        "name": "华为 Pura 90 系列手机国际",
+        "releaseDate": "2026-07-09",
         "url": "https://www.ithome.com/rss/"
-      },
-      {
-        "name": "大疆 Pocket 4P",
-        "releaseDate": "2026-07-08",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "苹果至2027年将推约20款",
-        "releaseDate": "2026-07",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "魅族 22终于定下来了魅族22旗舰手机暨FlymeAIOS生态",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%AD%85%E6%97%8F22%E6%97%97%E8%88%B0%E6%89%8B%E6%9C%BA%E6%9A%A8FlymeAIOS%E7%94%9F%E6%80%81%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E9%AD%85%E6%97%8F22%E6%97%97%E8%88%B0%E6%89%8B%E6%9C%BA%E6%9A%A8FlymeAIOS%E7%94%9F%E6%80%81%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "魅族自己的办公楼",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%AD%85%E6%97%8F22%E6%97%97%E8%88%B0%E6%89%8B%E6%9C%BA%E6%9A%A8FlymeAIOS%E7%94%9F%E6%80%81%E5%8F%91%E5%B8%83%E4%BC%9A%23&extparam=%23%E9%AD%85%E6%97%8F22%E6%97%97%E8%88%B0%E6%89%8B%E6%9C%BA%E6%9A%A8FlymeAIOS%E7%94%9F%E6%80%81%E5%8F%91%E5%B8%83%E4%BC%9A%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 18系列9月24号 晚7点",
-        "releaseDate": "2026-09-22",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3&containerid=1008082be446577762bb6cec8681f5e2d67d18&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为到底能够带来什么样的提升",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83V2%E7%89%88%E9%9F%AC%E5%AE%9A%E5%BE%8B%E8%AE%BA%E6%96%87%23&extparam=%23%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83V2%E7%89%88%E9%9F%AC%E5%AE%9A%E5%BE%8B%E8%AE%BA%E6%96%87%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米科技 本超话是米粉的聚集地",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3%E7%A7%91%E6%8A%80&containerid=1008085e51bd12e9aa65ff3dab96110bda3bda&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果产业链分析师郭明錤给出的最新行业调研",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO Find X9",
-        "releaseDate": "2026-10-16",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO带上你的OPPO",
-        "releaseDate": "2026-10-16",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO超级话题里",
-        "releaseDate": "2026-10-16",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
-      },
-      {
-        "name": "iQOO Neo11一机制胜",
-        "releaseDate": "2026-10-30",
-        "url": "https://m.weibo.cn/p/index?extparam=iqoo&containerid=1008081cc40088ec90b2d26a307607aad84da9&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO Reno15",
-        "releaseDate": "2026-11-17",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&extparam=%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "OPPO Reno15OPPO Reno15",
-        "releaseDate": "2026-11-17",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&extparam=%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "一加 Ace6T",
-        "releaseDate": "2026-11-24",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "一加 Ace6T",
-        "releaseDate": "2026-12-03",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       }
     ]
   }

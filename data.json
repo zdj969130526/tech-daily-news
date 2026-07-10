@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-10 14:17:08",
+  "updateTime": "2026-07-10 16:11:38",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -239,14 +239,14 @@
         "url": "https://video.weibo.com/show?fid=1034%3A5300390489424050&launchid=10000360-page_H5"
       },
       {
+        "name": "苹果 2026 款 Apple TV 4K 前瞻",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "ROG DAY ROG20周年 ROG硬核玩家周冠宇加入战局",
         "releaseDate": "2026-07-11",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROGDAY%23&extparam=%23ROGDAY%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo X Fold6的广告牌",
-        "releaseDate": "2026-07-11",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094654DB65A6F84598&launchid=10000360-page_H5"
       },
       {
         "name": "红魔 5）全新PC模",
@@ -282,6 +282,11 @@
         "name": "REDMI Note17和REDMI Note17 Pro",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "REDMI产品经理 一起揭开小金刚特别计划的暖心故事全程狂送Note17 更有超多硬核实测",
+        "releaseDate": "2026-07-14",
+        "url": "https://video.weibo.com/show?fid=1034%3A5319161136742564&launchid=10000360-page_H5"
       },
       {
         "name": "REDMI国民小金刚",
@@ -511,11 +516,6 @@
       {
         "name": "OPPO Reno15",
         "releaseDate": "2026-11-17",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "影石影翎全景无人机空中",
-        "releaseDate": "2026-12-04",
         "url": "https://m.weibo.cn/api/container/getIndex"
       }
     ]

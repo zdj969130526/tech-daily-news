@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-10 10:44:38",
+  "updateTime": "2026-07-10 14:17:08",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -119,9 +119,44 @@
   "releaseCalendar": {
     "products": [
       {
-        "name": "OPPO Reno16幸运草真的狠狠戳中我💚清透半夏青机身",
+        "name": "OPPO Find X9 Ultra已经一段时间了",
         "releaseDate": "2026-07-10",
-        "url": "https://video.weibo.com/show?fid=1034%3A5314884443766855&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "OPPO从Find X6系列产品开始跟哈苏进行了",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "ROG 2026",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&extparam=%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "ROG 20周年",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "ROG 20周年 来 ROGDAY 啦",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "ROG 20周年基于京东方业界首创的BLMB（BOE Low Motion Blur）动态无拖影技术",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&extparam=%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "ROG也推出了内存条",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "ROG枪神10",
+        "releaseDate": "2026-07-10",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&extparam=%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
       },
       {
         "name": "vivo X Fold6",
@@ -159,9 +194,9 @@
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
       },
       {
-        "name": "小米 Logo",
+        "name": "影石 LunaUltra影石LunaUltra值得买吗 家人们谁懂啊",
         "releaseDate": "2026-07-10",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94SKYNOMAD%E4%B8%8A%E5%B8%82%E6%97%B6%E9%97%B4%23&extparam=%23%E9%9B%B7%E5%86%9B%E5%9B%9E%E5%BA%94SKYNOMAD%E4%B8%8A%E5%B8%82%E6%97%B6%E9%97%B4%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3LunaUltra%23&extparam=%23%E5%BD%B1%E7%9F%B3LunaUltra%23&launchid=10000360-page_H5"
       },
       {
         "name": "机械革命精彩耀在一起 机哥战力拉满",
@@ -202,6 +237,11 @@
         "name": "联想生态又有新进展~⭐天禧AI 一体多端全场景新品超能之夜上",
         "releaseDate": "2026-07-10",
         "url": "https://video.weibo.com/show?fid=1034%3A5300390489424050&launchid=10000360-page_H5"
+      },
+      {
+        "name": "ROG DAY ROG20周年 ROG硬核玩家周冠宇加入战局",
+        "releaseDate": "2026-07-11",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROGDAY%23&extparam=%23ROGDAY%23&launchid=10000360-page_H5"
       },
       {
         "name": "vivo X Fold6的广告牌",
@@ -249,11 +289,6 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "三星 Galaxy Unpacked 2026夏季",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "华为 Pura90海外版显示5G",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAPura90%E6%B5%B7%E5%A4%96%E7%89%88%E6%98%BE%E7%A4%BA5G%23&extparam=%23%E5%8D%8E%E4%B8%BAPura90%E6%B5%B7%E5%A4%96%E7%89%88%E6%98%BE%E7%A4%BA5G%23&launchid=10000360-page_H5"
@@ -277,11 +312,6 @@
         "name": "华为产品相关的玩机技巧和美拍",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为官方海报的图片",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAPura+90%E7%B3%BB%E5%88%97%E5%85%A8%E7%90%83%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8814%E6%97%A5%23&extparam=%23%E5%8D%8E%E4%B8%BAPura+90%E7%B3%BB%E5%88%97%E5%85%A8%E7%90%83%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8814%E6%97%A5%23&launchid=10000360-page_H5"
       },
       {
         "name": "小米汽车全新「澎程（SKYNOMAD）」也",
@@ -316,7 +346,7 @@
       {
         "name": "三星 Galaxy全球",
         "releaseDate": "2026-07-22",
-        "url": "https://video.weibo.com/show?fid=1034%3A5319044174381120&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&extparam=%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&launchid=10000360-page_H5"
       },
       {
         "name": "三星 Z Flip 8",
@@ -324,19 +354,24 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&extparam=%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&launchid=10000360-page_H5"
       },
       {
+        "name": "三星 Z Flip 8三星Z Fold 8三星Z Fold 8 Ultra",
+        "releaseDate": "2026-07-22",
+        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
+      },
+      {
         "name": "三星 Z Fold 8 Ultra",
         "releaseDate": "2026-07-22",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&extparam=%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&launchid=10000360-page_H5"
       },
       {
-        "name": "三星京东自营官方旗舰店",
+        "name": "三星专注于三星的超话",
         "releaseDate": "2026-07-22",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5318424678893320&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
       },
       {
         "name": "三星折叠的外观",
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "三星首款阔折叠屏",
@@ -349,24 +384,24 @@
         "url": "https://m.weibo.cn/p/index?extparam=%E6%91%84%E5%BD%B1&containerid=1008084c8bd0af0f9066cceea349b796d13d9a&launchid=10000360-page_H5"
       },
       {
-        "name": "苹果推出折叠iPhone 十轮网 谷歌的Pixel 11",
-        "releaseDate": "2026-08-12",
-        "url": "http://weibo.com/ttarticle/p/show?id=2310475318997993455646&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果推出折叠iPhone 谷歌将在",
-        "releaseDate": "2026-08-12",
-        "url": "http://weibo.com/ttarticle/p/show?id=2310475318997993455646&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果的折叠iPhone",
-        "releaseDate": "2026-08-12",
-        "url": "http://weibo.com/ttarticle/p/show?id=2310475318997993455646&launchid=10000360-page_H5"
-      },
-      {
         "name": "影石 Insta360 Go Ultra 渲染图此前已经",
         "releaseDate": "2026-08-21",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀 Robot Phone和Magic9排期",
+        "releaseDate": "2026-08",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80Robot+Phone%E5%92%8CMagic9%E6%8E%92%E6%9C%9F%E6%9B%9D%E5%85%89%23&extparam=%23%E8%8D%A3%E8%80%80Robot+Phone%E5%92%8CMagic9%E6%8E%92%E6%9C%9F%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀 Robot Phone和Magic9系列暂定将分开",
+        "releaseDate": "2026-08",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80Robot+Phone%E5%92%8CMagic9%E6%8E%92%E6%9C%9F%E6%9B%9D%E5%85%89%23&extparam=%23%E8%8D%A3%E8%80%80Robot+Phone%E5%92%8CMagic9%E6%8E%92%E6%9C%9F%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "荣耀 Robot Phone和荣耀Magic9系列可能不会在同一场",
+        "releaseDate": "2026-08",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80Robot+Phone%E5%92%8CMagic9%E6%8E%92%E6%9C%9F%E6%9B%9D%E5%85%89%23&extparam=%23%E8%8D%A3%E8%80%80Robot+Phone%E5%92%8CMagic9%E6%8E%92%E6%9C%9F%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
       },
       {
         "name": "荣耀冲击高端市场的决心",
@@ -482,16 +517,6 @@
         "name": "影石影翎全景无人机空中",
         "releaseDate": "2026-12-04",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "联想天禧AI一体多端秋季新品超能之夜",
-        "releaseDate": "2026-12-30",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%BC%A0%E5%87%8C%E8%B5%AB&containerid=100808b98505d1f9f8c86d9a87748fb6ecc9bd&launchid=10000360-page_H5"
-      },
-      {
-        "name": "索尼 stateofplay",
-        "releaseDate": "2027-02-12",
-        "url": "https://video.weibo.com/show?fid=1034%3A5305604487708681&launchid=10000360-page_H5"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-13 16:23:19",
+  "updateTime": "2026-07-13 18:11:23",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -289,16 +289,6 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROGDAY%23&extparam=%23ROGDAY%23&launchid=10000360-page_H5"
       },
       {
-        "name": "华为 Pura 90",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "华为 Pura 90系列国际版可以显示5G",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "华为 Pura90海外版显示5G",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BAPura90%E6%B5%B7%E5%A4%96%E7%89%88%E6%98%BE%E7%A4%BA5G%23&extparam=%23%E5%8D%8E%E4%B8%BAPura90%E6%B5%B7%E5%A4%96%E7%89%88%E6%98%BE%E7%A4%BA5G%23&launchid=10000360-page_H5"
@@ -324,9 +314,9 @@
         "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
       },
       {
-        "name": "华为第一次在国际市场回归5G网络标识",
+        "name": "华为还将会在迪拜召开",
         "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "url": "https://weibo.cn/sinaurl?spss=np&channelId=&launchid=10000360-page_H5&u=https%3A%2F%2Fishare.ifeng.com%2Fc%2Fs%2Fv006e-_b5201tX3EH5DFPVxB9ej-_NhS-_jU60UP64QYpdOM6mvVBUvNtehPyxPoTP4Ms7B%3Fspss%3Dnp%26channelId%3D"
       },
       {
         "name": "大疆 Pocket3以及影石的GO ultra",
@@ -484,6 +474,11 @@
         "url": "https://m.weibo.cn/p/index?extparam=%E6%91%84%E5%BD%B1&containerid=1008084c8bd0af0f9066cceea349b796d13d9a&launchid=10000360-page_H5"
       },
       {
+        "name": "苹果的A20芯片也会在9月的秋季",
+        "releaseDate": "2026-08-12",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8F%B0%E7%A7%AF%E7%94%B52nm%E8%8A%AF%E7%89%87%E5%BC%80%E5%A7%8B%E9%87%8F%E4%BA%A7%23&extparam=%23%E5%8F%B0%E7%A7%AF%E7%94%B52nm%E8%8A%AF%E7%89%87%E5%BC%80%E5%A7%8B%E9%87%8F%E4%BA%A7%23&launchid=10000360-page_H5"
+      },
+      {
         "name": "影石 Insta360 Go Ultra 渲染图此前已经",
         "releaseDate": "2026-08-21",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
@@ -517,6 +512,11 @@
         "name": "魅族 22超声波指纹依旧",
         "releaseDate": "2026-09-15",
         "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "魅族 22跳票两次以后终于",
+        "releaseDate": "2026-09-15",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%AD%85%E6%97%8F22%23&extparam=%23%E9%AD%85%E6%97%8F22%23&launchid=10000360-page_H5"
       }
     ]
   }

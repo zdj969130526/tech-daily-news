@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-13 11:39:54",
+  "updateTime": "2026-07-13 14:43:17",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -206,7 +206,12 @@
       {
         "name": "三星 Galaxy全球",
         "releaseDate": "2026-07-13",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23Galaxy+Z+Fold+8+Ultra+%E6%8A%98%E7%97%95%E5%87%A0%E4%B9%8E%E7%9C%8B%E4%B8%8D%E8%A7%81%23&extparam=%23Galaxy+Z+Fold+8+Ultra+%E6%8A%98%E7%97%95%E5%87%A0%E4%B9%8E%E7%9C%8B%E4%B8%8D%E8%A7%81%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "三星 Z Fold 8 Ultra真机上手",
+        "releaseDate": "2026-07-13",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "三星折叠屏真机上手",
@@ -216,7 +221,7 @@
       {
         "name": "三星首款阔折叠屏",
         "releaseDate": "2026-07-13",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23Galaxy+Z+Fold+8+Ultra+%E6%8A%98%E7%97%95%E5%87%A0%E4%B9%8E%E7%9C%8B%E4%B8%8D%E8%A7%81%23&extparam=%23Galaxy+Z+Fold+8+Ultra+%E6%8A%98%E7%97%95%E5%87%A0%E4%B9%8E%E7%9C%8B%E4%B8%8D%E8%A7%81%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "影石 LunaUltra影石LunaUltra值得买吗 家人们谁懂啊",
@@ -269,9 +274,9 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "REDMI产品经理 一起",
+        "name": "REDMI产品经理 一起揭开小金刚特别计划的暖心故事全程狂送Note17 更有超多硬核实测",
         "releaseDate": "2026-07-14",
-        "url": "https://video.weibo.com/show?fid=1034%3A5319160222384284&launchid=10000360-page_H5"
+        "url": "https://video.weibo.com/show?fid=1034%3A5319161136742564&launchid=10000360-page_H5"
       },
       {
         "name": "REDMI国民小金刚",
@@ -279,9 +284,14 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "ROG DAY ROG20周年 ROG硬核玩家周冠宇加入战局",
+        "name": "华为 Pura 90",
         "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROGDAY%23&extparam=%23ROGDAY%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "华为 Pura 90系列国际版可以显示5G",
+        "releaseDate": "2026-07-14",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "华为 Pura90海外版显示5G",
@@ -307,6 +317,11 @@
         "name": "华为产品相关的玩机技巧和美拍",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为第一次在国际市场回归5G网络标识",
+        "releaseDate": "2026-07-14",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "大疆 Pocket3以及影石的GO ultra",
@@ -444,11 +459,6 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "小米米家定时燃气灶 3 白色 5200W",
-        "releaseDate": "2026-07-26",
-        "url": "https://www.ithome.com/rss/"
-      },
-      {
         "name": "小米澎程道路测试历时两冬两夏",
         "releaseDate": "2026-07-29",
         "url": "https://www.ithome.com/rss/"
@@ -507,16 +517,6 @@
         "name": "魅族 22超声波指纹依旧",
         "releaseDate": "2026-09-15",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "魅族 22跳票两次以后终于",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%AD%85%E6%97%8F22%23&extparam=%23%E9%AD%85%E6%97%8F22%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米 18系列9月24号 晚7点",
-        "releaseDate": "2026-09-22",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3&containerid=1008082be446577762bb6cec8681f5e2d67d18&launchid=10000360-page_H5"
       }
     ]
   }

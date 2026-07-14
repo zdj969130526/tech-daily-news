@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-14 16:15:46",
+  "updateTime": "2026-07-14 18:03:18",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -134,12 +134,7 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "REDMI Note 17系列诚邀您7月14日19",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%89%8B%E6%9C%BA+%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "REDMI Note17",
+        "name": "REDMI Note 17",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
@@ -154,29 +149,19 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "ROG 2026",
+        "name": "ROG 20周年",
         "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&extparam=%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
       },
       {
-        "name": "ROG 20周年基于京东方业界首创的BLMB（BOE Low Motion Blur）动态无拖影技术",
+        "name": "ROG 20周年 来 ROGDAY 啦",
         "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&extparam=%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
       },
       {
-        "name": "ROG枪神10",
+        "name": "ROG也推出了内存条",
         "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&extparam=%23ROG%E6%9E%AA%E7%A5%9E10%E7%B3%BB%E5%88%97%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo X Fold6",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094253D46CA1F54793&launchid=10000360-page_H5"
-      },
-      {
-        "name": "vivo X Fold6」起售价第一个猜对的安排 18",
-        "releaseDate": "2026-07-14",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094450D064A4FA469B&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
       },
       {
         "name": "一加 15T 采用 6",
@@ -207,6 +192,16 @@
         "name": "华为 NowIsYourMoment",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23NowIsYourMoment%23&extparam=%23NowIsYourMoment%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为 Pura 90",
+        "releaseDate": "2026-07-14",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "华为 Pura 90系列国际版可以显示5G",
+        "releaseDate": "2026-07-14",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "华为 Pura90海外版显示5G",
@@ -242,6 +237,11 @@
         "name": "华为热烈欢迎各位朋友加入华为超话～ 定位决定地位",
         "releaseDate": "2026-07-14",
         "url": "https://m.weibo.cn/p/index?extparam=%E5%8D%8E%E4%B8%BA&containerid=100808d63e7ea059dc68e97e2ef16531e47e6c&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为第一次在国际市场回归5G网络标识",
+        "releaseDate": "2026-07-14",
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "小米官方旗舰店的微博",
@@ -319,11 +319,6 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "小米 Type-c耳机详情快来找我咨询～",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "影石 2025夏季全景更新",
         "releaseDate": "2026-07-15",
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
@@ -332,6 +327,16 @@
         "name": "影石 Insta360的微博 影石2025夏季全景更新",
         "releaseDate": "2026-07-15",
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
+      },
+      {
+        "name": "红魔 5）全新PC模",
+        "releaseDate": "2026-07-15",
+        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
+      },
+      {
+        "name": "红魔游戏平板5pro 的全能配置",
+        "releaseDate": "2026-07-15",
+        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
       },
       {
         "name": "小米增程 SUV 小米澎程也要",
@@ -499,6 +504,11 @@
         "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3&containerid=1008082be446577762bb6cec8681f5e2d67d18&launchid=10000360-page_H5"
       },
       {
+        "name": "华为 Mate 90",
+        "releaseDate": "2026-09",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "华为 Mate XT2首发麒麟9050",
         "releaseDate": "2026-09",
         "url": "https://m.weibo.cn/api/container/getIndex"
@@ -507,16 +517,6 @@
         "name": "华为 Mate90正在芯片装测 华为",
         "releaseDate": "2026-09",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA9%E6%9C%88%E6%96%B0%E5%93%81%E6%9B%9D%E5%85%89%23&extparam=%23%E5%8D%8E%E4%B8%BA9%E6%9C%88%E6%96%B0%E5%93%81%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "海信激光电视 极果的微博",
-        "releaseDate": "2026-09",
-        "url": "https://video.weibo.com/show?fid=1034%3A4946237804183639&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果也已经在为iPhone Ultra折叠屏手机的量",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%8A%98%E5%8F%A0iPhone%E4%BA%A7%E7%BA%BF%E6%8B%9B%E5%B7%A5%E6%97%B6%E8%96%AA26%E5%85%83%23&extparam=%23%E6%8A%98%E5%8F%A0iPhone%E4%BA%A7%E7%BA%BF%E6%8B%9B%E5%B7%A5%E6%97%B6%E8%96%AA26%E5%85%83%23&launchid=10000360-page_H5"
       }
     ]
   }

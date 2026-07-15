@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-15 14:14:48",
+  "updateTime": "2026-07-15 16:32:51",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -249,16 +249,6 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&extparam=%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&launchid=10000360-page_H5"
       },
       {
-        "name": "红魔 5）全新PC模",
-        "releaseDate": "2026-07-16",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔游戏平板5pro 的全能配置",
-        "releaseDate": "2026-07-16",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
-      },
-      {
         "name": "索尼 A7R6",
         "releaseDate": "2026-07-17",
         "url": "https://m.weibo.cn/api/container/getIndex"
@@ -280,11 +270,6 @@
       },
       {
         "name": "三星 Galaxy Z Fold 8 Ultra高清渲染图出炉",
-        "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "三星 Galaxy Z Fold 8新情报三星Galaxy全球",
         "releaseDate": "2026-07-22",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
@@ -329,11 +314,6 @@
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
-        "name": "三星首款阔折叠屏",
-        "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
         "name": "机械革命星耀 14 的通稿",
         "releaseDate": "2026-07-28",
         "url": "https://m.weibo.cn/p/index?extparam=%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA&containerid=100808dbbb16a4cbcd3ca12b600efad9b35741&launchid=10000360-page_H5"
@@ -367,11 +347,6 @@
         "name": "影石 Insta360 Go Ultra 渲染图此前已经",
         "releaseDate": "2026-08-21",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "华为 Mate90系列秋季",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "华为 MatePad Pro Max搭载的是麒麟T93芯片",
@@ -481,6 +456,11 @@
       {
         "name": "一加 Ace6T",
         "releaseDate": "2026-12-03",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
+        "name": "影石影翎全景无人机空中",
+        "releaseDate": "2026-12-04",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {

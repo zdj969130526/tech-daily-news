@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-15 10:06:33",
+  "updateTime": "2026-07-15 12:12:13",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -244,16 +244,6 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&extparam=%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&launchid=10000360-page_H5"
       },
       {
-        "name": "红魔 5）全新PC模",
-        "releaseDate": "2026-07-16",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
-      },
-      {
-        "name": "红魔游戏平板5pro 的全能配置",
-        "releaseDate": "2026-07-16",
-        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
-      },
-      {
         "name": "索尼 A7R6",
         "releaseDate": "2026-07-17",
         "url": "https://m.weibo.cn/api/container/getIndex"
@@ -362,6 +352,16 @@
         "name": "影石 Insta360 Go Ultra 渲染图此前已经",
         "releaseDate": "2026-08-21",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为 MatePad Pro Max搭载的是麒麟T93芯片",
+        "releaseDate": "2026-09-15",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%23&launchid=10000360-page_H5"
+      },
+      {
+        "name": "华为平板第一次在",
+        "releaseDate": "2026-09-15",
+        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%23&launchid=10000360-page_H5"
       },
       {
         "name": "索尼 6月3日凌晨",

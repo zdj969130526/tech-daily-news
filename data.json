@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-15 12:12:13",
+  "updateTime": "2026-07-15 14:14:48",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -174,6 +174,11 @@
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
       },
       {
+        "name": "小米推出增程新品牌SkyNomad寻天 7月8日小米",
+        "releaseDate": "2026-07-15",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "影石 2025夏季全景更新",
         "releaseDate": "2026-07-15",
         "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
@@ -244,6 +249,16 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&extparam=%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&launchid=10000360-page_H5"
       },
       {
+        "name": "红魔 5）全新PC模",
+        "releaseDate": "2026-07-16",
+        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
+      },
+      {
+        "name": "红魔游戏平板5pro 的全能配置",
+        "releaseDate": "2026-07-16",
+        "url": "https://lottery.media.weibo.com/lottery/h5/history/list?mid=5315084680955285&launchid=10000360-page_H5"
+      },
+      {
         "name": "索尼 A7R6",
         "releaseDate": "2026-07-17",
         "url": "https://m.weibo.cn/api/container/getIndex"
@@ -276,7 +291,7 @@
       {
         "name": "三星 Galaxy全球",
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&extparam=%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&launchid=10000360-page_H5"
+        "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {
         "name": "三星 Z Flip 8",
@@ -354,6 +369,11 @@
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
       },
       {
+        "name": "华为 Mate90系列秋季",
+        "releaseDate": "2026-09-15",
+        "url": "https://m.weibo.cn/api/container/getIndex"
+      },
+      {
         "name": "华为 MatePad Pro Max搭载的是麒麟T93芯片",
         "releaseDate": "2026-09-15",
         "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%23&launchid=10000360-page_H5"
@@ -387,11 +407,6 @@
         "name": "华为 Mate XT2首发麒麟9050",
         "releaseDate": "2026-09",
         "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "华为 Mate90正在芯片装测 华为",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA9%E6%9C%88%E6%96%B0%E5%93%81%E6%9B%9D%E5%85%89%23&extparam=%23%E5%8D%8E%E4%B8%BA9%E6%9C%88%E6%96%B0%E5%93%81%E6%9B%9D%E5%85%89%23&launchid=10000360-page_H5"
       },
       {
         "name": "海信激光电视 极果的微博",
@@ -466,11 +481,6 @@
       {
         "name": "一加 Ace6T",
         "releaseDate": "2026-12-03",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "影石影翎全景无人机空中",
-        "releaseDate": "2026-12-04",
         "url": "https://m.weibo.cn/api/container/getIndex"
       },
       {

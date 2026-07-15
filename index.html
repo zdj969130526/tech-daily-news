@@ -491,8 +491,8 @@
             if (exact) return Number(`${exact[1]}${exact[2]}${exact[3]}`);
             const month = dateStr.match(/^(\d{4})-(\d{2})$/);
             if (month) return Number(`${month[1]}${month[2]}99`);
-            if (/上半年/.test(dateStr)) return 99990101;
-            if (/下半年/.test(dateStr)) return 99990701;
+            const half = dateStr.match(/^(\d{4})年(上半年|下半年)$/);
+            if (half) return Number(`${half[1]}${half[2] === '上半年' ? '06' : '12'}99`);
             return 99999999;
         }
 
@@ -521,8 +521,8 @@
             if (exact) return Number(`${exact[1]}${exact[2]}00`);
             const month = dateStr.match(/^(\d{4})-(\d{2})$/);
             if (month) return Number(`${month[1]}${month[2]}00`);
-            if (/^\d{4}年上半年$/.test(dateStr)) return 99990100;
-            if (/^\d{4}年下半年$/.test(dateStr)) return 99990700;
+            const half = dateStr.match(/^(\d{4})年(上半年|下半年)$/);
+            if (half) return Number(`${half[1]}${half[2] === '上半年' ? '06' : '12'}99`);
             return 99999999;
         }
 
@@ -573,10 +573,10 @@
             return '📱';
         }
 
-        function renderReleaseProduct(product) {
+        function renderReleaseProduct(product, { dayKey = '待定', color = dateColors[0] } = {}) {
             const name = escapeHtml(product.name);
             const category = escapeHtml(product.category || '数码新品');
-            const source = escapeHtml(product.sourceLabel || '酷安');
+            const dateLabel = escapeHtml(dayKey);
             const categoryIcon = releaseCategoryIcon(product.category || '');
             const logo = product.logo
                 ? `<span class="relative w-8 h-8 rounded-md bg-white border border-gray-100 flex items-center justify-center shrink-0 overflow-hidden">${categoryIcon}<img src="${escapeHtml(product.logo)}" alt="" loading="lazy" onerror="this.remove()" class="absolute inset-0 w-full h-full object-cover"></span>`
@@ -585,14 +585,13 @@
                 ? `<a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:text-blue-600 leading-snug">${name}</a>`
                 : `<span class="font-medium leading-snug">${name}</span>`;
             return `
-                <div class="bg-white/90 px-2.5 py-2 rounded-lg border border-white/70 flex items-center gap-2 min-w-0">
+                <div class="bg-white/90 px-3 py-2.5 rounded-xl border border-white/80 flex items-center gap-2.5 min-w-0 h-full shadow-sm shadow-gray-100/60">
                     ${logo}
                     <div class="min-w-0 flex-1">
                         ${title}
-                        <div class="mt-1 flex flex-wrap items-center gap-1.5 text-[11px] text-gray-400">
+                        <div class="mt-1.5 flex flex-wrap items-center gap-1.5 text-[11px] text-gray-400">
+                            <span class="font-semibold px-1.5 py-0.5 rounded-md" style="color: ${color.text}; background-color: ${color.soft};">${dateLabel}</span>
                             <span>${category}</span>
-                            <span>·</span>
-                            <span>${source}</span>
                         </div>
                     </div>
                 </div>
@@ -627,32 +626,25 @@
                     const delta = releaseDaySortValue(month.days[a].rawDate) - releaseDaySortValue(month.days[b].rawDate);
                     return descending ? -delta : delta;
                 });
+                const monthProducts = sortedDays.flatMap(dayKey => {
+                    const day = month.days[dayKey];
+                    return (day.products || []).map(product => ({ product, dayKey }));
+                });
 
                 return `
-                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 mb-4 break-inside-avoid-column">
-                        <div class="flex items-center justify-between gap-4 mb-3">
-                            <div class="min-w-0">
-                                <h3 class="font-bold" style="color: ${color.text};">${month.monthLabel}</h3>
-                                <p class="text-xs text-gray-400 mt-1">${monthKey.replace(/-month$/, '')}</p>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 sm:p-5">
+                        <div class="flex items-center justify-between gap-4 mb-4 pb-3 border-b border-gray-100">
+                            <div class="min-w-0 flex items-center gap-3">
+                                <span class="w-1.5 h-10 rounded-full shrink-0" style="background-color: ${color.bg};"></span>
+                                <div class="min-w-0">
+                                    <h3 class="font-bold text-lg leading-tight" style="color: ${color.text};">${month.monthLabel}</h3>
+                                    <p class="text-xs text-gray-400 mt-1">${monthKey.replace(/-month$/, '')}</p>
+                                </div>
                             </div>
-                            <span class="text-xs text-gray-500 whitespace-nowrap">${sortedDays.reduce((total, dayKey) => total + (month.days[dayKey].products || []).length, 0)} 条</span>
+                            <span class="text-xs font-medium whitespace-nowrap px-2.5 py-1 rounded-full" style="color: ${color.text}; background-color: ${color.soft};">${monthProducts.length} 款</span>
                         </div>
-                        <div class="space-y-3">
-                            ${sortedDays.map(dayKey => {
-                                const day = month.days[dayKey];
-                                const prods = day.products || [];
-                                return `
-                                    <div class="rounded-lg border p-3" style="border-color: ${color.border}; background-color: ${color.soft};">
-                                        <div class="flex items-center justify-between gap-4 mb-2">
-                                            <span class="font-semibold text-gray-700">${dayKey}</span>
-                                            <span class="text-xs text-gray-500">${prods.length} 条</span>
-                                        </div>
-                                        <div class="grid grid-cols-1 gap-2 text-sm">
-                                            ${prods.map(renderReleaseProduct).join('')}
-                                        </div>
-                                    </div>
-                                `;
-                            }).join('')}
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2.5 text-sm items-stretch rounded-xl p-3" style="background-color: ${color.soft}; border: 1px solid ${color.border};">
+                            ${monthProducts.map(({ product, dayKey }) => renderReleaseProduct(product, { dayKey, color })).join('')}
                         </div>
                     </div>
                 `;
@@ -691,7 +683,7 @@
                             <h3 class="font-bold text-gray-800">即将发布</h3>
                             <span class="text-xs text-gray-500">${upcomingProducts.length} 款</span>
                         </div>
-                        <div class="columns-1 xl:columns-2 2xl:columns-3 gap-4">
+                        <div class="space-y-4">
                             ${renderReleaseGroups(upcomingProducts)}
                         </div>
                     </section>
@@ -706,7 +698,7 @@
                             <span>最近 ${releasedDays} 天上市新品</span>
                             <span class="text-xs font-normal text-gray-500">${releasedProducts.length} 款 · 用于核对已发布状态</span>
                         </summary>
-                        <div class="columns-1 xl:columns-2 2xl:columns-3 gap-4 mt-4">
+                        <div class="space-y-4 mt-4">
                             ${renderReleaseGroups(releasedProducts, { descending: true })}
                         </div>
                     </details>

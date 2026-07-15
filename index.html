@@ -21,13 +21,16 @@
         <p class="opacity-80" id="update-time">加载中...</p>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 py-8">
+    <main class="max-w-7xl mx-auto px-4 py-8">
         <!-- 发布日历部分 -->
         <section class="mb-12">
-            <h2 class="text-2xl font-bold mb-6 flex items-center">
-                <span class="mr-2">📅</span> 数码发布日历
-            </h2>
-            <div id="release-calendar" class="space-y-4">
+            <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+                <h2 class="text-2xl font-bold flex items-center">
+                    <span class="mr-2">📅</span> 数码发布日历
+                </h2>
+                <span id="release-calendar-meta" class="text-xs text-gray-500 bg-white border border-gray-200 rounded-full px-3 py-1">等待数据源</span>
+            </div>
+            <div id="release-calendar" class="space-y-6">
                 <div class="text-center text-gray-500 py-8">
                     <div class="loading">加载中...</div>
                 </div>
@@ -39,8 +42,8 @@
             <h2 class="text-2xl font-bold mb-6 flex items-center">
                 <span class="mr-2">🔥</span> 今日热榜
             </h2>
-            <div id="hot-lists" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="text-center text-gray-500 py-8 col-span-2">
+            <div id="hot-lists" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 items-start">
+                <div class="text-center text-gray-500 py-8 col-span-full">
                     <div class="loading">加载中...</div>
                 </div>
             </div>
@@ -54,38 +57,433 @@
     <script>
         // 颜色配置
         const dateColors = [
-            { bg: 'purple-600', light: 'purple-50' },
-            { bg: 'blue-600', light: 'blue-50' },
-            { bg: 'green-600', light: 'green-50' },
-            { bg: 'orange-600', light: 'orange-50' },
-            { bg: 'rose-600', light: 'rose-50' },
-            { bg: 'cyan-700', light: 'cyan-50' }
+            { bg: '#7c3aed', text: '#5b21b6', soft: '#f5f3ff', border: '#ddd6fe' },
+            { bg: '#2563eb', text: '#1d4ed8', soft: '#eff6ff', border: '#bfdbfe' },
+            { bg: '#059669', text: '#047857', soft: '#ecfdf5', border: '#a7f3d0' },
+            { bg: '#ea580c', text: '#c2410c', soft: '#fff7ed', border: '#fed7aa' },
+            { bg: '#e11d48', text: '#be123c', soft: '#fff1f2', border: '#fbcfe8' },
+            { bg: '#0e7490', text: '#155e75', soft: '#ecfeff', border: '#a5f3fc' }
         ];
 
-        const platformColors = {
-            'B站': { bg: 'pink-500', icon: '📺' },
-            'B站热搜': { bg: 'pink-500', icon: '📺' },
-            'B站日榜': { bg: 'pink-500', icon: '📺' },
-            '微博': { bg: 'red-500', icon: '🔥' },
-            '百度': { bg: 'blue-600', icon: '🔎' },
-            'IT之家': { bg: 'red-700', icon: '💻' },
-            '酷安': { bg: 'green-500', icon: '📱' },
-            '抖音': { bg: 'black', icon: '🎵' },
-            '头条': { bg: 'red-600', icon: '📰' },
-            '知乎热榜': { bg: 'blue-500', icon: '💡' },
-            '搜狗': { bg: 'orange-500', icon: '🔍' },
-            '搜狐': { bg: 'yellow-600', icon: '🗞️' },
-            '少数派': { bg: 'red-500', icon: '⚡' },
-            'CSDN': { bg: 'red-700', icon: '💻' },
-            '稀土掘金': { bg: 'blue-500', icon: '💎' },
-            'GitHub': { bg: 'gray-800', icon: '⭐' },
-            '网易新闻': { bg: 'red-600', icon: '📰' },
-            'AcFun': { bg: 'orange-500', icon: '📺' },
-            '爱范儿': { bg: 'gray-700', icon: '📱' },
-            '51CTO': { bg: 'blue-700', icon: '💻' },
-            '安全KER': { bg: 'green-700', icon: '🛡️' },
-            '历史上的今天': { bg: 'amber-700', icon: '📜' }
-        };
+        const platformThemes = [
+            { match: /微博/, icon: '🔥', bg: '#f97316', soft: '#fff7ed', text: '#c2410c', border: '#fdba74' },
+            { match: /抖音/, icon: '🎵', bg: '#111111', soft: '#f3f4f6', text: '#111827', border: '#d1d5db' },
+            { match: /B站|AcFun/, icon: '📺', bg: '#ec4899', soft: '#fdf2f8', text: '#9d174d', border: '#f9a8d4' },
+            { match: /百度|搜狗|知乎/, icon: '🔎', bg: '#2563eb', soft: '#eff6ff', text: '#1d4ed8', border: '#bfdbfe' },
+            { match: /IT之家|CSDN|51CTO/, icon: '💻', bg: '#dc2626', soft: '#fef2f2', text: '#991b1b', border: '#fecaca' },
+            { match: /酷安/, icon: '📱', bg: '#16a34a', soft: '#f0fdf4', text: '#15803d', border: '#bbf7d0' },
+            { match: /爱范儿/, icon: '📱', bg: '#0f766e', soft: '#f0fdfa', text: '#115e59', border: '#99f6e4' },
+            { match: /头条|网易新闻|搜狐/, icon: '📰', bg: '#ea580c', soft: '#fff7ed', text: '#c2410c', border: '#fdba74' },
+            { match: /少数派|掘金/, icon: '⚡', bg: '#7c3aed', soft: '#f5f3ff', text: '#6d28d9', border: '#ddd6fe' },
+            { match: /GitHub/, icon: '⭐', bg: '#1f2937', soft: '#f3f4f6', text: '#111827', border: '#d1d5db' },
+            { match: /安全KER/, icon: '🛡️', bg: '#0f766e', soft: '#f0fdfa', text: '#115e59', border: '#99f6e4' },
+            { match: /历史上的今天/, icon: '📜', bg: '#ca8a04', soft: '#fffbeb', text: '#a16207', border: '#fde68a' },
+            { match: /FreeBuf/, icon: '🔐', bg: '#0f172a', soft: '#f8fafc', text: '#334155', border: '#cbd5e1' }
+        ];
+
+        const releaseBrands = [
+            '小米', 'Redmi', 'REDMI', '红米', 'OPPO', 'vivo', '荣耀', '华为', '一加', 'iQOO',
+            '大疆', 'DJI', '魅族', '联想', 'ThinkPad', 'YOGA', '机械革命', '苹果', '三星', '索尼',
+            '真我', 'realme', '努比亚', '红魔', '华硕', 'ROG', '小鹏', '极米', '海信', '戴尔',
+            '惠普', '宏碁', '雷神', '荣耀', '传音', 'Nothing', '谷歌'
+        ];
+
+        const releaseSignals = [
+            'Pro', 'Ultra', 'Max', 'Plus', 'Mini', 'T', 'GT', 'Neo', 'Air', 'Pad', 'Book',
+            'Watch', 'Pocket', 'Flip', 'Fold', 'X', 'S', 'K', 'Note', 'Mix', 'Y', 'U',
+            'AI生态', '生态', '系统', '手机', '平板', '笔记本', '汽车', '相机', '影像',
+            '耳机', '手表', '充电宝', '路由器', '屏', '屏幕', '显示器', '无人机', '扫地机', 'Turbo'
+        ];
+
+        const releaseNoiseWords = [
+            '发布会', '新品发布', '发布', '官宣', '开售', '上市', '预约', '预售', '定档',
+            '直播', '开启预约', '开启预订', '回应', '试驾', '命名', '开放时间', '广告大片',
+            '我还挺感兴趣', '就是这么良心', '好像', '感觉', '据说', '听说', '即将', '上线啦',
+            '活动', '现场', '博主', '网友', '热议', '讨论', '视频', '消息', '情况', '时间',
+            '起售价', '售价', '价格', '定价', '开票', '成交价', '预售价', '首销价'
+        ];
+
+        const releaseRejectPatterns = [
+            /就是这么良心/,
+            /我还挺感兴趣/,
+            /好像/,
+            /感觉/,
+            /据说/,
+            /听说/,
+            /视频/,
+            /配色/,
+            /颜色/,
+            /代言/,
+            /代言人/,
+            /美学大使/,
+            /大使/,
+            /海边/,
+            /画面/,
+            /宣发/,
+            /节奏/,
+            /小红书优先/,
+            /小涛玩数码/,
+            /微博/,
+            /宣传/,
+            /回应/,
+            /试驾/,
+            /命名/,
+            /开放时间/,
+            /广告大片/,
+            /一起系列/,
+            /系列美学/,
+            /起售价/,
+            /售价/,
+            /价格/,
+            /定价/,
+            /现场/,
+            /活动/,
+            /热议/,
+            /讨论/,
+            /网友/,
+            /博主/,
+            /时间/,
+            /情况/
+        ];
+
+        function escapeRegExp(text) {
+            return String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function hashString(text) {
+            let hash = 0;
+            for (let i = 0; i < text.length; i += 1) {
+                hash = (hash << 5) - hash + text.charCodeAt(i);
+                hash |= 0;
+            }
+            return Math.abs(hash);
+        }
+
+        function normalizeSpaces(text) {
+            return String(text || '')
+                .replace(/[\u3000\s]+/g, ' ')
+                .replace(/[\u200b-\u200f\uFEFF]/g, '')
+                .trim();
+        }
+
+        function normalizeCompact(text) {
+            return normalizeSpaces(text)
+                .toLowerCase()
+                .replace(/[^\w\u4e00-\u9fff]+/g, '');
+        }
+
+        function normalizePlatformLabel(text) {
+            return normalizeSpaces(text)
+                .replace(/(热榜|热搜|热门|榜单|榜)$/g, '')
+                .trim();
+        }
+
+        function resolvePlatformTheme(platformName) {
+            const normalized = normalizePlatformLabel(platformName);
+            const matched = platformThemes.find(item => item.match.test(normalized));
+            if (matched) return { ...matched, label: normalized || platformName };
+            const palette = [
+                { bg: '#2563eb', soft: '#eff6ff', text: '#1d4ed8', border: '#bfdbfe', icon: '📊' },
+                { bg: '#7c3aed', soft: '#f5f3ff', text: '#5b21b6', border: '#ddd6fe', icon: '📈' },
+                { bg: '#0f766e', soft: '#f0fdfa', text: '#115e59', border: '#99f6e4', icon: '🧭' },
+                { bg: '#f97316', soft: '#fff7ed', text: '#c2410c', border: '#fed7aa', icon: '🔥' },
+                { bg: '#059669', soft: '#ecfdf5', text: '#047857', border: '#a7f3d0', icon: '✨' },
+                { bg: '#dc2626', soft: '#fef2f2', text: '#991b1b', border: '#fecaca', icon: '💡' }
+            ];
+            const picked = palette[hashString(normalized || platformName) % palette.length];
+            return { ...picked, label: normalized || platformName };
+        }
+
+        function isLikelyReleaseFragment(text) {
+            const compact = normalizeCompact(text);
+            if (!compact) return false;
+            if (releaseRejectPatterns.some(pattern => pattern.test(text))) return false;
+            if (compact.length < 4 || compact.length > 32) return false;
+            const hasBrand = releaseBrands.some(brand => compact.includes(normalizeCompact(brand)));
+            if (!hasBrand) return false;
+            const hasSignal = releaseSignals.some(signal => compact.includes(normalizeCompact(signal)));
+            const hasDigit = /\d/.test(compact);
+            const hasAlpha = /[a-z]/i.test(compact);
+            return hasSignal || hasDigit || hasAlpha || compact.includes('生态') || compact.includes('系统');
+        }
+
+        function cleanReleaseFragment(fragment) {
+            let text = normalizeSpaces(fragment);
+            if (!text) return '';
+            text = text.replace(/https?:\/\/\S+/g, ' ');
+            text = text.replace(/[#@][^\s#@]+/g, ' ');
+            text = text.replace(/[“”"‘’'`（）()【】\[\]]/g, ' ');
+            text = text.replace(/[\u{1F300}-\u{1FAFF}]/gu, ' ');
+            text = text.replace(/(发布会|新品发布|发布|官宣|开售|上市|预约|预售|定档|直播|开启预约|开启预订|回应|试驾|命名|开放时间|广告大片|我还挺感兴趣|就是这么良心|好像|感觉|据说|听说|即将|上线啦|活动|现场|博主|网友|热议|讨论|视频|消息|情况|时间)/g, ' ');
+            text = text.replace(/[：:丨|｜·•、,，/＋+]+/g, ' ');
+            text = text.replace(/\b(和|及|与|并且|还有|以及)\b/g, ' ');
+            text = text.replace(/\b(起售价|售价|价格|定价|成交价|预售价|首销价)\b/g, ' ');
+            text = text.replace(/\s+/g, ' ').trim();
+            text = text.replace(/(系列|机型|新品|新款|版本|迭代|升级版|体验版)$/g, '').trim();
+            return text;
+        }
+
+        function trimToSeriesSuffix(text) {
+            const value = normalizeSpaces(text);
+            if (!value.includes('系列')) return value;
+            return value.slice(0, value.indexOf('系列') + 2).replace(/[：:丨|｜·•、,，/＋+\-\s]+$/g, '').trim();
+        }
+
+        function lastBrandSlice(text) {
+            const pattern = releaseBrands
+                .slice()
+                .sort((a, b) => b.length - a.length)
+                .map(escapeRegExp)
+                .join('|');
+            if (!pattern) return '';
+            const matches = [...text.matchAll(new RegExp(pattern, 'gi'))];
+            if (matches.length <= 1) return '';
+            const last = matches[matches.length - 1];
+            return normalizeSpaces(text.slice(last.index));
+        }
+
+        function splitReleaseFragments(rawName) {
+            const name = normalizeSpaces(rawName);
+            if (!name) return [];
+            const roughPieces = name.split(/[、,，/|＋+]/).flatMap(piece => piece.split(/\s*(?:和|及|与|并且|以及)\s*/));
+            const pieces = [];
+            roughPieces.forEach(piece => {
+                const cleaned = cleanReleaseFragment(piece);
+                if (cleaned) pieces.push(cleaned);
+            });
+            if (pieces.length > 1) return pieces;
+            return [cleanReleaseFragment(name)].filter(Boolean);
+        }
+
+        function restoreManufacturerPrefix(candidate, original) {
+            const text = normalizeSpaces(candidate);
+            const source = normalizeSpaces(original);
+            if (!text || !source) return text;
+            const prefixRules = [
+                { match: /^YOGA\b/i, prefix: '联想' },
+                { match: /^ThinkPad\b/i, prefix: '联想' },
+                { match: /^ROG\b/i, prefix: '华硕' },
+                { match: /^DJI\b/i, prefix: '大疆' }
+            ];
+            for (const rule of prefixRules) {
+                if (rule.match.test(text) && source.includes(rule.prefix) && !text.startsWith(rule.prefix)) {
+                    return `${rule.prefix}${text}`;
+                }
+            }
+            return text;
+        }
+
+        function normalizeTokenCase(text) {
+            return normalizeSpaces(text).replace(/\b[a-z]+\d*[a-z\d]*\b/gi, token => {
+                const lower = token.toLowerCase();
+                if (/\d/.test(token)) {
+                    return token === lower ? token.toUpperCase() : token;
+                }
+                if (token === lower && token.length <= 3) {
+                    return token.toUpperCase();
+                }
+                return token;
+            });
+        }
+
+        function appendSeriesSuffixIfNeeded(candidate, original) {
+            const text = normalizeSpaces(candidate);
+            const source = normalizeSpaces(original);
+            if (!text) return text;
+            if (/系列$/.test(text)) return text;
+            if (!/系列/.test(source)) return text;
+            if (/(Pro|Ultra|Max|Plus|Mini|Neo|Air|Pad|Book|Watch|Pocket|Flip|Fold|Turbo)$/i.test(text)) {
+                return `${text}系列`;
+            }
+            if (/[0-9]/.test(text) && text.length <= 24) {
+                return `${text}系列`;
+            }
+            return text;
+        }
+
+        function normalizeDisplayCase(text) {
+            let result = normalizeSpaces(text);
+            const wordMap = new Map([
+                ['PRO', 'Pro'],
+                ['ULTRA', 'Ultra'],
+                ['MAX', 'Max'],
+                ['PLUS', 'Plus'],
+                ['MINI', 'Mini'],
+                ['AIR', 'Air'],
+                ['PAD', 'Pad'],
+                ['BOOK', 'Book'],
+                ['WATCH', 'Watch'],
+                ['POCKET', 'Pocket'],
+                ['FLIP', 'Flip'],
+                ['FOLD', 'Fold'],
+                ['TURBO', 'Turbo'],
+                ['NEO', 'Neo']
+            ]);
+            result = result.replace(/\bRENO(?=\d)/gi, 'Reno ');
+            result = result.replace(/\breno(?=\d)/g, 'Reno ');
+            result = result.replace(/\bnova(?=\d)/gi, 'nova ');
+            result = result.replace(/\bPAD(?=\d)/gi, 'Pad ');
+            result = result.replace(/\bpad(?=\d)/gi, 'Pad ');
+            result = result.replace(/\bPOCKET(?=\d)/gi, 'Pocket ');
+            result = result.replace(/\bpocket(?=\d)/gi, 'Pocket ');
+            result = result.replace(/\bAIR(?=\d)/gi, 'Air ');
+            result = result.replace(/\bair(?=\d)/gi, 'Air ');
+            result = result.replace(/\bBOOK(?=\d)/gi, 'Book ');
+            result = result.replace(/\bbook(?=\d)/gi, 'Book ');
+            result = result.replace(/\bWATCH(?=\d)/gi, 'Watch ');
+            result = result.replace(/\bwatch(?=\d)/gi, 'Watch ');
+            result = result.replace(/\b[A-Z]{3,}\b/g, token => wordMap.get(token) || token);
+            result = result.replace(/\biqoo\b/gi, 'iQOO');
+            result = result.replace(/\bredmi\b/gi, 'REDMI');
+            result = result.replace(/\bvivo\b/gi, 'vivo');
+            result = result.replace(/\brog\b/gi, 'ROG');
+            result = result.replace(/\bdji\b/gi, 'DJI');
+            result = result.replace(/\byoga\b/gi, 'YOGA');
+            result = result.replace(/\b([A-Za-z]{2,})\s+(\d)/g, '$1 $2');
+            result = result.replace(/\b([A-Za-z]{2,}\d+)\s+系列\b/g, '$1系列');
+            result = result.replace(/\b([A-Z]{2,})(\d+)/g, '$1$2');
+            result = result.replace(/\b([a-z]{2,})(\d+)\b/g, token => {
+                const match = token.match(/^([a-z]+)(\d+)$/);
+                if (!match) return token;
+                const name = match[1];
+                const digits = match[2];
+                if (name === 'nova') return `nova ${digits}`;
+                if (name === 'reno') return `Reno ${digits}`;
+                if (name === 'pad') return `Pad ${digits}`;
+                if (name === 'air') return `Air ${digits}`;
+                if (name === 'book') return `Book ${digits}`;
+                if (name === 'watch') return `Watch ${digits}`;
+                if (name === 'pocket') return `Pocket ${digits}`;
+                return token;
+            });
+            result = result.replace(/([\u4e00-\u9fff])\s+(\d)/g, '$1$2');
+            return result;
+        }
+
+        function finalizeReleaseDisplayName(candidate, original) {
+            let text = normalizeTokenCase(restoreManufacturerPrefix(candidate, original));
+            text = normalizeDisplayCase(text);
+            text = trimToSeriesSuffix(text);
+            if (/系列/.test(original) && !/系列$/.test(text)) {
+                text = `${text}系列`;
+            }
+            text = appendSeriesSuffixIfNeeded(text, original);
+            return text.replace(/\s+系列$/, '系列').trim();
+        }
+
+        function normalizeReleaseKey(name) {
+            return normalizeCompact(name);
+        }
+
+        function normalizeReleaseName(name) {
+            const original = normalizeSpaces(name);
+            const text = cleanReleaseFragment(original);
+            if (!text) return '';
+            const sliced = lastBrandSlice(text);
+            if (sliced) {
+                const cleaned = cleanReleaseFragment(sliced);
+                if (cleaned && isLikelyReleaseFragment(cleaned)) {
+                    return finalizeReleaseDisplayName(cleaned, original);
+                }
+            }
+            const pieces = splitReleaseFragments(text);
+            for (const piece of pieces) {
+                if (isLikelyReleaseFragment(piece)) {
+                    return finalizeReleaseDisplayName(piece, original);
+                }
+            }
+            return isLikelyReleaseFragment(text)
+                ? finalizeReleaseDisplayName(text, original)
+                : '';
+        }
+
+        function normalizeReleaseCalendarProducts(products) {
+            const result = [];
+            const seen = new Set();
+            (products || []).forEach(product => {
+                const rawName = normalizeSpaces(product?.name || '');
+                const rawDate = product?.releaseDate || '未公布';
+                const isCoolapkProduct = product?.source === 'coolapk';
+                const status = product?.status === 'released' ? 'released' : 'upcoming';
+                const url = sanitizeExternalUrl(product?.url || '');
+                if (!rawName) return;
+                if (!isCoolapkProduct && !isUpcomingRelease(rawDate)) return;
+                if (/(起售价|售价|价格|定价|成交价|预售价|首销价)/.test(rawName)) return;
+                if (isCoolapkProduct) {
+                    const key = product?.id || `${normalizeReleaseKey(rawName)}|${rawDate}|${status}`;
+                    if (seen.has(key)) return;
+                    seen.add(key);
+                    result.push({
+                        name: rawName,
+                        releaseDate: rawDate,
+                        url,
+                        status,
+                        source: 'coolapk',
+                        sourceLabel: product?.sourceLabel || '酷安',
+                        category: normalizeSpaces(product?.category || '数码新品'),
+                        logo: sanitizeImageUrl(product?.logo || ''),
+                        productId: product?.productId || '',
+                    });
+                    return;
+                }
+                const candidateNames = splitReleaseFragments(rawName);
+                const normalizedCandidates = candidateNames.length ? candidateNames : [rawName];
+                normalizedCandidates.forEach(candidate => {
+                    let cleaned = normalizeReleaseName(candidate);
+                    if (cleaned && /系列/.test(rawName) && !/系列$/.test(cleaned)) {
+                        cleaned = `${cleaned}系列`;
+                    }
+                    cleaned = normalizeDisplayCase(cleaned);
+                    if (!cleaned) return;
+                    const key = `${normalizeReleaseKey(cleaned)}|${rawDate}`;
+                    if (seen.has(key)) return;
+                    seen.add(key);
+                    result.push({
+                        name: cleaned,
+                        releaseDate: rawDate,
+                        url,
+                        status: 'upcoming',
+                        source: 'legacy',
+                        sourceLabel: '多源线索',
+                        category: '数码新品',
+                        logo: '',
+                    });
+                });
+            });
+            return result;
+        }
+
+        function escapeHtml(value) {
+            return String(value || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function sanitizeExternalUrl(value) {
+            const text = normalizeSpaces(value);
+            return /^https?:\/\//i.test(text) ? text : '';
+        }
+
+        function sanitizeImageUrl(value) {
+            const text = normalizeSpaces(value);
+            return /^https:\/\//i.test(text) ? text : '';
+        }
+
+        function formatCalendarCacheTime(value) {
+            if (!value) return '';
+            const parsed = new Date(value);
+            if (Number.isNaN(parsed.getTime())) return '';
+            return parsed.toLocaleString('zh-CN', {
+                month: 'numeric',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false,
+            });
+        }
 
         // 格式化日期显示
         function releaseDateSortValue(dateStr) {
@@ -155,28 +553,55 @@
             if (month) {
                 return Number(`${month[1]}${month[2]}`) >= Number(`${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}`);
             }
-            if (/^\d{4}年上半年$/.test(dateStr)) return now.getMonth() < 6;
-            if (/^\d{4}年下半年$/.test(dateStr)) return true;
+            const half = dateStr.match(/^(\d{4})年(上半年|下半年)$/);
+            if (half) {
+                const targetYear = Number(half[1]);
+                if (targetYear > now.getFullYear()) return true;
+                if (targetYear < now.getFullYear()) return false;
+                return half[2] === '上半年' ? now.getMonth() < 6 : true;
+            }
             return dateStr === '未公布';
         }
 
-        // 渲染发布日历
-        function renderReleaseCalendar(products) {
-            const container = document.getElementById('release-calendar');
-            const upcomingProducts = (products || []).filter(product => isUpcomingRelease(product.releaseDate || '未公布'));
+        function releaseCategoryIcon(category) {
+            if (/游戏/.test(category)) return '🎮';
+            if (/平板/.test(category)) return '▣';
+            if (/电脑|笔记本/.test(category)) return '💻';
+            if (/穿戴|手表/.test(category)) return '⌚';
+            if (/耳机/.test(category)) return '🎧';
+            if (/智能家居/.test(category)) return '🏠';
+            return '📱';
+        }
 
-            if (!upcomingProducts.length) {
-                container.innerHTML = `
-                    <div class="text-center text-gray-500 py-8">
-                        暂无待发布新品预告
+        function renderReleaseProduct(product) {
+            const name = escapeHtml(product.name);
+            const category = escapeHtml(product.category || '数码新品');
+            const source = escapeHtml(product.sourceLabel || '酷安');
+            const categoryIcon = releaseCategoryIcon(product.category || '');
+            const logo = product.logo
+                ? `<span class="relative w-8 h-8 rounded-md bg-white border border-gray-100 flex items-center justify-center shrink-0 overflow-hidden">${categoryIcon}<img src="${escapeHtml(product.logo)}" alt="" loading="lazy" onerror="this.remove()" class="absolute inset-0 w-full h-full object-cover"></span>`
+                : `<span class="w-8 h-8 rounded-md bg-white border border-gray-100 flex items-center justify-center shrink-0">${categoryIcon}</span>`;
+            const title = product.url
+                ? `<a href="${escapeHtml(product.url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:text-blue-600 leading-snug">${name}</a>`
+                : `<span class="font-medium leading-snug">${name}</span>`;
+            return `
+                <div class="bg-white/90 px-2.5 py-2 rounded-lg border border-white/70 flex items-center gap-2 min-w-0">
+                    ${logo}
+                    <div class="min-w-0 flex-1">
+                        ${title}
+                        <div class="mt-1 flex flex-wrap items-center gap-1.5 text-[11px] text-gray-400">
+                            <span>${category}</span>
+                            <span>·</span>
+                            <span>${source}</span>
+                        </div>
                     </div>
-                `;
-                return;
-            }
+                </div>
+            `;
+        }
 
-            // 按月份 -> 日期分组
+        function renderReleaseGroups(products, { descending = false } = {}) {
             const grouped = {};
-            upcomingProducts.forEach(product => {
+            products.forEach(product => {
                 const rawDate = product.releaseDate || '未公布';
                 const monthKey = releaseMonthKey(rawDate);
                 const monthLabel = releaseMonthLabel(rawDate);
@@ -190,40 +615,40 @@
                 grouped[monthKey].days[dayKey].products.push(product);
             });
 
-            // 按月份排序
             const sortedMonths = Object.keys(grouped).sort((a, b) => {
-                return releaseMonthSortValue(grouped[a].rawDate) - releaseMonthSortValue(grouped[b].rawDate);
+                const delta = releaseMonthSortValue(grouped[a].rawDate) - releaseMonthSortValue(grouped[b].rawDate);
+                return descending ? -delta : delta;
             });
 
-            container.innerHTML = sortedMonths.map((monthKey, monthIndex) => {
+            return sortedMonths.map((monthKey, monthIndex) => {
                 const color = dateColors[monthIndex % dateColors.length];
                 const month = grouped[monthKey];
                 const sortedDays = Object.keys(month.days).sort((a, b) => {
-                    return releaseDaySortValue(month.days[a].rawDate) - releaseDaySortValue(month.days[b].rawDate);
+                    const delta = releaseDaySortValue(month.days[a].rawDate) - releaseDaySortValue(month.days[b].rawDate);
+                    return descending ? -delta : delta;
                 });
 
                 return `
-                    <div class="bg-white rounded-lg shadow p-4">
+                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 mb-4 break-inside-avoid-column">
                         <div class="flex items-center justify-between gap-4 mb-3">
-                            <h3 class="font-bold text-${color.bg}">${month.monthLabel}</h3>
-                            <span class="text-xs text-gray-500">${sortedDays.reduce((total, dayKey) => total + (month.days[dayKey].products || []).length, 0)} 条</span>
+                            <div class="min-w-0">
+                                <h3 class="font-bold" style="color: ${color.text};">${month.monthLabel}</h3>
+                                <p class="text-xs text-gray-400 mt-1">${monthKey.replace(/-month$/, '')}</p>
+                            </div>
+                            <span class="text-xs text-gray-500 whitespace-nowrap">${sortedDays.reduce((total, dayKey) => total + (month.days[dayKey].products || []).length, 0)} 条</span>
                         </div>
                         <div class="space-y-3">
                             ${sortedDays.map(dayKey => {
                                 const day = month.days[dayKey];
                                 const prods = day.products || [];
                                 return `
-                                    <div class="rounded-lg border border-${color.light} bg-${color.light} p-3">
+                                    <div class="rounded-lg border p-3" style="border-color: ${color.border}; background-color: ${color.soft};">
                                         <div class="flex items-center justify-between gap-4 mb-2">
                                             <span class="font-semibold text-gray-700">${dayKey}</span>
                                             <span class="text-xs text-gray-500">${prods.length} 条</span>
                                         </div>
-                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                                            ${prods.map(p => `
-                                                <span class="bg-white/80 px-2 py-1 rounded flex items-center">
-                                                    ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">${p.name}</a>` : `<span>${p.name}</span>`}
-                                                </span>
-                                            `).join('')}
+                                        <div class="grid grid-cols-1 gap-2 text-sm">
+                                            ${prods.map(renderReleaseProduct).join('')}
                                         </div>
                                     </div>
                                 `;
@@ -234,25 +659,102 @@
             }).join('');
         }
 
+        // 渲染发布日历；酷安结构化条目无需再经过新闻标题猜测和拆词。
+        function renderReleaseCalendar(calendar) {
+            const container = document.getElementById('release-calendar');
+            const meta = document.getElementById('release-calendar-meta');
+            const payload = Array.isArray(calendar) ? { products: calendar } : (calendar || {});
+            const normalizedProducts = normalizeReleaseCalendarProducts(payload.products || []);
+            const upcomingProducts = normalizedProducts.filter(product => product.status !== 'released' && isUpcomingRelease(product.releaseDate));
+            const releasedProducts = normalizedProducts.filter(product => product.status === 'released');
+
+            const sourceLabel = payload.sourceLabel || (payload.source === 'coolapk-local-cache' ? '酷安 App' : '多源线索');
+            const cacheTime = formatCalendarCacheTime(payload.cacheUpdatedAt);
+            meta.textContent = cacheTime ? `${sourceLabel} · ${cacheTime}` : sourceLabel;
+            meta.className = payload.source === 'coolapk-local-cache'
+                ? 'text-xs text-green-700 bg-green-50 border border-green-200 rounded-full px-3 py-1'
+                : 'text-xs text-gray-500 bg-white border border-gray-200 rounded-full px-3 py-1';
+
+            if (!upcomingProducts.length && !releasedProducts.length) {
+                container.innerHTML = `
+                    <div class="text-center text-gray-500 py-8">
+                        暂无可用新品日历
+                    </div>
+                `;
+                return;
+            }
+
+            const upcomingSection = upcomingProducts.length
+                ? `
+                    <section>
+                        <div class="flex items-center justify-between gap-3 mb-3">
+                            <h3 class="font-bold text-gray-800">即将发布</h3>
+                            <span class="text-xs text-gray-500">${upcomingProducts.length} 款</span>
+                        </div>
+                        <div class="columns-1 xl:columns-2 2xl:columns-3 gap-4">
+                            ${renderReleaseGroups(upcomingProducts)}
+                        </div>
+                    </section>
+                `
+                : '';
+
+            const releasedDays = Number(payload?.stats?.releasedDays || 30);
+            const releasedSection = releasedProducts.length
+                ? `
+                    <details open class="bg-white/60 rounded-xl border border-gray-200 p-4">
+                        <summary class="cursor-pointer select-none font-bold text-gray-800 flex items-center justify-between gap-3">
+                            <span>最近 ${releasedDays} 天上市新品</span>
+                            <span class="text-xs font-normal text-gray-500">${releasedProducts.length} 款 · 用于核对已发布状态</span>
+                        </summary>
+                        <div class="columns-1 xl:columns-2 2xl:columns-3 gap-4 mt-4">
+                            ${renderReleaseGroups(releasedProducts, { descending: true })}
+                        </div>
+                    </details>
+                `
+                : '';
+
+            container.innerHTML = upcomingSection + releasedSection;
+        }
+
         // 渲染热榜
         function renderHotLists(hotLists) {
             const container = document.getElementById('hot-lists');
-            const platforms = Object.keys(hotLists).filter(key => hotLists[key].status === 'success' && hotLists[key].items?.length);
+            const platforms = Object.keys(hotLists)
+                .filter(key => hotLists[key].status === 'success' && hotLists[key].items?.length)
+                .map(key => ({
+                    key,
+                    data: hotLists[key],
+                    itemsCount: hotLists[key].items.length,
+                }))
+                .sort((a, b) => {
+                    if (b.itemsCount !== a.itemsCount) return b.itemsCount - a.itemsCount;
+                    return (a.data.platform || a.key).localeCompare(b.data.platform || b.key, 'zh-Hans-CN');
+                });
 
-            container.innerHTML = platforms.map(platform => {
-                const data = hotLists[platform];
-                const color = platformColors[data.platform] || { bg: 'gray-500', icon: '📊' };
+            const visiblePlatforms = platforms.length > 1 && platforms.length % 2 === 1
+                ? platforms.slice(0, -1)
+                : platforms;
+
+            container.innerHTML = visiblePlatforms.map(platform => {
+                const data = platform.data;
+                const color = resolvePlatformTheme(data.platform);
                 const items = data.items || [];
 
                 return `
-                    <div class="bg-white rounded-lg shadow overflow-hidden">
-                        <div class="bg-${color.bg} text-white px-4 py-2 font-bold">
-                            ${color.icon} ${data.platform}热门
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100">
+                        <div class="px-4 py-3 text-white flex items-center justify-between gap-3" style="background: ${color.bg};">
+                            <div class="min-w-0 flex items-center gap-3">
+                                <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg text-white text-sm shadow-sm" style="background: ${color.bg};">
+                                    ${color.icon}
+                                </span>
+                                <span class="font-bold truncate">${color.label || data.platform}热门</span>
+                            </div>
+                            <span class="text-xs font-medium px-2 py-1 rounded-full bg-white/20 text-white">${items.length} 条</span>
                         </div>
                         <ul class="divide-y text-sm">
-                            ${items.slice(0, 5).map((item, idx) => `
-                                <li class="px-4 py-2 hover:bg-gray-50">
-                                    <span class="font-bold text-gray-400 mr-2">${item.rank || idx + 1}.</span>
+                            ${items.slice(0, 6).map((item, idx) => `
+                                <li class="px-4 py-2.5 hover:bg-gray-50 leading-snug">
+                                    <span class="inline-flex items-center justify-center min-w-6 h-6 rounded-full bg-gray-100 text-gray-500 text-xs font-bold mr-2">${item.rank || idx + 1}</span>
                                     ${item.url && item.url !== '#'
                                         ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">${item.title}</a>`
                                         : item.title}
@@ -265,9 +767,9 @@
             }).join('');
 
             // 如果没有成功的热榜
-            if (platforms.length === 0) {
+            if (visiblePlatforms.length === 0) {
                 container.innerHTML = `
-                    <div class="text-center text-gray-500 py-8 col-span-2">
+                    <div class="text-center text-gray-500 py-8 col-span-full">
                         暂无热榜数据
                     </div>
                 `;
@@ -323,7 +825,7 @@
 
                 // 渲染发布日历
                 if (data.releaseCalendar && data.releaseCalendar.products) {
-                    renderReleaseCalendar(data.releaseCalendar.products);
+                    renderReleaseCalendar(data.releaseCalendar);
                 }
 
                 // 渲染热榜
@@ -338,7 +840,7 @@
                     </div>
                 `;
                 document.getElementById('hot-lists').innerHTML = `
-                    <div class="text-center text-red-500 py-8 col-span-2">
+                    <div class="text-center text-red-500 py-8 col-span-full">
                         数据加载失败，请稍后刷新页面
                     </div>
                 `;

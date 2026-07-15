@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-15 16:32:51",
+  "updateTime": "2026-07-15 16:57:01",
   "hotLists": {
     "weibo": {
       "status": "success",
@@ -117,361 +117,807 @@
     }
   },
   "releaseCalendar": {
+    "source": "coolapk-local-cache",
+    "sourceLabel": "酷安 App · 发布日历 + 上市新品",
+    "cacheUpdatedAt": "2026-07-15T15:42:41+08:00",
+    "importedAt": "2026-07-15T16:57:01+08:00",
+    "stats": {
+      "upcoming": 32,
+      "recentlyReleased": 31,
+      "releasedDays": 30
+    },
     "products": [
       {
-        "name": "OPPO Find X9 Ultra已经一段时间了",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "AYANEO Pocket Play",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5101",
+        "productId": 5101,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5101",
+        "logo": "https://image.coolapk.com/product_logo/2026/0701/21/0_0910_2141_419@512x512.png"
       },
       {
-        "name": "OPPO从Find X6系列产品开始跟哈苏进行了",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "OPPO Find X10",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5579",
+        "productId": 5579,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5579",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "ROG 20周年",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
+        "name": "REDMI K100",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5459",
+        "productId": 5459,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5459",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "ROG 20周年 来 ROGDAY 啦",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
+        "name": "ROG Xbox Ally X20",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "游戏",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5532",
+        "productId": 5532,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5532",
+        "logo": "https://image.coolapk.com/product_logo/2026/0601/19/0_3993_3198_957@512x512.png"
       },
       {
-        "name": "ROG也推出了内存条",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROG20%E5%91%A8%E5%B9%B4%23&extparam=%23ROG20%E5%91%A8%E5%B9%B4%23&launchid=10000360-page_H5"
+        "name": "STEPX Neo",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5597",
+        "productId": 5597,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5597",
+        "logo": "https://image.coolapk.com/product_logo/2026/0713/20/0_5874_5699_484@512x512.png"
       },
       {
-        "name": "vivo X Fold6」起售价第一个猜对的安排 18",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/p/index?containerid=2306570042B2094450D064A4FA469B&launchid=10000360-page_H5"
+        "name": "Steam Frame",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "穿戴设备",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5129",
+        "productId": 5129,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5129",
+        "logo": "https://image.coolapk.com/product_logo/2025/1113/11/0_6368_4809_402@724x724.jpg"
       },
       {
-        "name": "一加 15T 采用 6",
-        "releaseDate": "2026-07-15",
-        "url": "https://video.weibo.com/show?fid=1034%3A5280400298410063&launchid=10000360-page_H5"
+        "name": "Surface Laptop Ultra",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "电脑·外设",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5531",
+        "productId": 5531,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5531",
+        "logo": "https://image.coolapk.com/product_logo/2026/0601/17/0_7797_8641_774@512x512.png"
       },
       {
-        "name": "一加 OnePlus Never Settle",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%80%E5%8A%A0&containerid=100808fe70984aac837e1d3e3864216052949f&launchid=10000360-page_H5"
+        "name": "iPhone 18",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5234",
+        "productId": 5234,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5234",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "一加 Turbo 6X",
-        "releaseDate": "2026-07-15",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
+        "name": "iQOO 16",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5583",
+        "productId": 5583,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5583",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "一加今年主推的 165Hz",
-        "releaseDate": "2026-07-15",
-        "url": "https://video.weibo.com/show?fid=1034%3A5280400298410063&launchid=10000360-page_H5"
+        "name": "vivo X500",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5578",
+        "productId": 5578,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5578",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "一加手机的微博 一加 Turbo 6X 系列新品首发 一加 Turbo 6X",
-        "releaseDate": "2026-07-15",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240596772ce121966f6d79867a4734a8fe9&launchid=10000360-page_H5"
+        "name": "vivo Y600",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5577",
+        "productId": 5577,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5577",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "小米推出增程新品牌SkyNomad寻天 7月8日小米",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "一加16",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5458",
+        "productId": 5458,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5458",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "影石 2025夏季全景更新",
-        "releaseDate": "2026-07-15",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
+        "name": "华为Mate 90 Pro Max",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5524",
+        "productId": 5524,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5524",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "影石 Insta360的微博 影石2025夏季全景更新",
-        "releaseDate": "2026-07-15",
-        "url": "https://live.media.weibo.com/subscribe/h5/index/index?oid=1022%3A232240a15f3e52d81a9d4d9edce70db2785a66&launchid=10000360-page_H5"
+        "name": "小米18",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5536",
+        "productId": 5536,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5536",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "影石 LunaUltra影石LunaUltra值得买吗 家人们谁懂啊",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3LunaUltra%23&extparam=%23%E5%BD%B1%E7%9F%B3LunaUltra%23&launchid=10000360-page_H5"
+        "name": "折叠屏iPhone",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5091",
+        "productId": 5091,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5091",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "机械革命预热水冷游戏本旷世 X",
-        "releaseDate": "2026-07-15",
-        "url": "https://weibo.cn/sinaurl?launchid=10000360-page_H5&u=https%3A%2F%2Fwww.ithome.com%2F0%2F620%2F541.htm"
+        "name": "荣耀Magic9",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5598",
+        "productId": 5598,
+        "releaseDate": "2026年下半年",
+        "id": "coolapk-5598",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "极米刚刚开完2026",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%8A%95%E5%BD%B1%E4%BB%AA&containerid=10080873c1f2958b5e2b1dab9c52fc13529af6&launchid=10000360-page_H5"
-      },
-      {
-        "name": "极米史上最硬核的一次技术秀",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%8A%95%E5%BD%B1%E4%BB%AA&containerid=10080873c1f2958b5e2b1dab9c52fc13529af6&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 moto大折叠&",
-        "releaseDate": "2026-07-15",
-        "url": "https://video.weibo.com/show?fid=1034%3A5300390489424050&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想 moto大折叠&超轻薄旗舰YOGA Air 14 Ultra",
-        "releaseDate": "2026-07-15",
-        "url": "https://video.weibo.com/show?fid=1034%3A5300390489424050&launchid=10000360-page_H5"
-      },
-      {
-        "name": "联想天禧 AI 一体多端全场景新品超能之夜（拯救者",
-        "releaseDate": "2026-07-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "联想生态又有新进展~⭐天禧AI 一体多端全场景新品超能之夜上",
-        "releaseDate": "2026-07-15",
-        "url": "https://video.weibo.com/show?fid=1034%3A5300390489424050&launchid=10000360-page_H5"
-      },
-      {
-        "name": "ROG DAY ROG20周年 ROG硬核玩家周冠宇加入战局",
-        "releaseDate": "2026-07-16",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23ROGDAY%23&extparam=%23ROGDAY%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "大疆 Pocket3以及影石的GO ultra",
-        "releaseDate": "2026-07-16",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "大疆的Pocket4 Pro以及影石家的纠结中",
-        "releaseDate": "2026-07-16",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "小米增程 SUV 小米澎程也要",
-        "releaseDate": "2026-07-16",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&extparam=%23%E7%90%86%E6%83%B3L6%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9A%E6%A1%A37%E6%9C%8816%E6%97%A5%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "索尼 A7R6",
-        "releaseDate": "2026-07-17",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "索尼 Xperia 1 VIII",
-        "releaseDate": "2026-07-17",
-        "url": "https://m.weibo.cn/api/container/getIndex"
-      },
-      {
-        "name": "荣耀[超话] 荣耀笔记本#",
-        "releaseDate": "2026-07-21",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "荣耀笔记本荣耀平板荣耀智慧屏",
-        "releaseDate": "2026-07-21",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80%E7%AC%94%E8%AE%B0%E6%9C%AC%23&launchid=10000360-page_H5"
-      },
-      {
-        "name": "三星 Galaxy Z Fold 8 Ultra高清渲染图出炉",
+        "name": "三星Galaxy Watch 9",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "穿戴设备",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5589",
+        "productId": 5589,
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "id": "coolapk-5589",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星 Galaxy全球",
+        "name": "三星Galaxy Watch Ultra 2",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "穿戴设备",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5590",
+        "productId": 5590,
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "id": "coolapk-5590",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星 Z Flip 8",
+        "name": "三星Galaxy Z Flip8",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5574",
+        "productId": 5574,
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&extparam=%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&launchid=10000360-page_H5"
+        "id": "coolapk-5574",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星 Z Flip 8三星Z Fold 8三星Z Fold 8 Ultra",
+        "name": "三星Galaxy Z Fold8",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5573",
+        "productId": 5573,
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/p/index?extparam=%E4%B8%89%E6%98%9F&containerid=100808cc1c4b62dffc307c1f23d57ba91389d0&launchid=10000360-page_H5"
+        "id": "coolapk-5573",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星 Z Fold 8 Ultra",
+        "name": "三星Galaxy Z Fold8 Ultra",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5588",
+        "productId": 5588,
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&extparam=%23%E5%B0%8F%E5%A4%A7%E9%98%94%E6%8A%98%E5%8F%A0%E5%88%86%E5%88%AB%E9%80%82%E5%90%88%E4%BB%80%E4%B9%88%E4%BA%BA%23&launchid=10000360-page_H5"
+        "id": "coolapk-5588",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星折叠屏产品线首款Ultra",
+        "name": "三星Galaxy Z Fold8 Wide",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5480",
+        "productId": 5480,
         "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "id": "coolapk-5480",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星折叠的外观",
-        "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "联想AI平板拯救者Y700无极",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "平板",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5571",
+        "productId": 5571,
+        "releaseDate": "2026-08",
+        "id": "coolapk-5571",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星新一代折叠三件套真机谍照提前流出啦",
-        "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%95%B0%E7%A0%81%E8%B5%84%E8%AE%AF%23&isnewpage=1&launchid=10000360-page_H5"
+        "name": "联想拯救者云游戏掌机C700",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "游戏",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5594",
+        "productId": 5594,
+        "releaseDate": "2026-08",
+        "id": "coolapk-5594",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "三星首款阔折叠Z Fold 8 Ultra 大折叠Z Filp 8 小折叠Galaxy Watch 9",
-        "releaseDate": "2026-07-22",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "荣耀Robot Phone",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5294",
+        "productId": 5294,
+        "releaseDate": "2026-08",
+        "id": "coolapk-5294",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "机械革命星耀 14 的通稿",
-        "releaseDate": "2026-07-28",
-        "url": "https://m.weibo.cn/p/index?extparam=%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA&containerid=100808dbbb16a4cbcd3ca12b600efad9b35741&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米正统车型",
-        "releaseDate": "2026-07-30",
-        "url": "https://video.weibo.com/show?fid=2373717%3A5319439311110153&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米澎程N90",
-        "releaseDate": "2026-07-30",
-        "url": "https://video.weibo.com/show?fid=2373717%3A5319439311110153&launchid=10000360-page_H5"
-      },
-      {
-        "name": "小米澎程N90三季度",
-        "releaseDate": "2026-07",
-        "url": "https://video.weibo.com/show?fid=2373717%3A5319526581993531&launchid=10000360-page_H5"
-      },
-      {
-        "name": "索尼 7月根本不发FX3 II",
-        "releaseDate": "2026-07",
-        "url": "https://m.weibo.cn/p/index?extparam=%E6%91%84%E5%BD%B1&containerid=1008084c8bd0af0f9066cceea349b796d13d9a&launchid=10000360-page_H5"
-      },
-      {
-        "name": "苹果的A20芯片也会在9月的秋季",
+        "name": "Google Pixel 11",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5584",
+        "productId": 5584,
         "releaseDate": "2026-08-12",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%8F%B0%E7%A7%AF%E7%94%B52nm%E8%8A%AF%E7%89%87%E5%BC%80%E5%A7%8B%E9%87%8F%E4%BA%A7%23&extparam=%23%E5%8F%B0%E7%A7%AF%E7%94%B52nm%E8%8A%AF%E7%89%87%E5%BC%80%E5%A7%8B%E9%87%8F%E4%BA%A7%23&launchid=10000360-page_H5"
+        "id": "coolapk-5584",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "影石 Insta360 Go Ultra 渲染图此前已经",
-        "releaseDate": "2026-08-21",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&extparam=%23%E5%BD%B1%E7%9F%B3%E5%AE%98%E5%AE%A38%E6%9C%8821%E6%97%A5%E5%8F%91%E5%B8%83%E6%96%B0%E5%93%81%23&launchid=10000360-page_H5"
+        "name": "Google Pixel 11 Pro",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5585",
+        "productId": 5585,
+        "releaseDate": "2026-08-12",
+        "id": "coolapk-5585",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "华为 MatePad Pro Max搭载的是麒麟T93芯片",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%23&launchid=10000360-page_H5"
+        "name": "Google Pixel 11 Pro Fold",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5587",
+        "productId": 5587,
+        "releaseDate": "2026-08-12",
+        "id": "coolapk-5587",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "华为平板第一次在",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF%23&launchid=10000360-page_H5"
+        "name": "Google Pixel 11 Pro XL",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5586",
+        "productId": 5586,
+        "releaseDate": "2026-08-12",
+        "id": "coolapk-5586",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "索尼 6月3日凌晨",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "iPhone Air2",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5561",
+        "productId": 5561,
+        "releaseDate": "2027年上半年",
+        "id": "coolapk-5561",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "魅族 22超声波指纹依旧",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "海信A10",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5542",
+        "productId": 5542,
+        "releaseDate": "未公布",
+        "id": "coolapk-5542",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "魅族 22跳票两次以后终于",
-        "releaseDate": "2026-09-15",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E9%AD%85%E6%97%8F22%23&extparam=%23%E9%AD%85%E6%97%8F22%23&launchid=10000360-page_H5"
+        "name": "魅族23",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "upcoming",
+        "url": "https://www.coolapk.com/product/5229",
+        "productId": 5229,
+        "releaseDate": "未公布",
+        "id": "coolapk-5229",
+        "logo": "https://image.coolapk.com/product_logo/2018/1224/11/0_1545621791_1422@630x622.jpg"
       },
       {
-        "name": "小米 18系列9月24号 晚7点",
-        "releaseDate": "2026-09-22",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%B0%8F%E7%B1%B3&containerid=1008082be446577762bb6cec8681f5e2d67d18&launchid=10000360-page_H5"
+        "name": "华为Pura90s Pro Max",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5600",
+        "productId": 5600,
+        "releaseDate": "2026-07-14",
+        "id": "coolapk-5600",
+        "logo": "https://image.coolapk.com/product_logo/2026/0715/11/0_4526_7503_113@512x512.png"
       },
       {
-        "name": "华为 Mate XT2首发麒麟9050",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "华为Pura90s Pro",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5601",
+        "productId": 5601,
+        "releaseDate": "2026-07-14",
+        "id": "coolapk-5601",
+        "logo": "https://image.coolapk.com/product_logo/2026/0715/11/0_4909_9894_224@512x512.png"
       },
       {
-        "name": "海信激光电视 极果的微博",
-        "releaseDate": "2026-09",
-        "url": "https://video.weibo.com/show?fid=1034%3A4946237804183639&launchid=10000360-page_H5"
+        "priceMax": 2299,
+        "name": "REDMI Note 17 Pro",
+        "sourceLabel": "酷安",
+        "priceMin": 1599,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5599",
+        "productId": 5599,
+        "releaseDate": "2026-07-14",
+        "id": "coolapk-5599",
+        "logo": "https://image.coolapk.com/product_logo/2026/0714/19/0_8605_9804_787@800x800.png"
       },
       {
-        "name": "苹果也已经在为iPhone Ultra折叠屏手机的量",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%8A%98%E5%8F%A0iPhone%E4%BA%A7%E7%BA%BF%E6%8B%9B%E5%B7%A5%E6%97%B6%E8%96%AA26%E5%85%83%23&extparam=%23%E6%8A%98%E5%8F%A0iPhone%E4%BA%A7%E7%BA%BF%E6%8B%9B%E5%B7%A5%E6%97%B6%E8%96%AA26%E5%85%83%23&launchid=10000360-page_H5"
+        "priceMax": 1699,
+        "name": "REDMI Note 17",
+        "sourceLabel": "酷安",
+        "priceMin": 1299,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5580",
+        "productId": 5580,
+        "releaseDate": "2026-07-14",
+        "id": "coolapk-5580",
+        "logo": "https://image.coolapk.com/product_logo/2026/0714/19/0_8614_6108_951@800x800.png"
       },
       {
-        "name": "苹果产业链分析师郭明錤给出的最新行业调研",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E6%8A%98%E5%8F%A0iPhone%E4%BA%A7%E7%BA%BF%E6%8B%9B%E5%B7%A5%E6%97%B6%E8%96%AA26%E5%85%83%23&extparam=%23%E6%8A%98%E5%8F%A0iPhone%E4%BA%A7%E7%BA%BF%E6%8B%9B%E5%B7%A5%E6%97%B6%E8%96%AA26%E5%85%83%23&launchid=10000360-page_H5"
+        "name": "小米米家显示器挂灯2",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "电脑·外设",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5596",
+        "productId": 5596,
+        "releaseDate": "2026-07-13",
+        "id": "coolapk-5596",
+        "logo": "https://image.coolapk.com/product_logo/2026/0713/20/0_5597_7537_727@512x512.png"
       },
       {
-        "name": "苹果新品前瞻",
-        "releaseDate": "2026-09",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%239%E6%9C%88%E8%8B%B9%E6%9E%9C%E6%96%B0%E5%93%81%E5%89%8D%E7%9E%BB%23&extparam=%239%E6%9C%88%E8%8B%B9%E6%9E%9C%E6%96%B0%E5%93%81%E5%89%8D%E7%9E%BB%23&launchid=10000360-page_H5"
+        "name": "Nothing Phone (4b)",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5565",
+        "productId": 5565,
+        "releaseDate": "2026-07-07",
+        "id": "coolapk-5565",
+        "logo": "https://image.coolapk.com/product_logo/2026/0708/11/0_0603_899_505@512x512.png"
       },
       {
-        "name": "索尼 stateofplay",
-        "releaseDate": "2026-10-01",
-        "url": "https://video.weibo.com/show?fid=1034%3A5305643700256844&launchid=10000360-page_H5"
+        "name": "Nothing Ear(3a)",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "耳机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5576",
+        "productId": 5576,
+        "releaseDate": "2026-07-07",
+        "id": "coolapk-5576",
+        "logo": "https://image.coolapk.com/product_logo/2026/0708/11/0_0703_2492_163@512x512.png"
       },
       {
-        "name": "OPPO Find X9",
-        "releaseDate": "2026-10-16",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
+        "priceMax": 1599,
+        "name": "iQOO Z11i",
+        "sourceLabel": "酷安",
+        "priceMin": 1199,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5560",
+        "productId": 5560,
+        "releaseDate": "2026-07-03",
+        "id": "coolapk-5560",
+        "logo": "https://image.coolapk.com/product_logo/2026/0703/16/0_7072_7358_593@750x750.webp"
       },
       {
-        "name": "OPPO带上你的OPPO",
-        "releaseDate": "2026-10-16",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
+        "priceMax": 199,
+        "name": "小米无线鼠标4 Pro",
+        "sourceLabel": "酷安",
+        "priceMin": 199,
+        "source": "coolapk",
+        "category": "电脑·外设",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5582",
+        "productId": 5582,
+        "releaseDate": "2026-07-02",
+        "id": "coolapk-5582",
+        "logo": "https://image.coolapk.com/product_logo/2026/0702/14/0_3469_1613_895@800x800.png"
       },
       {
-        "name": "OPPO超级话题里",
-        "releaseDate": "2026-10-16",
-        "url": "https://m.weibo.cn/p/index?extparam=OPPO&containerid=10080867843bc0e7e7b09cc369beabf05e9d30&launchid=10000360-page_H5"
+        "name": "小米智能存储",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "智能家居",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/4743",
+        "productId": 4743,
+        "releaseDate": "2026-07-01",
+        "id": "coolapk-4743",
+        "logo": "https://image.coolapk.com/product_logo/2026/0624/11/0_2648_7385_682@512x512.png"
       },
       {
-        "name": "努比亚 Z80Ultra开箱来啦",
-        "releaseDate": "2026-10-22",
-        "url": "https://video.weibo.com/show?fid=1034%3A5220606288003134&launchid=10000360-page_H5"
+        "priceMax": 3499,
+        "name": "iQOO Pad5c",
+        "sourceLabel": "酷安",
+        "priceMin": 2699,
+        "source": "coolapk",
+        "category": "平板",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5575",
+        "productId": 5575,
+        "releaseDate": "2026-07-01",
+        "id": "coolapk-5575",
+        "logo": "https://image.coolapk.com/product_logo/2026/0701/11/0_6870_6316_519@750x750.webp"
       },
       {
-        "name": "努比亚应该会有很多人喜欢",
-        "releaseDate": "2026-10-22",
-        "url": "https://video.weibo.com/show?fid=1034%3A5220606288003134&launchid=10000360-page_H5"
+        "priceMax": 6999,
+        "name": "红魔游戏平板5Pro",
+        "sourceLabel": "酷安",
+        "priceMin": 4999,
+        "source": "coolapk",
+        "category": "平板",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5304",
+        "productId": 5304,
+        "releaseDate": "2026-06-30",
+        "id": "coolapk-5304",
+        "logo": "https://image.coolapk.com/product_logo/2026/0630/15/0_5768_0124_858@512x512.png"
       },
       {
-        "name": "努比亚 Z80 Ultra目前没",
-        "releaseDate": "2026-10",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "priceMax": 1999,
+        "name": "中兴畅行70 Plus",
+        "sourceLabel": "酷安",
+        "priceMin": 1999,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5572",
+        "productId": 5572,
+        "releaseDate": "2026-06-30",
+        "id": "coolapk-5572",
+        "logo": "https://image.coolapk.com/product_logo/2026/0630/11/0_0242_5735_664@512x512.png"
       },
       {
-        "name": "索尼 PS官方",
-        "releaseDate": "2026-11-12",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "priceMax": 349,
+        "name": "REDMI头戴降噪耳机",
+        "sourceLabel": "酷安",
+        "priceMin": 349,
+        "source": "coolapk",
+        "category": "耳机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5553",
+        "productId": 5553,
+        "releaseDate": "2026-06-30",
+        "id": "coolapk-5553",
+        "logo": "https://image.coolapk.com/product_logo/2026/0630/13/0_8321_0962_461@800x800.png"
       },
       {
-        "name": "OPPO Reno15",
-        "releaseDate": "2026-11-17",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "priceMax": 3499,
+        "name": "REDMI K90至尊版",
+        "sourceLabel": "酷安",
+        "priceMin": 2799,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5554",
+        "productId": 5554,
+        "releaseDate": "2026-06-30",
+        "id": "coolapk-5554",
+        "logo": "https://image.coolapk.com/product_logo/2026/0630/19/0_8607_2886_149@800x800.png"
       },
       {
-        "name": "OPPO Reno15OPPO Reno15",
-        "releaseDate": "2026-11-17",
-        "url": "https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&extparam=%23%E5%AE%8B%E9%9B%A8%E7%90%A6%E5%90%8C%E6%AC%BEOPPOReno15%23&launchid=10000360-page_H5"
+        "priceMax": 10999,
+        "name": "vivo X Fold6",
+        "sourceLabel": "酷安",
+        "priceMin": 7999,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5400",
+        "productId": 5400,
+        "releaseDate": "2026-06-26",
+        "id": "coolapk-5400",
+        "logo": "https://image.coolapk.com/product_logo/2026/0626/20/0_6032_6113_216@750x750.webp"
       },
       {
-        "name": "一加 Ace6T",
-        "releaseDate": "2026-12-03",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "priceMax": 999,
+        "name": "vivo TWS 5 Pro",
+        "sourceLabel": "酷安",
+        "priceMin": 999,
+        "source": "coolapk",
+        "category": "耳机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5555",
+        "productId": 5555,
+        "releaseDate": "2026-06-26",
+        "id": "coolapk-5555",
+        "logo": "https://image.coolapk.com/product_logo/2026/0626/20/0_8477_2322_698@750x750.webp"
       },
       {
-        "name": "影石影翎全景无人机空中",
-        "releaseDate": "2026-12-04",
-        "url": "https://m.weibo.cn/api/container/getIndex"
+        "name": "Meta智能眼镜",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "穿戴设备",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5566",
+        "productId": 5566,
+        "releaseDate": "2026-06-24",
+        "id": "coolapk-5566",
+        "logo": "https://image.coolapk.com/product_logo/2026/0624/15/0_7619_6193_913@512x512.png"
       },
       {
-        "name": "联想天禧AI一体多端秋季新品超能之夜",
-        "releaseDate": "2026-12-30",
-        "url": "https://m.weibo.cn/p/index?extparam=%E5%BC%A0%E5%87%8C%E8%B5%AB&containerid=100808b98505d1f9f8c86d9a87748fb6ecc9bd&launchid=10000360-page_H5"
+        "name": "微星Claw 8 EX AI+掌机",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "游戏",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5567",
+        "productId": 5567,
+        "releaseDate": "2026-06-23",
+        "id": "coolapk-5567",
+        "logo": "https://image.coolapk.com/product_logo/2026/0624/16/0_0483_9537_809@512x512.png"
       },
       {
-        "name": "索尼 stateofplay",
-        "releaseDate": "2027-02-12",
-        "url": "https://video.weibo.com/show?fid=1034%3A5305604487708681&launchid=10000360-page_H5"
+        "name": "Steam Machine",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "游戏",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5127",
+        "productId": 5127,
+        "releaseDate": "2026-06-23",
+        "id": "coolapk-5127",
+        "logo": "https://image.coolapk.com/product_logo/2025/1113/11/0_6349_88_237@1816x1816.jpg"
+      },
+      {
+        "priceMax": 899,
+        "name": "REDMI 17C",
+        "sourceLabel": "酷安",
+        "priceMin": 799,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5564",
+        "productId": 5564,
+        "releaseDate": "2026-06-23",
+        "id": "coolapk-5564",
+        "logo": "https://image.coolapk.com/product_logo/2026/0623/11/0_5951_5169_184@800x800.png"
+      },
+      {
+        "priceMax": 2799,
+        "name": "荣耀X80 Pro Max",
+        "sourceLabel": "酷安",
+        "priceMin": 1999,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5550",
+        "productId": 5550,
+        "releaseDate": "2026-06-22",
+        "id": "coolapk-5550",
+        "logo": "https://image.coolapk.com/product_logo/2026/0622/19/0_8354_2094_458@512x512.png"
+      },
+      {
+        "priceMax": 299,
+        "name": "荣耀Earbuds 5e",
+        "sourceLabel": "酷安",
+        "priceMin": 299,
+        "source": "coolapk",
+        "category": "耳机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5563",
+        "productId": 5563,
+        "releaseDate": "2026-06-22",
+        "id": "coolapk-5563",
+        "logo": "https://image.coolapk.com/product_logo/2026/0622/20/0_0317_5283_852@800x800.png"
+      },
+      {
+        "priceMax": 1499,
+        "name": "森海塞尔ACCENTUM Clip",
+        "sourceLabel": "酷安",
+        "priceMin": 1499,
+        "source": "coolapk",
+        "category": "耳机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5562",
+        "productId": 5562,
+        "releaseDate": "2026-06-18",
+        "id": "coolapk-5562",
+        "logo": "https://image.coolapk.com/product_logo/2026/0618/14/0_3770_896_432@512x512.png"
+      },
+      {
+        "name": "Surface Pro 12 13英寸",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "电脑·外设",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5559",
+        "productId": 5559,
+        "releaseDate": "2026-06-17",
+        "id": "coolapk-5559",
+        "logo": "https://image.coolapk.com/product_logo/2026/0617/17/0_7172_1157_758@512x512.png"
+      },
+      {
+        "name": "Surface Laptop 8 15英寸",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "电脑·外设",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5558",
+        "productId": 5558,
+        "releaseDate": "2026-06-17",
+        "id": "coolapk-5558",
+        "logo": "https://image.coolapk.com/product_logo/2026/0617/11/0_7742_2979_461@512x512.png"
+      },
+      {
+        "name": "Surface Laptop 8 13.8英寸",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "电脑·外设",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5557",
+        "productId": 5557,
+        "releaseDate": "2026-06-17",
+        "id": "coolapk-5557",
+        "logo": "https://image.coolapk.com/product_logo/2026/0617/11/0_7539_6321_81@512x512.png"
+      },
+      {
+        "name": "夏普AQUOS R11",
+        "sourceLabel": "酷安",
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5556",
+        "productId": 5556,
+        "releaseDate": "2026-06-16",
+        "id": "coolapk-5556",
+        "logo": "https://image.coolapk.com/product_logo/2026/0617/11/0_8628_8578_563@512x512.png"
+      },
+      {
+        "priceMax": 299,
+        "name": "魅族Watch M1",
+        "sourceLabel": "酷安",
+        "priceMin": 299,
+        "source": "coolapk",
+        "category": "穿戴设备",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5551",
+        "productId": 5551,
+        "releaseDate": "2026-06-15",
+        "id": "coolapk-5551",
+        "logo": "https://image.coolapk.com/product_logo/2026/0615/11/0_3824_4916_971@512x512.png"
+      },
+      {
+        "priceMax": 2399,
+        "name": "荣耀X70 Pro Max",
+        "sourceLabel": "酷安",
+        "priceMin": 1999,
+        "source": "coolapk",
+        "category": "手机",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5552",
+        "productId": 5552,
+        "releaseDate": "2026-06-15",
+        "id": "coolapk-5552",
+        "logo": "https://image.coolapk.com/product_logo/2026/0615/15/0_6915_7804_349@512x512.png"
+      },
+      {
+        "priceMax": 4299,
+        "name": "DJI Osmo Pocket 4P",
+        "sourceLabel": "酷安",
+        "priceMin": 3799,
+        "source": "coolapk",
+        "category": "摄影",
+        "status": "released",
+        "url": "https://www.coolapk.com/product/5401",
+        "productId": 5401,
+        "releaseDate": "2026-06-15",
+        "id": "coolapk-5401",
+        "logo": "https://image.coolapk.com/product_logo/2026/0615/20/0_5013_0889_845@576x576.png"
       }
     ]
   }

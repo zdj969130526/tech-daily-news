@@ -660,9 +660,8 @@
             const upcomingProducts = normalizedProducts.filter(product => product.status !== 'released' && isUpcomingRelease(product.releaseDate));
             const releasedProducts = normalizedProducts.filter(product => product.status === 'released');
 
-            const sourceLabel = payload.sourceLabel || (payload.source === 'coolapk-local-cache' ? '酷安 App' : '多源线索');
-            const cacheTime = formatCalendarCacheTime(payload.cacheUpdatedAt);
-            meta.textContent = cacheTime ? `${sourceLabel} · ${cacheTime}` : sourceLabel;
+            const lastUpdatedTime = formatCalendarCacheTime(payload.importedAt || payload.cacheUpdatedAt);
+            meta.textContent = lastUpdatedTime ? `最后更新时间 · ${lastUpdatedTime}` : '最后更新时间';
             meta.className = payload.source === 'coolapk-local-cache'
                 ? 'text-xs text-green-700 bg-green-50 border border-green-200 rounded-full px-3 py-1'
                 : 'text-xs text-gray-500 bg-white border border-gray-200 rounded-full px-3 py-1';

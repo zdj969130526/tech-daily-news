@@ -9,6 +9,15 @@
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
         .gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
         .loading { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        .skill-row { display: grid; grid-template-columns: 1.75rem minmax(0, 1fr) 4rem; column-gap: .75rem; row-gap: .4rem; min-height: 92px; }
+        .skill-name { min-width: 0; }
+        .skill-description { grid-column: 2; margin: 0; color: #6b7280; font-size: 12px; line-height: 1.65; }
+        .skill-installs { grid-column: 3; grid-row: 1 / 3; }
+        @media (min-width: 640px) {
+            .skill-row { grid-template-columns: 1.75rem minmax(0, 1.1fr) minmax(0, 1fr) 4rem; min-height: 96px; }
+            .skill-description { grid-column: 3; grid-row: 1; padding-left: .75rem; border-left: 1px solid #e5e7eb; }
+            .skill-installs { grid-column: 4; grid-row: 1; }
+        }
         @keyframes pulse {
             0%, 100% { opacity: 1; }
             50% { opacity: .5; }
@@ -32,6 +41,22 @@
             </div>
             <div id="release-calendar" class="space-y-6">
                 <div class="text-center text-gray-500 py-8">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Skills 周榜 -->
+        <section class="mb-12">
+            <div class="mb-3 flex flex-wrap items-center justify-between gap-3">
+                <h2 class="text-2xl font-bold flex items-center">
+                    <span class="mr-2">🧩</span> 本周热门 AI Skills
+                </h2>
+                <span id="skills-hot-meta" class="text-xs text-gray-500 bg-white border border-gray-200 rounded-full px-3 py-1">等待数据源</span>
+            </div>
+            <p id="skills-hot-methodology" class="text-sm text-gray-500 mb-6">根据可核验的本周安装量排序</p>
+            <div id="skills-hot" class="grid grid-cols-1 xl:grid-cols-2 gap-4 items-stretch">
+                <div class="text-center text-gray-500 py-8 col-span-full">
                     <div class="loading">加载中...</div>
                 </div>
             </div>
@@ -767,6 +792,73 @@
             }
         }
 
+        function formatInstallCount(value) {
+            return new Intl.NumberFormat('zh-CN', {
+                notation: 'compact',
+                maximumFractionDigits: 1,
+            }).format(Number(value) || 0);
+        }
+
+        function renderSkillsRanking(items, { title, icon, theme }) {
+            return `
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 h-full">
+                    <div class="px-4 py-3 text-white flex items-center justify-between gap-3" style="background: ${theme};">
+                        <div class="min-w-0 flex items-center gap-3">
+                            <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-white/15 text-sm">${icon}</span>
+                            <span class="font-bold">${escapeHtml(title)}</span>
+                        </div>
+                        <span class="text-xs font-medium px-2 py-1 rounded-full bg-white/20">${items.length} 条</span>
+                    </div>
+                    <ol class="divide-y text-sm">
+                        ${items.map((item, index) => {
+                            const url = sanitizeExternalUrl(item.url);
+                            const name = escapeHtml(item.name);
+                            const source = escapeHtml(item.source);
+                            const count = formatInstallCount(item.weeklyInstalls);
+                            const label = url
+                                ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:text-blue-600 break-words">${name}</a>`
+                                : `<span class="font-medium break-words">${name}</span>`;
+                            return `
+                                <li class="skill-row px-4 py-3 items-center hover:bg-gray-50">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gray-100 text-gray-500 text-xs font-bold shrink-0">${index + 1}</span>
+                                    <div class="skill-name">
+                                        ${label}
+                                        <div class="text-xs text-gray-400 mt-1 truncate">${source}</div>
+                                    </div>
+                                    <p class="skill-description">${escapeHtml(item.description || '用途介绍待补充，可点击名称查看详情。')}</p>
+                                    <div class="skill-installs text-right" title="本周安装 ${Number(item.weeklyInstalls) || 0} 次">
+                                        <div class="font-bold text-gray-700">${count}</div>
+                                        <div class="text-[11px] text-gray-400">本周安装</div>
+                                    </div>
+                                </li>
+                            `;
+                        }).join('')}
+                    </ol>
+                </div>
+            `;
+        }
+
+        function renderSkillsHot(payload) {
+            const container = document.getElementById('skills-hot');
+            const meta = document.getElementById('skills-hot-meta');
+            const methodology = document.getElementById('skills-hot-methodology');
+            const official = Array.isArray(payload?.official) ? payload.official : [];
+            const community = Array.isArray(payload?.community) ? payload.community : [];
+            if (!official.length && !community.length) {
+                meta.textContent = '数据暂不可用';
+                container.innerHTML = '<div class="text-center text-gray-500 py-8 col-span-full">暂无 AI Skills 周榜数据</div>';
+                return;
+            }
+
+            const updatedAt = formatCalendarCacheTime(payload.updatedAt);
+            meta.textContent = updatedAt ? `最后更新 · ${updatedAt}` : '最后更新';
+            methodology.textContent = `${payload.methodology || '按本周安装量排序'} · 数据源：${payload.source?.name || 'Skills.sh'}`;
+            container.innerHTML = [
+                renderSkillsRanking(official, { title: '官方热门', icon: '✓', theme: '#4f46e5' }),
+                renderSkillsRanking(community, { title: '社区热度', icon: '↗', theme: '#ea580c' }),
+            ].join('');
+        }
+
         function normalizeHotCache(payload) {
             const result = {};
             const sourceMap = {};
@@ -805,19 +897,25 @@
         // 加载数据
         async function loadData() {
             try {
-                const [data, hotCache] = await Promise.all([
+                const [data, hotCache, skillsHot] = await Promise.all([
                     fetchJson('./data.json'),
-                    fetchJson('./data/hot-cache.json')
+                    fetchJson('./data/hot-cache.json'),
+                    fetchJson('./data/skills-hot.json').catch(error => {
+                        console.warn('AI Skills 周榜加载失败:', error);
+                        return null;
+                    })
                 ]);
 
                 // 更新时间
                 document.getElementById('update-time').textContent =
-                    `发布日历 × 热榜聚合 | ${hotCache.updatedAt || data.updateTime} 更新`;
+                    `发布日历 × AI Skills × 热榜聚合 | ${hotCache.updatedAt || data.updateTime} 更新`;
 
                 // 渲染发布日历
                 if (data.releaseCalendar && data.releaseCalendar.products) {
                     renderReleaseCalendar(data.releaseCalendar);
                 }
+
+                renderSkillsHot(skillsHot);
 
                 // 渲染热榜
                 renderHotLists(normalizeHotCache(hotCache));

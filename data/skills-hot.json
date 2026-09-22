@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T08:13:11+08:00",
+  "updatedAt": "2026-09-22T08:11:39+08:00",
   "source": {
     "name": "Skills.sh"
   },
@@ -9,131 +9,131 @@
       "name": "find-skills",
       "description": "按任务需求查找并安装合适的 AI 技能。",
       "source": "vercel-labs/skills",
-      "weeklyInstalls": 101832,
-      "totalInstalls": 3489032,
+      "weeklyInstalls": 105632,
+      "totalInstalls": 3505780,
       "url": "https://skills.sh/vercel-labs/skills/find-skills"
     },
     {
       "name": "agent-browser",
       "description": "让 AI 自动浏览网页、填写表单与提取信息。",
       "source": "vercel-labs/agent-browser",
-      "weeklyInstalls": 45317,
-      "totalInstalls": 893663,
+      "weeklyInstalls": 49445,
+      "totalInstalls": 901230,
       "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser"
     },
     {
       "name": "frontend-design",
       "description": "生成有设计感、可直接使用的前端界面。",
       "source": "anthropics/skills",
-      "weeklyInstalls": 22533,
-      "totalInstalls": 905710,
+      "weeklyInstalls": 22545,
+      "totalInstalls": 909014,
       "url": "https://skills.sh/anthropics/skills/frontend-design"
     },
     {
       "name": "web-design-guidelines",
       "description": "检查网页设计、交互与无障碍规范。",
       "source": "vercel-labs/agent-skills",
-      "weeklyInstalls": 18338,
-      "totalInstalls": 651475,
+      "weeklyInstalls": 20832,
+      "totalInstalls": 654988,
       "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "用途介绍待补充，可点击名称查看详情。",
+      "source": "vercel-labs/agent-skills",
+      "weeklyInstalls": 19371,
+      "totalInstalls": 732667,
+      "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices"
     },
     {
       "name": "prisma-client-api",
       "description": "辅助编写数据库查询、关联与事务操作。",
       "source": "prisma/skills",
-      "weeklyInstalls": 17657,
-      "totalInstalls": 300060,
+      "weeklyInstalls": 17389,
+      "totalInstalls": 302773,
       "url": "https://skills.sh/prisma/skills/prisma-client-api"
     },
     {
-      "name": "prisma-cli",
-      "description": "指导数据库初始化、迁移与命令行管理。",
+      "name": "prisma-database-setup",
+      "description": "用途介绍待补充，可点击名称查看详情。",
       "source": "prisma/skills",
-      "weeklyInstalls": 17619,
-      "totalInstalls": 297708,
-      "url": "https://skills.sh/prisma/skills/prisma-cli"
+      "weeklyInstalls": 17354,
+      "totalInstalls": 303173,
+      "url": "https://skills.sh/prisma/skills/prisma-database-setup"
     },
     {
       "name": "neon-postgres",
       "description": "指导连接和使用 Neon 云端 Postgres 数据库。",
       "source": "neondatabase/agent-skills",
-      "weeklyInstalls": 17466,
-      "totalInstalls": 176787,
+      "weeklyInstalls": 17041,
+      "totalInstalls": 179346,
       "url": "https://skills.sh/neondatabase/agent-skills/neon-postgres"
-    },
-    {
-      "name": "neon",
-      "description": "辅助搭建包含数据库、认证与存储的云后端。",
-      "source": "neondatabase/agent-skills",
-      "weeklyInstalls": 17217,
-      "totalInstalls": 130490,
-      "url": "https://skills.sh/neondatabase/agent-skills/neon"
     }
   ],
   "community": [
     {
+      "name": "ai-avatar-video",
+      "description": "用途介绍待补充，可点击名称查看详情。",
+      "source": "101-skills/superpowers",
+      "weeklyInstalls": 213289,
+      "totalInstalls": 328121,
+      "url": "https://skills.sh/101-skills/superpowers/ai-avatar-video"
+    },
+    {
+      "name": "twitter-automation",
+      "description": "用途介绍待补充，可点击名称查看详情。",
+      "source": "101-skills/superpowers",
+      "weeklyInstalls": 213285,
+      "totalInstalls": 328427,
+      "url": "https://skills.sh/101-skills/superpowers/twitter-automation"
+    },
+    {
       "name": "design-mobile-apps",
       "description": "将自然语言需求转化为移动应用界面设计。",
       "source": "designed-by-ai/skills",
-      "weeklyInstalls": 140177,
-      "totalInstalls": 331591,
+      "weeklyInstalls": 138479,
+      "totalInstalls": 352350,
       "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps"
     },
     {
-      "name": "video-edit",
-      "description": "按需求选择模型，完成视频改风格与动作迁移。",
+      "name": "seedance-2-5-reference-to-video",
+      "description": "用途介绍待补充，可点击名称查看详情。",
       "source": "genmedia-labs/skills",
-      "weeklyInstalls": 108975,
-      "totalInstalls": 586949,
-      "url": "https://skills.sh/genmedia-labs/skills/video-edit"
+      "weeklyInstalls": 113405,
+      "totalInstalls": 268796,
+      "url": "https://skills.sh/genmedia-labs/skills/seedance-2-5-reference-to-video"
     },
     {
       "name": "reddit-automation",
       "description": "寻找相关 Reddit 讨论并起草有针对性的回复。",
       "source": "flowkit-labs/skills",
-      "weeklyInstalls": 108855,
-      "totalInstalls": 554683,
+      "weeklyInstalls": 113374,
+      "totalInstalls": 570923,
       "url": "https://skills.sh/flowkit-labs/skills/reddit-automation"
     },
     {
-      "name": "image-to-video",
-      "description": "把静态图片转为动画、口型同步等视频内容。",
+      "name": "wan-3-0-prime-reference-to-video",
+      "description": "用途介绍待补充，可点击名称查看详情。",
       "source": "genmedia-labs/skills",
-      "weeklyInstalls": 108844,
-      "totalInstalls": 585720,
-      "url": "https://skills.sh/genmedia-labs/skills/image-to-video"
+      "weeklyInstalls": 113341,
+      "totalInstalls": 269220,
+      "url": "https://skills.sh/genmedia-labs/skills/wan-3-0-prime-reference-to-video"
+    },
+    {
+      "name": "ai-avatar-video",
+      "description": "用途介绍待补充，可点击名称查看详情。",
+      "source": "qu-skills/superpowers",
+      "weeklyInstalls": 102861,
+      "totalInstalls": 159293,
+      "url": "https://skills.sh/qu-skills/superpowers/ai-avatar-video"
     },
     {
       "name": "ai-video-generation",
       "description": "通过命令行调用多种 AI 模型生成视频。",
-      "source": "101-skills/superpowers",
-      "weeklyInstalls": 64317,
-      "totalInstalls": 290350,
-      "url": "https://skills.sh/101-skills/superpowers/ai-video-generation"
-    },
-    {
-      "name": "ai-image-generation",
-      "description": "通过命令行调用多种 AI 模型生成图片。",
-      "source": "101-skills/superpowers",
-      "weeklyInstalls": 63881,
-      "totalInstalls": 289931,
-      "url": "https://skills.sh/101-skills/superpowers/ai-image-generation"
-    },
-    {
-      "name": "google-agents-cli-adk-code",
-      "description": "提供智能体、工具调用与状态管理的开发指引。",
-      "source": "google/agents-cli",
-      "weeklyInstalls": 57896,
-      "totalInstalls": 285755,
-      "url": "https://skills.sh/google/agents-cli/google-agents-cli-adk-code"
-    },
-    {
-      "name": "google-agents-cli-scaffold",
-      "description": "创建智能体项目并配置部署与持续集成。",
-      "source": "google/agents-cli",
-      "weeklyInstalls": 57890,
-      "totalInstalls": 285280,
-      "url": "https://skills.sh/google/agents-cli/google-agents-cli-scaffold"
+      "source": "qu-skills/superpowers",
+      "weeklyInstalls": 102711,
+      "totalInstalls": 158747,
+      "url": "https://skills.sh/qu-skills/superpowers/ai-video-generation"
     }
   ]
 }

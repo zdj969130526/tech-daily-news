@@ -110,7 +110,11 @@ def normalize_skill(skill: dict) -> dict:
     }
 
 
-def top_skills(skills: list[dict], *, official: bool, limit: int) -> list[dict]:
+def skill_key(skill: dict) -> str:
+    return str(skill.get("skillId") or skill.get("name") or "").strip().casefold()
+
+
+def top_skills(skills: list[dict], *, official: bool, limit: int, excluded=()) -> list[dict]:
     candidates = []
     for skill in skills:
         is_official = bool(skill.get("isOfficial"))
@@ -123,11 +127,14 @@ def top_skills(skills: list[dict], *, official: bool, limit: int) -> list[dict]:
         candidates.append(skill)
 
     counts: Counter[str] = Counter()
+    seen = set(excluded)
     result = []
     for skill in sorted(candidates, key=weekly_installs, reverse=True):
         source = str(skill.get("source") or "")
-        if not source or counts[source] >= MAX_PER_SOURCE:
+        key = skill_key(skill)
+        if not source or not key or key in seen or counts[source] >= MAX_PER_SOURCE:
             continue
+        seen.add(key)
         counts[source] += 1
         result.append(normalize_skill(skill))
         if len(result) == limit:
@@ -136,12 +143,13 @@ def top_skills(skills: list[dict], *, official: bool, limit: int) -> list[dict]:
 
 
 def build_payload(skills: list[dict]) -> dict:
+    official_keys = {skill_key(skill) for skill in skills if skill.get("isOfficial") and weekly_installs(skill) > 0}
     return {
         "updatedAt": datetime.now(ZoneInfo("Asia/Shanghai")).isoformat(timespec="seconds"),
         "source": {"name": "Skills.sh"},
-        "methodology": "按本周安装量排序；官方榜使用目录官方标记，社区榜仅收录总安装量≥10万且本周≥1000的 Skill",
+        "methodology": "按本周安装量排序；同名技能仅展示一次，优先官方来源，否则保留本周安装量最高的来源，安装量不累加；社区榜门槛：总安装量≥10万、本周≥1000",
         "official": top_skills(skills, official=True, limit=OFFICIAL_LIMIT),
-        "community": top_skills(skills, official=False, limit=COMMUNITY_LIMIT),
+        "community": top_skills(skills, official=False, limit=COMMUNITY_LIMIT, excluded=official_keys),
     }
 
 
@@ -174,6 +182,16 @@ def self_check() -> None:
     payload = build_payload(parse_skills(html))
     assert [item["name"] for item in payload["official"]] == ["One"]
     assert [item["name"] for item in payload["community"]] == ["Two"]
+    duplicates = [
+        {"source": "mirror/one", "skillId": "same", "installs": 200_000, "weeklyInstalls": [2_000]},
+        {"source": "mirror/two", "skillId": "SAME", "installs": 300_000, "weeklyInstalls": [3_000]},
+        {"source": "other/skills", "skillId": "distinct", "installs": 100_000, "weeklyInstalls": [1_000]},
+    ]
+    ranked = build_payload(duplicates)["community"]
+    assert [item["source"] for item in ranked] == ["mirror/two", "other/skills"]
+    assert ranked[0]["weeklyInstalls"] == 3_000
+    duplicates.append({"source": "official/skills", "skillId": "same", "weeklyInstalls": [100], "isOfficial": True})
+    assert [item["name"] for item in build_payload(duplicates)["community"]] == ["distinct"]
     assert source_description('<meta name="description" content="Generate video via inference.sh CLI. More details.">') == "Generate video via inference.sh CLI."
     assert not valid_description("用途介绍待补充，可点击名称查看详情。")
     assert valid_description("根据文字描述自动生成视频。")

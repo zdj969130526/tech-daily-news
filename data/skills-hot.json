@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-22T17:26:07+08:00",
+  "updatedAt": "2026-09-22T17:29:34+08:00",
   "source": {
     "name": "Skills.sh"
   },
-  "methodology": "按本周安装量排序；官方榜使用目录官方标记，社区榜仅收录总安装量≥10万且本周≥1000的 Skill",
+  "methodology": "按本周安装量排序；同名技能仅展示一次，优先官方来源，否则保留本周安装量最高的来源，安装量不累加；社区榜门槛：总安装量≥10万、本周≥1000",
   "official": [
     {
       "name": "find-skills",
@@ -134,15 +134,6 @@
       "descriptionOriginal": "Build video clips from reference images, reference videos, and reference audio with Wan-AI Wan 3.0 Prime Reference to Video on RunComfy."
     },
     {
-      "name": "ai-avatar-video",
-      "source": "qu-skills/superpowers",
-      "weeklyInstalls": 102861,
-      "totalInstalls": 162875,
-      "url": "https://skills.sh/qu-skills/superpowers/ai-avatar-video",
-      "description": "生成 AI 数字人及人物口播视频。",
-      "descriptionOriginal": "Create AI avatar and talking head videos via inference.sh CLI."
-    },
-    {
       "name": "ai-video-generation",
       "source": "qu-skills/superpowers",
       "weeklyInstalls": 102711,
@@ -150,6 +141,15 @@
       "url": "https://skills.sh/qu-skills/superpowers/ai-video-generation",
       "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
       "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI."
+    },
+    {
+      "name": "ai-image-generation",
+      "source": "qu-skills/superpowers",
+      "weeklyInstalls": 102693,
+      "totalInstalls": 162317,
+      "url": "https://skills.sh/qu-skills/superpowers/ai-image-generation",
+      "description": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
+      "descriptionOriginal": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI."
     }
   ]
 }

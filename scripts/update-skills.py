@@ -5,12 +5,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import subprocess
 import tempfile
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 from zoneinfo import ZoneInfo
 
 
@@ -19,25 +22,64 @@ OFFICIAL_LIMIT = 8
 COMMUNITY_LIMIT = 8
 MAX_PER_SOURCE = 2
 
-# Chinese summaries checked against each linked Skills.sh detail page.
-DESCRIPTIONS = {
-    "find-skills": "按任务需求查找并安装合适的 AI 技能。",
-    "agent-browser": "让 AI 自动浏览网页、填写表单与提取信息。",
-    "frontend-design": "生成有设计感、可直接使用的前端界面。",
-    "web-design-guidelines": "检查网页设计、交互与无障碍规范。",
-    "prisma-client-api": "辅助编写数据库查询、关联与事务操作。",
-    "prisma-cli": "指导数据库初始化、迁移与命令行管理。",
-    "neon-postgres": "指导连接和使用 Neon 云端 Postgres 数据库。",
-    "neon": "辅助搭建包含数据库、认证与存储的云后端。",
-    "design-mobile-apps": "将自然语言需求转化为移动应用界面设计。",
-    "video-edit": "按需求选择模型，完成视频改风格与动作迁移。",
-    "reddit-automation": "寻找相关 Reddit 讨论并起草有针对性的回复。",
-    "image-to-video": "把静态图片转为动画、口型同步等视频内容。",
-    "ai-video-generation": "通过命令行调用多种 AI 模型生成视频。",
-    "ai-image-generation": "通过命令行调用多种 AI 模型生成图片。",
-    "google-agents-cli-adk-code": "提供智能体、工具调用与状态管理的开发指引。",
-    "google-agents-cli-scaffold": "创建智能体项目并配置部署与持续集成。"
-}
+class DescriptionParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.description = ""
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "meta" and attrs.get("name") == "description":
+            self.description = attrs.get("content", "")
+
+
+def source_description(html: str) -> str:
+    parser = DescriptionParser()
+    parser.feed(html)
+    text = " ".join(parser.description.split())
+    # Keep the first complete sentence, without splitting domains such as inference.sh.
+    text = re.split(r"(?<=[.!?。！？])\s+", text, maxsplit=1)[0]
+    if len(text) < 12 or text.endswith(("…", "...")) or len(text) > 600:
+        raise ValueError("Detail page has no usable complete description")
+    return text
+
+
+def valid_description(text: str) -> bool:
+    return bool(re.search(r"[\u4e00-\u9fff]", text)) and "待补充" not in text and len(text) >= 8
+
+
+def translate_description(text: str) -> str:
+    if re.search(r"[\u4e00-\u9fff]", text):
+        return text
+    query = urlencode({"client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": text})
+    translated = json.loads(fetch_html("https://translate.googleapis.com/translate_a/single?" + query))
+    result = "".join(part[0] for part in translated[0] if part[0]).strip()
+    if not valid_description(result):
+        raise ValueError("Translation did not return a Chinese description")
+    return result
+
+
+def enrich_descriptions(payload: dict, previous: dict) -> None:
+    cache = {item["url"]: item for group in ("official", "community") for item in previous.get(group, [])}
+
+    def enrich(item):
+        old = cache.get(item["url"], {})
+        try:
+            original = source_description(fetch_html(item["url"]))
+            if original == old.get("descriptionOriginal") and valid_description(old.get("description", "")):
+                description = old["description"]
+            else:
+                description = translate_description(original)
+            item.update(description=description, descriptionOriginal=original)
+        except (RuntimeError, ValueError, TypeError, IndexError, subprocess.SubprocessError) as error:
+            if not valid_description(old.get("description", "")):
+                raise RuntimeError(f"No verified Chinese description for {item['url']}; keeping previous leaderboard") from error
+            item["description"] = old["description"]
+            item["descriptionOriginal"] = old.get("descriptionOriginal", "")
+            print(f"Using cached description: {item['url']}")
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        list(pool.map(enrich, payload["official"] + payload["community"]))
 
 
 def parse_skills(html: str) -> list[dict]:
@@ -61,7 +103,6 @@ def normalize_skill(skill: dict) -> dict:
     skill_id = str(skill.get("skillId") or "").strip()
     return {
         "name": str(skill.get("name") or skill_id).strip(),
-        "description": DESCRIPTIONS.get(skill_id, "用途介绍待补充，可点击名称查看详情。"),
         "source": source,
         "weeklyInstalls": weekly_installs(skill),
         "totalInstalls": int(skill.get("installs") or 0),
@@ -104,9 +145,9 @@ def build_payload(skills: list[dict]) -> dict:
     }
 
 
-def fetch_html() -> str:
+def fetch_html(url: str = SOURCE_URL) -> str:
     process = subprocess.run(
-        ["curl", "-fsSL", "--retry", "2", "--connect-timeout", "15", "--max-time", "45", SOURCE_URL],
+        ["curl", "-fsSL", "--retry", "2", "--connect-timeout", "15", "--max-time", "45", url],
         check=True,
         capture_output=True,
         text=True,
@@ -133,6 +174,22 @@ def self_check() -> None:
     payload = build_payload(parse_skills(html))
     assert [item["name"] for item in payload["official"]] == ["One"]
     assert [item["name"] for item in payload["community"]] == ["Two"]
+    assert source_description('<meta name="description" content="Generate video via inference.sh CLI. More details.">') == "Generate video via inference.sh CLI."
+    assert not valid_description("用途介绍待补充，可点击名称查看详情。")
+    assert valid_description("根据文字描述自动生成视频。")
+    from unittest.mock import patch
+    fresh = {"official": [{"url": "https://skills.sh/new/skill"}], "community": []}
+    with patch(__name__ + ".fetch_html", return_value='<meta name="description" content="Generate video from text.">'), patch(__name__ + ".translate_description", return_value="根据文字描述自动生成视频。"):
+        enrich_descriptions(fresh, {})
+    assert fresh["official"][0]["description"] == "根据文字描述自动生成视频。"
+    with patch(__name__ + ".fetch_html", side_effect=RuntimeError("offline")):
+        enrich_descriptions(fresh, fresh)
+        try:
+            enrich_descriptions({"official": [{"url": "https://skills.sh/unknown"}], "community": []}, {})
+        except RuntimeError:
+            pass
+        else:
+            raise AssertionError("New skills without descriptions must not be published")
 
 
 def main() -> None:
@@ -147,6 +204,9 @@ def main() -> None:
     payload = build_payload(parse_skills(fetch_html()))
     if not payload["official"] or not payload["community"]:
         raise RuntimeError("Skills leaderboard is unexpectedly empty")
+    cache_path = Path(__file__).resolve().parents[1] / "data" / "skills-hot.json"
+    previous = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
+    enrich_descriptions(payload, previous)
     write_json(args.output, payload)
     print(f"updated {len(payload['official']) + len(payload['community'])} skills -> {args.output}")
 

@@ -12,7 +12,14 @@
       "totalInstalls": 3522831,
       "url": "https://skills.sh/vercel-labs/skills/find-skills",
       "description": "按任务需求查找并安装合适的 AI 技能。",
-      "descriptionOriginal": ""
+      "descriptionOriginal": "",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "技能搜索与安装工具本身不要求购买服务；安装的其他技能可能另行收费。",
+        "url": "https://skills.sh/vercel-labs/skills/find-skills",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "agent-browser",
@@ -21,7 +28,14 @@
       "totalInstalls": 909526,
       "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "description": "用于 AI 代理的浏览器自动化 CLI。",
-      "descriptionOriginal": "Browser automation CLI for AI agents."
+      "descriptionOriginal": "Browser automation CLI for AI agents.",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "本地浏览器自动化可免费使用；可选云浏览器或付费网站服务另计。",
+        "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "frontend-design",
@@ -30,7 +44,14 @@
       "totalInstalls": 912801,
       "url": "https://skills.sh/anthropics/skills/frontend-design",
       "description": "在构建新 UI 或重塑现有 UI 时提供独特、有意的视觉设计指南。",
-      "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one."
+      "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "界面设计指导类技能，不强制调用额外付费服务。",
+        "url": "https://skills.sh/anthropics/skills/frontend-design",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "web-design-guidelines",
@@ -39,7 +60,14 @@
       "totalInstalls": 658442,
       "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "description": "检查 UI 代码是否符合 Web 界面指南。",
-      "descriptionOriginal": "Review UI code for Web Interface Guidelines compliance."
+      "descriptionOriginal": "Review UI code for Web Interface Guidelines compliance.",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "网页设计审查规则，不强制调用额外付费服务。",
+        "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "vercel-react-best-practices",
@@ -48,7 +76,14 @@
       "totalInstalls": 735947,
       "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "description": "Vercel Engineering 的 React 和 Next.js 性能优化指南。",
-      "descriptionOriginal": "React and Next.js performance optimization guidelines from Vercel Engineering."
+      "descriptionOriginal": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "React 性能优化指导，不要求购买 Vercel 托管服务。",
+        "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "prisma-client-api",
@@ -57,7 +92,14 @@
       "totalInstalls": 305725,
       "url": "https://skills.sh/prisma/skills/prisma-client-api",
       "description": "Prisma 客户端 API 参考涵盖模型查询、过滤器、运算符和客户端方法。",
-      "descriptionOriginal": "Prisma Client API reference covering model queries, filters, operators, and client methods."
+      "descriptionOriginal": "Prisma Client API reference covering model queries, filters, operators, and client methods.",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "Prisma ORM 查询指导可用于本地数据库；自选云数据库费用另计。",
+        "url": "https://skills.sh/prisma/skills/prisma-client-api",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "prisma-database-setup",
@@ -66,7 +108,14 @@
       "totalInstalls": 306119,
       "url": "https://skills.sh/prisma/skills/prisma-database-setup",
       "description": "使用不同数据库提供商（PostgreSQL、MySQL、SQLite、MongoDB 等）配置 Prisma 的指南。",
-      "descriptionOriginal": "Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.)."
+      "descriptionOriginal": "Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.).",
+      "cost": {
+        "kind": "free",
+        "label": "无额外服务费",
+        "note": "数据库配置指导支持本地数据库；自选云数据库费用另计。",
+        "url": "https://skills.sh/prisma/skills/prisma-database-setup",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "neon-postgres",
@@ -75,7 +124,14 @@
       "totalInstalls": 182005,
       "url": "https://skills.sh/neondatabase/agent-skills/neon-postgres",
       "description": "指导连接和使用 Neon 云端 Postgres 数据库。",
-      "descriptionOriginal": ""
+      "descriptionOriginal": "",
+      "cost": {
+        "kind": "quota",
+        "label": "有免费额度",
+        "note": "Neon 有长期 Free 计划；使用付费计划或更高资源规格时按量收费。",
+        "url": "https://neon.com/pricing",
+        "checkedAt": "2026-09-22"
+      }
     }
   ],
   "community": [
@@ -86,7 +142,14 @@
       "totalInstalls": 366435,
       "url": "https://skills.sh/101-skills/superpowers/ai-avatar-video",
       "description": "生成 AI 数字人及人物口播视频。",
-      "descriptionOriginal": "Create AI avatar and talking head videos via inference.sh CLI."
+      "descriptionOriginal": "Create AI avatar and talking head videos via inference.sh CLI.",
+      "cost": {
+        "kind": "paid",
+        "label": "需付费 API",
+        "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+        "url": "https://inference.sh/pricing",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "twitter-automation",
@@ -95,7 +158,14 @@
       "totalInstalls": 366739,
       "url": "https://skills.sh/101-skills/superpowers/twitter-automation",
       "description": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布、参与和用户管理。",
-      "descriptionOriginal": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI."
+      "descriptionOriginal": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI.",
+      "cost": {
+        "kind": "paid",
+        "label": "需付费 API",
+        "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+        "url": "https://inference.sh/pricing",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "design-mobile-apps",
@@ -104,7 +174,14 @@
       "totalInstalls": 375287,
       "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "description": "将自然语言需求转化为移动应用界面设计。",
-      "descriptionOriginal": ""
+      "descriptionOriginal": "",
+      "cost": {
+        "kind": "subscription",
+        "label": "试用后需订阅",
+        "note": "Sleek 提供一次性试用额度；持续使用 API 和 Agent 功能需 Pro 或 Team 计划，并消耗额度。",
+        "url": "https://sleek.design/pricing",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "seedance-2-5-reference-to-video",
@@ -113,7 +190,14 @@
       "totalInstalls": 284984,
       "url": "https://skills.sh/genmedia-labs/skills/seedance-2-5-reference-to-video",
       "description": "使用 Seedance 2.5，根据参考素材生成 1080p 视频。",
-      "descriptionOriginal": "Generate reference-guided 1080p video with ByteDance Seedance 2.5 Reference to Video on RunComfy via the `runcomfy` CLI."
+      "descriptionOriginal": "Generate reference-guided 1080p video with ByteDance Seedance 2.5 Reference to Video on RunComfy via the `runcomfy` CLI.",
+      "cost": {
+        "kind": "paid",
+        "label": "需付费 API",
+        "note": "通过 RunComfy 调用视频模型，按生成量计费；可选订阅并不免除模型调用费用。",
+        "url": "https://www.runcomfy.com/pricing",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "reddit-automation",
@@ -122,7 +206,14 @@
       "totalInstalls": 587211,
       "url": "https://skills.sh/flowkit-labs/skills/reddit-automation",
       "description": "寻找相关 Reddit 讨论并起草有针对性的回复。",
-      "descriptionOriginal": ""
+      "descriptionOriginal": "",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "已确认用途为查找讨论与起草回复，但尚未确认该版本是否强制依赖付费服务；不要据此视为完全免费。",
+        "url": "https://skills.sh/flowkit-labs/skills/reddit-automation",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "wan-3-0-prime-reference-to-video",
@@ -131,7 +222,14 @@
       "totalInstalls": 285445,
       "url": "https://skills.sh/genmedia-labs/skills/wan-3-0-prime-reference-to-video",
       "description": "使用 Wan 3.0，根据参考图像、视频和音频生成视频。",
-      "descriptionOriginal": "Build video clips from reference images, reference videos, and reference audio with Wan-AI Wan 3.0 Prime Reference to Video on RunComfy."
+      "descriptionOriginal": "Build video clips from reference images, reference videos, and reference audio with Wan-AI Wan 3.0 Prime Reference to Video on RunComfy.",
+      "cost": {
+        "kind": "paid",
+        "label": "需付费 API",
+        "note": "通过 RunComfy 调用视频模型，按生成量计费；可选订阅并不免除模型调用费用。",
+        "url": "https://www.runcomfy.com/pricing",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "ai-video-generation",
@@ -140,7 +238,14 @@
       "totalInstalls": 177894,
       "url": "https://skills.sh/qu-skills/superpowers/ai-video-generation",
       "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
-      "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI."
+      "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI.",
+      "cost": {
+        "kind": "paid",
+        "label": "需付费 API",
+        "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+        "url": "https://inference.sh/pricing",
+        "checkedAt": "2026-09-22"
+      }
     },
     {
       "name": "ai-image-generation",
@@ -149,7 +254,14 @@
       "totalInstalls": 177880,
       "url": "https://skills.sh/qu-skills/superpowers/ai-image-generation",
       "description": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
-      "descriptionOriginal": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI."
+      "descriptionOriginal": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI.",
+      "cost": {
+        "kind": "paid",
+        "label": "需付费 API",
+        "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+        "url": "https://inference.sh/pricing",
+        "checkedAt": "2026-09-22"
+      }
     }
   ]
 }

@@ -172,7 +172,22 @@ def write_json(path: Path, payload: dict) -> None:
     temporary.replace(path)
 
 
+def enrich_costs(payload: dict) -> None:
+    path = Path(__file__).resolve().parents[1] / "data" / "skills-costs.json"
+    costs = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    for group in ("official", "community"):
+        for item in payload[group]:
+            item["cost"] = costs.get(item["url"], {
+                "kind": "unknown", "label": "费用待核实",
+                "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+                "url": item["url"],
+            })
+
+
 def self_check() -> None:
+    cost_sample = {"official": [{"url": "https://skills.sh/unverified/skills/find-skills"}], "community": []}
+    enrich_costs(cost_sample)
+    assert cost_sample["official"][0]["cost"]["kind"] == "unknown"
     sample = [
         {"source": "official/a", "skillId": "one", "name": "One", "installs": 5, "weeklyInstalls": [3], "isOfficial": True},
         {"source": "community/b", "skillId": "two", "name": "Two", "installs": 100_000, "weeklyInstalls": [1_000]},
@@ -225,6 +240,7 @@ def main() -> None:
     cache_path = Path(__file__).resolve().parents[1] / "data" / "skills-hot.json"
     previous = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
     enrich_descriptions(payload, previous)
+    enrich_costs(payload)
     write_json(args.output, payload)
     print(f"updated {len(payload['official']) + len(payload['community'])} skills -> {args.output}")
 

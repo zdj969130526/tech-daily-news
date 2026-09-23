@@ -1,0 +1,114 @@
+{
+  "https://skills.sh/vercel-labs/skills/find-skills": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "技能搜索与安装工具本身不要求购买服务；安装的其他技能可能另行收费。",
+    "url": "https://skills.sh/vercel-labs/skills/find-skills",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/vercel-labs/agent-browser/agent-browser": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "本地浏览器自动化可免费使用；可选云浏览器或付费网站服务另计。",
+    "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/anthropics/skills/frontend-design": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "界面设计指导类技能，不强制调用额外付费服务。",
+    "url": "https://skills.sh/anthropics/skills/frontend-design",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "网页设计审查规则，不强制调用额外付费服务。",
+    "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "React 性能优化指导，不要求购买 Vercel 托管服务。",
+    "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/prisma/skills/prisma-client-api": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "Prisma ORM 查询指导可用于本地数据库；自选云数据库费用另计。",
+    "url": "https://skills.sh/prisma/skills/prisma-client-api",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/prisma/skills/prisma-database-setup": {
+    "kind": "free",
+    "label": "无额外服务费",
+    "note": "数据库配置指导支持本地数据库；自选云数据库费用另计。",
+    "url": "https://skills.sh/prisma/skills/prisma-database-setup",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/neondatabase/agent-skills/neon-postgres": {
+    "kind": "quota",
+    "label": "有免费额度",
+    "note": "Neon 有长期 Free 计划；使用付费计划或更高资源规格时按量收费。",
+    "url": "https://neon.com/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/101-skills/superpowers/ai-avatar-video": {
+    "kind": "paid",
+    "label": "需付费 API",
+    "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+    "url": "https://inference.sh/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/101-skills/superpowers/twitter-automation": {
+    "kind": "paid",
+    "label": "需付费 API",
+    "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+    "url": "https://inference.sh/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/qu-skills/superpowers/ai-video-generation": {
+    "kind": "paid",
+    "label": "需付费 API",
+    "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+    "url": "https://inference.sh/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/qu-skills/superpowers/ai-image-generation": {
+    "kind": "paid",
+    "label": "需付费 API",
+    "note": "此版本通过 inference.sh 调用服务，消耗平台余额，按调用或算力计费；技能文件免费不代表调用免费。",
+    "url": "https://inference.sh/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/genmedia-labs/skills/seedance-2-5-reference-to-video": {
+    "kind": "paid",
+    "label": "需付费 API",
+    "note": "通过 RunComfy 调用视频模型，按生成量计费；可选订阅并不免除模型调用费用。",
+    "url": "https://www.runcomfy.com/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/genmedia-labs/skills/wan-3-0-prime-reference-to-video": {
+    "kind": "paid",
+    "label": "需付费 API",
+    "note": "通过 RunComfy 调用视频模型，按生成量计费；可选订阅并不免除模型调用费用。",
+    "url": "https://www.runcomfy.com/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/designed-by-ai/skills/design-mobile-apps": {
+    "kind": "subscription",
+    "label": "试用后需订阅",
+    "note": "Sleek 提供一次性试用额度；持续使用 API 和 Agent 功能需 Pro 或 Team 计划，并消耗额度。",
+    "url": "https://sleek.design/pricing",
+    "checkedAt": "2026-09-22"
+  },
+  "https://skills.sh/flowkit-labs/skills/reddit-automation": {
+    "kind": "unknown",
+    "label": "费用待核实",
+    "note": "已确认用途为查找讨论与起草回复，但尚未确认该版本是否强制依赖付费服务；不要据此视为完全免费。",
+    "url": "https://skills.sh/flowkit-labs/skills/reddit-automation",
+    "checkedAt": "2026-09-22"
+  }
+}

@@ -13,6 +13,16 @@
         .skill-name { min-width: 0; }
         .skill-description { grid-column: 2; margin: 0; color: #6b7280; font-size: 12px; line-height: 1.65; }
         .skill-installs { grid-column: 3; grid-row: 1 / 3; }
+        .skill-cost { margin-top: 6px; font-size: 11px; line-height: 1.5; }
+        .skill-cost summary { display: inline-flex; align-items: center; padding: 2px 7px; border: 1px solid; border-radius: 6px; cursor: pointer; font-weight: 600; list-style: none; }
+        .skill-cost summary::-webkit-details-marker { display: none; }
+        .skill-cost summary::after { content: ' ⓘ'; margin-left: 4px; opacity: .6; }
+        .skill-cost summary:focus-visible { outline: 2px solid #6366f1; outline-offset: 3px; }
+        .skill-cost-free summary { color: #047857; background: #ecfdf5; border-color: #a7f3d0; }
+        .skill-cost-paid summary, .skill-cost-subscription summary { color: #b45309; background: #fffbeb; border-color: #fcd34d; }
+        .skill-cost-quota summary { color: #1d4ed8; background: #eff6ff; border-color: #bfdbfe; }
+        .skill-cost-unknown summary { color: #4b5563; background: #f3f4f6; border-color: #d1d5db; }
+        .skill-cost p { margin-top: 6px; color: #6b7280; }
         @media (min-width: 640px) {
             .skill-row { grid-template-columns: 1.75rem minmax(0, 1.1fr) minmax(0, 1fr) 4rem; min-height: 96px; }
             .skill-description { grid-column: 3; grid-row: 1; padding-left: .75rem; border-left: 1px solid #e5e7eb; }
@@ -55,6 +65,7 @@
                 <span id="skills-hot-meta" class="text-xs text-gray-500 bg-white border border-gray-200 rounded-full px-3 py-1">等待数据源</span>
             </div>
             <p id="skills-hot-methodology" class="text-sm text-gray-500 mb-6">根据可核验的本周安装量排序</p>
+            <p class="text-xs text-gray-500 mb-4 leading-relaxed">费用标签：<span class="text-emerald-700">绿色 · 无额外服务费</span>　<span class="text-blue-700">蓝色 · 有免费额度</span>　<span class="text-amber-700">橙色 · 需付费</span>　灰色 · 待核实。点击标签查看依据；不含 AI 助手订阅及模型费用。</p>
             <div id="skills-hot" class="grid grid-cols-1 xl:grid-cols-2 gap-4 items-stretch">
                 <div class="text-center text-gray-500 py-8 col-span-full">
                     <div class="loading">加载中...</div>
@@ -815,6 +826,9 @@
                             const name = escapeHtml(item.name);
                             const source = escapeHtml(item.source);
                             const count = formatInstallCount(item.weeklyInstalls);
+                            const cost = item.cost || { kind: 'unknown', label: '费用待核实', note: '该来源的费用尚未核实。' };
+                            const costKind = ['free', 'paid', 'subscription', 'quota'].includes(cost.kind) ? cost.kind : 'unknown';
+                            const costUrl = sanitizeExternalUrl(cost.url);
                             const label = url
                                 ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:text-blue-600 break-words">${name}</a>`
                                 : `<span class="font-medium break-words">${name}</span>`;
@@ -823,6 +837,13 @@
                                     <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gray-100 text-gray-500 text-xs font-bold shrink-0">${index + 1}</span>
                                     <div class="skill-name">
                                         ${label}
+                                        <details class="skill-cost skill-cost-${costKind}">
+                                            <summary>${escapeHtml(cost.label)}</summary>
+                                            <p>${escapeHtml(cost.note)}
+                                                ${costUrl ? `<a class="text-blue-600 underline" href="${escapeHtml(costUrl)}" target="_blank" rel="noopener noreferrer">查看依据 ↗</a>` : ''}
+                                                ${cost.checkedAt ? `<span class="block mt-1">核验于 ${escapeHtml(cost.checkedAt)}</span>` : ''}
+                                            </p>
+                                        </details>
                                         <div class="text-xs text-gray-400 mt-1 truncate">${source}</div>
                                     </div>
                                     <p class="skill-description">${escapeHtml(item.description || '用途介绍待补充，可点击名称查看详情。')}</p>

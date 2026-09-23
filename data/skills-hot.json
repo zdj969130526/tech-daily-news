@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T17:29:34+08:00",
+  "updatedAt": "2026-09-23T08:09:07+08:00",
   "source": {
     "name": "Skills.sh"
   },
@@ -9,7 +9,7 @@
       "name": "find-skills",
       "source": "vercel-labs/skills",
       "weeklyInstalls": 105632,
-      "totalInstalls": 3510974,
+      "totalInstalls": 3522831,
       "url": "https://skills.sh/vercel-labs/skills/find-skills",
       "description": "按任务需求查找并安装合适的 AI 技能。",
       "descriptionOriginal": ""
@@ -18,7 +18,7 @@
       "name": "agent-browser",
       "source": "vercel-labs/agent-browser",
       "weeklyInstalls": 49445,
-      "totalInstalls": 903304,
+      "totalInstalls": 909526,
       "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "description": "用于 AI 代理的浏览器自动化 CLI。",
       "descriptionOriginal": "Browser automation CLI for AI agents."
@@ -27,7 +27,7 @@
       "name": "frontend-design",
       "source": "anthropics/skills",
       "weeklyInstalls": 22545,
-      "totalInstalls": 910068,
+      "totalInstalls": 912801,
       "url": "https://skills.sh/anthropics/skills/frontend-design",
       "description": "在构建新 UI 或重塑现有 UI 时提供独特、有意的视觉设计指南。",
       "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one."
@@ -36,7 +36,7 @@
       "name": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
       "weeklyInstalls": 20832,
-      "totalInstalls": 656231,
+      "totalInstalls": 658442,
       "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "description": "检查 UI 代码是否符合 Web 界面指南。",
       "descriptionOriginal": "Review UI code for Web Interface Guidelines compliance."
@@ -45,7 +45,7 @@
       "name": "vercel-react-best-practices",
       "source": "vercel-labs/agent-skills",
       "weeklyInstalls": 19371,
-      "totalInstalls": 733782,
+      "totalInstalls": 735947,
       "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "description": "Vercel Engineering 的 React 和 Next.js 性能优化指南。",
       "descriptionOriginal": "React and Next.js performance optimization guidelines from Vercel Engineering."
@@ -54,7 +54,7 @@
       "name": "prisma-client-api",
       "source": "prisma/skills",
       "weeklyInstalls": 17389,
-      "totalInstalls": 303514,
+      "totalInstalls": 305725,
       "url": "https://skills.sh/prisma/skills/prisma-client-api",
       "description": "Prisma 客户端 API 参考涵盖模型查询、过滤器、运算符和客户端方法。",
       "descriptionOriginal": "Prisma Client API reference covering model queries, filters, operators, and client methods."
@@ -63,7 +63,7 @@
       "name": "prisma-database-setup",
       "source": "prisma/skills",
       "weeklyInstalls": 17354,
-      "totalInstalls": 303913,
+      "totalInstalls": 306119,
       "url": "https://skills.sh/prisma/skills/prisma-database-setup",
       "description": "使用不同数据库提供商（PostgreSQL、MySQL、SQLite、MongoDB 等）配置 Prisma 的指南。",
       "descriptionOriginal": "Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.)."
@@ -72,7 +72,7 @@
       "name": "neon-postgres",
       "source": "neondatabase/agent-skills",
       "weeklyInstalls": 17041,
-      "totalInstalls": 180038,
+      "totalInstalls": 182005,
       "url": "https://skills.sh/neondatabase/agent-skills/neon-postgres",
       "description": "指导连接和使用 Neon 云端 Postgres 数据库。",
       "descriptionOriginal": ""
@@ -83,7 +83,7 @@
       "name": "ai-avatar-video",
       "source": "101-skills/superpowers",
       "weeklyInstalls": 213289,
-      "totalInstalls": 335221,
+      "totalInstalls": 366435,
       "url": "https://skills.sh/101-skills/superpowers/ai-avatar-video",
       "description": "生成 AI 数字人及人物口播视频。",
       "descriptionOriginal": "Create AI avatar and talking head videos via inference.sh CLI."
@@ -92,7 +92,7 @@
       "name": "twitter-automation",
       "source": "101-skills/superpowers",
       "weeklyInstalls": 213285,
-      "totalInstalls": 335527,
+      "totalInstalls": 366739,
       "url": "https://skills.sh/101-skills/superpowers/twitter-automation",
       "description": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布、参与和用户管理。",
       "descriptionOriginal": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI."
@@ -101,7 +101,7 @@
       "name": "design-mobile-apps",
       "source": "designed-by-ai/skills",
       "weeklyInstalls": 138479,
-      "totalInstalls": 354645,
+      "totalInstalls": 375287,
       "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "description": "将自然语言需求转化为移动应用界面设计。",
       "descriptionOriginal": ""
@@ -110,7 +110,7 @@
       "name": "seedance-2-5-reference-to-video",
       "source": "genmedia-labs/skills",
       "weeklyInstalls": 113405,
-      "totalInstalls": 274460,
+      "totalInstalls": 284984,
       "url": "https://skills.sh/genmedia-labs/skills/seedance-2-5-reference-to-video",
       "description": "使用 Seedance 2.5，根据参考素材生成 1080p 视频。",
       "descriptionOriginal": "Generate reference-guided 1080p video with ByteDance Seedance 2.5 Reference to Video on RunComfy via the `runcomfy` CLI."
@@ -119,7 +119,7 @@
       "name": "reddit-automation",
       "source": "flowkit-labs/skills",
       "weeklyInstalls": 113374,
-      "totalInstalls": 576598,
+      "totalInstalls": 587211,
       "url": "https://skills.sh/flowkit-labs/skills/reddit-automation",
       "description": "寻找相关 Reddit 讨论并起草有针对性的回复。",
       "descriptionOriginal": ""
@@ -128,7 +128,7 @@
       "name": "wan-3-0-prime-reference-to-video",
       "source": "genmedia-labs/skills",
       "weeklyInstalls": 113341,
-      "totalInstalls": 274829,
+      "totalInstalls": 285445,
       "url": "https://skills.sh/genmedia-labs/skills/wan-3-0-prime-reference-to-video",
       "description": "使用 Wan 3.0，根据参考图像、视频和音频生成视频。",
       "descriptionOriginal": "Build video clips from reference images, reference videos, and reference audio with Wan-AI Wan 3.0 Prime Reference to Video on RunComfy."
@@ -137,7 +137,7 @@
       "name": "ai-video-generation",
       "source": "qu-skills/superpowers",
       "weeklyInstalls": 102711,
-      "totalInstalls": 162329,
+      "totalInstalls": 177894,
       "url": "https://skills.sh/qu-skills/superpowers/ai-video-generation",
       "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
       "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI."
@@ -146,7 +146,7 @@
       "name": "ai-image-generation",
       "source": "qu-skills/superpowers",
       "weeklyInstalls": 102693,
-      "totalInstalls": 162317,
+      "totalInstalls": 177880,
       "url": "https://skills.sh/qu-skills/superpowers/ai-image-generation",
       "description": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
       "descriptionOriginal": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI."

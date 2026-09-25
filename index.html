@@ -56,6 +56,31 @@
             </div>
         </section>
 
+        <section class="mb-12" aria-labelledby="codex-resets-heading">
+            <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+                <h2 id="codex-resets-heading" class="text-2xl font-bold"><span class="mr-2" aria-hidden="true">⏱️</span>Codex 重置动态</h2>
+                <a href="https://codex-resets.com/zh-CN" target="_blank" rel="noopener noreferrer" class="text-xs text-indigo-600 hover:underline">数据来源：Codex Resets ↗</a>
+            </div>
+            <div class="rounded-2xl border border-gray-200 bg-white overflow-hidden shadow-sm">
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+                    <div class="p-6 bg-gradient-to-br from-indigo-50 to-white border-b md:border-r xl:border-b-0 border-gray-100">
+                        <p class="text-xs font-medium text-indigo-600">最近一次公开重置</p>
+                        <p id="codex-reset-elapsed" class="text-3xl font-bold tracking-tight text-gray-900 mt-3">—</p>
+                        <div class="mt-3 flex flex-wrap items-center gap-2"><span id="codex-reset-type" class="text-xs rounded-full bg-indigo-100 text-indigo-700 px-2 py-1">等待数据</span><time id="codex-reset-date" class="text-xs text-gray-500"></time></div>
+                    </div>
+                    <div class="p-6 border-b xl:border-b-0 xl:border-r border-gray-100"><p class="text-xs text-gray-500">累计重置次数</p><p class="text-3xl font-bold text-gray-900 mt-3"><span id="codex-reset-total">—</span><span class="text-sm font-normal text-gray-400 ml-1">次</span></p><p class="text-xs text-gray-400 mt-4">常规重置 + 备用重置额度</p></div>
+                    <div class="p-6 border-b md:border-b-0 md:border-r border-gray-100"><p class="text-xs text-gray-500">平均重置间隔</p><p class="text-3xl font-bold text-gray-900 mt-3"><span id="codex-reset-average">—</span><span class="text-sm font-normal text-gray-400 ml-1">天</span></p><p class="text-xs text-gray-400 mt-4">历史统计，不代表下次时间</p></div>
+                    <div class="p-6"><p class="text-xs text-gray-500">历史最长间隔</p><p class="text-3xl font-bold text-gray-900 mt-3"><span id="codex-reset-longest">—</span><span class="text-sm font-normal text-gray-400 ml-1">天</span></p><p class="text-xs text-gray-400 mt-4">相邻两次公开重置之间</p></div>
+                </div>
+                <div class="px-6 py-4 border-t border-gray-100 bg-gray-50/70 flex flex-wrap items-center justify-between gap-3">
+                    <p id="codex-reset-next" class="text-sm text-gray-600">正在读取公开重置公告…</p>
+                    <div class="flex items-center gap-4 text-xs"><span id="codex-reset-sync" role="status" class="text-gray-400">连接数据源</span><button id="codex-reset-refresh" type="button" class="text-indigo-600 hover:underline disabled:opacity-50">刷新</button></div>
+                </div>
+            </div>
+            <p id="codex-reset-note" class="text-xs text-gray-400 mt-3 leading-relaxed">第三方公告追踪，非个人账户额度；备用重置额度不等于已自动恢复用量。</p>
+        </section>
+        <script src="./codex-resets.js" defer></script>
+
         <!-- AI Skills 周榜 -->
         <section class="mb-12">
             <div class="mb-3 flex flex-wrap items-center justify-between gap-3">

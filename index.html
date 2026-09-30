@@ -100,9 +100,10 @@
 
         <!-- 热榜部分 -->
         <section>
-            <h2 class="text-2xl font-bold mb-6 flex items-center">
-                <span class="mr-2">🔥</span> 今日热榜
-            </h2>
+            <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+                <h2 class="text-2xl font-bold flex items-center"><span class="mr-2">🔥</span> 今日热榜</h2>
+                <span id="hot-cache-meta" class="text-xs text-gray-500 bg-white border border-gray-200 rounded-full px-3 py-1">等待数据源</span>
+            </div>
             <div id="hot-lists" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 items-start">
                 <div class="text-center text-gray-500 py-8 col-span-full">
                     <div class="loading">加载中...</div>
@@ -954,7 +955,9 @@
 
                 // 更新时间
                 document.getElementById('update-time').textContent =
-                    `发布日历 × AI Skills × 热榜聚合 | ${hotCache.updatedAt || data.updateTime} 更新`;
+                    '发布日历 × AI Skills × 热榜聚合 | 各板块更新时间见下方';
+                document.getElementById('hot-cache-meta').textContent =
+                    `最后更新时间 · ${hotCache.updatedAt || '暂未提供'}`;
 
                 // 渲染发布日历
                 if (data.releaseCalendar && data.releaseCalendar.products) {

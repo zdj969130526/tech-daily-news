@@ -63,7 +63,7 @@
         byId('next').textContent = !data.scheduled ? '下一次重置：暂无明确公告' :
             Number.isFinite(scheduledTime) && scheduledTime > Date.now() ? `已公告计划：${dateFormat.format(new Date(scheduledTime))}（北京时间），待执行确认` : '已有重置计划，等待执行确认';
         const snapshotAt = data.sourceAt || data.fetchedAt;
-        byId('sync').textContent = `${cached ? '离线备用数据' : '来源数据'} · ${dateFormat.format(new Date(snapshotAt))}`;
+        byId('sync').textContent = `${cached ? '离线备用数据时间' : '最后更新时间'} · ${dateFormat.format(new Date(snapshotAt))}`;
         byId('sync').className = cached ? 'text-amber-600' : 'text-gray-400';
     }
 

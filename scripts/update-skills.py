@@ -26,17 +26,35 @@ class DescriptionParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.description = ""
+        self.structured_description = ""
+        self.json_ld = None
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == "meta" and attrs.get("name") == "description":
             self.description = attrs.get("content", "")
+        if tag == "script" and attrs.get("type") == "application/ld+json":
+            self.json_ld = ""
+
+    def handle_data(self, data):
+        if self.json_ld is not None:
+            self.json_ld += data
+
+    def handle_endtag(self, tag):
+        if tag == "script" and self.json_ld is not None:
+            try:
+                data = json.loads(self.json_ld)
+                if isinstance(data, dict) and data.get("@type") == "SoftwareApplication":
+                    self.structured_description = data.get("description", "")
+            except (ValueError, TypeError):
+                pass
+            self.json_ld = None
 
 
 def source_description(html: str) -> str:
     parser = DescriptionParser()
     parser.feed(html)
-    text = " ".join(parser.description.split())
+    text = " ".join((parser.structured_description or parser.description).split())
     # Keep the first complete sentence, without splitting domains such as inference.sh.
     text = re.split(r"(?<=[.!?。！？])\s+", text, maxsplit=1)[0]
     if len(text) < 12 or text.endswith(("…", "...")) or len(text) > 600:
@@ -106,7 +124,7 @@ def normalize_skill(skill: dict) -> dict:
         "source": source,
         "weeklyInstalls": weekly_installs(skill),
         "totalInstalls": int(skill.get("installs") or 0),
-        "url": f"https://skills.sh/{quote(source, safe='/')}/{quote(skill_id)}",
+        "url": f"https://skills.sh/{'' if '/' in source else 'site/'}{quote(source, safe='/')}/{quote(skill_id)}",
     }
 
 
@@ -185,6 +203,8 @@ def enrich_costs(payload: dict) -> None:
 
 
 def self_check() -> None:
+    assert normalize_skill({"source": "uizze.sh", "skillId": "ui-taste"})["url"] == "https://skills.sh/site/uizze.sh/ui-taste"
+    assert normalize_skill({"source": "vercel-labs/skills", "skillId": "find-skills"})["url"] == "https://skills.sh/vercel-labs/skills/find-skills"
     cost_sample = {"official": [{"url": "https://skills.sh/unverified/skills/find-skills"}], "community": []}
     enrich_costs(cost_sample)
     assert cost_sample["official"][0]["cost"]["kind"] == "unknown"
@@ -208,6 +228,7 @@ def self_check() -> None:
     duplicates.append({"source": "official/skills", "skillId": "same", "weeklyInstalls": [100], "isOfficial": True})
     assert [item["name"] for item in build_payload(duplicates)["community"]] == ["distinct"]
     assert source_description('<meta name="description" content="Generate video via inference.sh CLI. More details.">') == "Generate video via inference.sh CLI."
+    assert source_description('<meta name="description" content="Incomplete…"><script type="application/ld+json">{"@type":"SoftwareApplication","description":"Build agents using ADK. More details."}</script>') == "Build agents using ADK."
     assert not valid_description("用途介绍待补充，可点击名称查看详情。")
     assert valid_description("根据文字描述自动生成视频。")
     from unittest.mock import patch

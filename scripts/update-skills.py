@@ -63,10 +63,17 @@ def source_description(html: str) -> str:
 
 
 def valid_description(text: str) -> bool:
-    return bool(re.search(r"[\u4e00-\u9fff]", text)) and "待补充" not in text and len(text) >= 8
+    return len(re.findall(r"[\u4e00-\u9fff]", text)) >= 4 and "待补充" not in text
 
 
 def translate_description(text: str) -> str:
+    # The translation service mistakes the Remotion product name for "remote".
+    verified = {
+        "Router for all Remotion skills": "汇总并指引 Remotion 视频制作相关技能。",
+        "Export a Remotion video": "将 Remotion 视频项目渲染并导出为视频文件。",
+    }
+    if text in verified:
+        return verified[text]
     if re.search(r"[\u4e00-\u9fff]", text):
         return text
     query = urlencode({"client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": text})
@@ -91,13 +98,23 @@ def enrich_descriptions(payload: dict, previous: dict) -> None:
             item.update(description=description, descriptionOriginal=original)
         except (RuntimeError, ValueError, TypeError, IndexError, subprocess.SubprocessError) as error:
             if not valid_description(old.get("description", "")):
-                raise RuntimeError(f"No verified Chinese description for {item['url']}; keeping previous leaderboard") from error
+                print(f"Skipping skill without a verified Chinese description: {item['url']}: {error}")
+                return
             item["description"] = old["description"]
             item["descriptionOriginal"] = old.get("descriptionOriginal", "")
             print(f"Using cached description: {item['url']}")
 
     with ThreadPoolExecutor(max_workers=4) as pool:
         list(pool.map(enrich, payload["official"] + payload["community"]))
+    omitted = 0
+    for group in ("official", "community"):
+        verified = [item for item in payload[group] if valid_description(item.get("description", ""))]
+        omitted += len(payload[group]) - len(verified)
+        if payload[group] and not verified:
+            raise RuntimeError(f"No verified descriptions in {group}; keeping previous leaderboard")
+        payload[group] = verified
+    if omitted:
+        payload["methodology"] = payload.get("methodology", "") + f"；本次暂不展示 {omitted} 项未取得有效中文简介的技能"
 
 
 def parse_skills(html: str) -> list[dict]:
@@ -231,6 +248,9 @@ def self_check() -> None:
     assert source_description('<meta name="description" content="Incomplete…"><script type="application/ld+json">{"@type":"SoftwareApplication","description":"Build agents using ADK. More details."}</script>') == "Build agents using ADK."
     assert not valid_description("用途介绍待补充，可点击名称查看详情。")
     assert valid_description("根据文字描述自动生成视频。")
+    assert valid_description("导出视频")
+    assert not valid_description("Remotion API")
+    assert translate_description("Export a Remotion video") == "将 Remotion 视频项目渲染并导出为视频文件。"
     from unittest.mock import patch
     fresh = {"official": [{"url": "https://skills.sh/new/skill"}], "community": []}
     with patch(__name__ + ".fetch_html", return_value='<meta name="description" content="Generate video from text.">'), patch(__name__ + ".translate_description", return_value="根据文字描述自动生成视频。"):
@@ -238,6 +258,10 @@ def self_check() -> None:
     assert fresh["official"][0]["description"] == "根据文字描述自动生成视频。"
     with patch(__name__ + ".fetch_html", side_effect=RuntimeError("offline")):
         enrich_descriptions(fresh, fresh)
+        partial = {"official": [dict(fresh["official"][0]), {"url": "https://skills.sh/unknown"}], "community": []}
+        enrich_descriptions(partial, fresh)
+        assert len(partial["official"]) == 1
+        assert "1 项" in partial["methodology"]
         try:
             enrich_descriptions({"official": [{"url": "https://skills.sh/unknown"}], "community": []}, {})
         except RuntimeError:

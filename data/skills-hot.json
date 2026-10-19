@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-19T09:17:04+08:00",
+  "updatedAt": "2026-10-19T09:33:49+08:00",
   "source": {
     "name": "Skills.sh"
   },
-  "methodology": "按本周安装量排序；同名技能仅展示一次，优先官方来源，否则保留本周安装量最高的来源，安装量不累加；社区榜门槛：总安装量≥10万、本周≥1000；本次暂不展示 3 项未取得有效中文简介的技能",
+  "methodology": "按本周安装量排序；同名技能仅展示一次，优先官方来源，否则保留本周安装量最高的来源，安装量不累加；社区榜门槛：总安装量≥10万、本周≥1000",
   "official": [
     {
       "name": "find-skills",
@@ -179,6 +179,21 @@
       }
     },
     {
+      "name": "hyperframes",
+      "source": "heygen-com/hyperframes",
+      "weeklyInstalls": 155691,
+      "totalInstalls": 1056614,
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes",
+      "description": "强制入口点：对于制作、创建、编辑、动画或渲染视频、动画或动态图形的任何请求，请首先阅读此内容，包括宣传片、解释器、带字幕的剪辑、标题卡、叠加层、幻灯片或交互式平台、Remotion 端口或任何 HyperFrames HTML 组合。",
+      "descriptionOriginal": "Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/heygen-com/hyperframes/hyperframes"
+      }
+    },
+    {
       "name": "design-mobile-apps",
       "source": "designed-by-ai/skills",
       "weeklyInstalls": 140289,
@@ -207,6 +222,36 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/site/uizze.sh/ui-taste"
+      }
+    },
+    {
+      "name": "ai-music",
+      "source": "gencraft-labs/skills",
+      "weeklyInstalls": 97074,
+      "totalInstalls": 171683,
+      "url": "https://skills.sh/gencraft-labs/skills/ai-music",
+      "description": "通过“runco​​mfy”CLI（跨音乐模型目录的智能路由器）在 RunComfy 上生成 AI 音乐。",
+      "descriptionOriginal": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/gencraft-labs/skills/ai-music"
+      }
+    },
+    {
+      "name": "video-edit",
+      "source": "gencraft-labs/skills",
+      "weeklyInstalls": 97002,
+      "totalInstalls": 171515,
+      "url": "https://skills.sh/gencraft-labs/skills/video-edit",
+      "description": "编辑 RunComfy 上的现有视频 - 该技能是一个智能路由器，可将用户的意图与 RunComfy 目录中的正确编辑模型相匹配。",
+      "descriptionOriginal": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/gencraft-labs/skills/video-edit"
       }
     }
   ]

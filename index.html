@@ -11,6 +11,17 @@
         .loading { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
         .skill-row { display: grid; grid-template-columns: 1.75rem minmax(0, 1fr) 4rem; column-gap: .75rem; row-gap: .4rem; min-height: 92px; }
         .skill-name { min-width: 0; }
+        .skill-position { display: flex; flex-direction: column; align-items: center; gap: 7px; }
+        .skill-change { white-space: nowrap; font-size: 10px; font-weight: 700; line-height: 1.5; font-variant-numeric: tabular-nums; }
+        .skill-change-up { color: #059669; }
+        .skill-change-down { color: #d97706; }
+        .skill-change-new { color: #6366f1; }
+        .skill-change-flat, .skill-change-unknown { color: #9ca3af; }
+        @media (min-width: 1280px) {
+            #skills-hot { row-gap: 0; }
+            .skill-panel { display: grid; grid-template-rows: subgrid; grid-row: span var(--skill-grid-rows); }
+            .skill-list { display: grid; grid-template-rows: subgrid; grid-row: 2 / span var(--skill-count); }
+        }
         .skill-description { grid-column: 2; margin: 0; color: #6b7280; font-size: 12px; line-height: 1.65; }
         .skill-installs { grid-column: 3; grid-row: 1 / 3; }
         .skill-cost { margin-top: 6px; font-size: 11px; line-height: 1.5; }
@@ -838,7 +849,7 @@
 
         function renderSkillsRanking(items, { title, icon, theme }) {
             return `
-                <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 h-full">
+                <div class="skill-panel bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 h-full">
                     <div class="px-4 py-3 text-white flex items-center justify-between gap-3" style="background: ${theme};">
                         <div class="min-w-0 flex items-center gap-3">
                             <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-white/15 text-sm">${icon}</span>
@@ -846,7 +857,7 @@
                         </div>
                         <span class="text-xs font-medium px-2 py-1 rounded-full bg-white/20">${items.length} 条</span>
                     </div>
-                    <ol class="divide-y text-sm">
+                    <ol class="skill-list divide-y text-sm">
                         ${items.map((item, index) => {
                             const url = sanitizeExternalUrl(item.url);
                             const name = escapeHtml(item.name);
@@ -855,12 +866,20 @@
                             const cost = item.cost || { kind: 'unknown', label: '费用待核实', note: '该来源的费用尚未核实。' };
                             const costKind = ['free', 'paid', 'subscription', 'quota'].includes(cost.kind) ? cost.kind : 'unknown';
                             const costUrl = sanitizeExternalUrl(cost.url);
+                            const change = item.rankChange || {};
+                            const delta = Number.isInteger(change.delta) ? change.delta : 0;
+                            const changeKind = change.status === 'new' ? 'new' : change.status === 'compared' ? (delta > 0 ? 'up' : delta < 0 ? 'down' : 'flat') : 'unknown';
+                            const changeText = { new: 'NEW', up: `↑${delta}`, down: `↓${Math.abs(delta)}`, flat: '—', unknown: '待对比' }[changeKind];
+                            const changeTitle = { new: '上次未进入本榜单，本次新上榜', up: `较上次本榜单上升 ${delta} 名`, down: `较上次本榜单下降 ${Math.abs(delta)} 名`, flat: '较上次本榜单排名不变', unknown: '暂无有效的上次榜单可对比' }[changeKind];
                             const label = url
                                 ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="font-medium hover:text-blue-600 break-words">${name}</a>`
                                 : `<span class="font-medium break-words">${name}</span>`;
                             return `
                                 <li class="skill-row px-4 py-3 items-center hover:bg-gray-50">
-                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gray-100 text-gray-500 text-xs font-bold shrink-0">${index + 1}</span>
+                                    <div class="skill-position">
+                                        <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-gray-100 text-gray-500 text-xs font-bold shrink-0">${index + 1}</span>
+                                        <span class="skill-change skill-change-${changeKind}" title="${changeTitle}" aria-label="${changeTitle}">${changeText}</span>
+                                    </div>
                                     <div class="skill-name">
                                         ${label}
                                         <details class="skill-cost skill-cost-${costKind}">
@@ -900,6 +919,9 @@
             const updatedAt = formatCalendarCacheTime(payload.updatedAt);
             meta.textContent = updatedAt ? `最后更新 · ${updatedAt}` : '最后更新';
             methodology.textContent = `${payload.methodology || '按本周安装量排序'} · 数据源：${payload.source?.name || 'Skills.sh'}`;
+            methodology.textContent += ` · ↑↓ 较上次排名变化，NEW 新上榜，— 排名不变${payload.rankComparedAt ? `（对比 ${formatCalendarCacheTime(payload.rankComparedAt)}）` : '（暂无对比基准）'}`;
+            container.style.setProperty('--skill-count', Math.max(official.length, community.length));
+            container.style.setProperty('--skill-grid-rows', Math.max(official.length, community.length) + 1);
             container.innerHTML = [
                 renderSkillsRanking(official, { title: '官方热门', icon: '✓', theme: '#4f46e5' }),
                 renderSkillsRanking(community, { title: '社区热度', icon: '↗', theme: '#ea580c' }),

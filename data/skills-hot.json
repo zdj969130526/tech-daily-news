@@ -19,6 +19,11 @@
         "note": "技能搜索与安装工具本身不要求购买服务；安装的其他技能可能另行收费。",
         "url": "https://skills.sh/vercel-labs/skills/find-skills",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 1
       }
     },
     {
@@ -35,6 +40,11 @@
         "note": "本地浏览器自动化可免费使用；可选云浏览器或付费网站服务另计。",
         "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 2
       }
     },
     {
@@ -50,6 +60,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/remotion-dev/skills/remotion-best-practices"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 3
       }
     },
     {
@@ -66,6 +81,11 @@
         "note": "网页设计审查规则，不强制调用额外付费服务。",
         "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 4
       }
     },
     {
@@ -82,6 +102,11 @@
         "note": "界面设计指导类技能，不强制调用额外付费服务。",
         "url": "https://skills.sh/anthropics/skills/frontend-design",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 5
       }
     },
     {
@@ -97,6 +122,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/remotion-dev/skills/remotion-render"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 6
       }
     },
     {
@@ -113,6 +143,11 @@
         "note": "React 性能优化指导，不要求购买 Vercel 托管服务。",
         "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 7
       }
     },
     {
@@ -129,6 +164,11 @@
         "note": "Neon 有长期 Free 计划；使用付费计划或更高资源规格时按量收费。",
         "url": "https://neon.com/pricing",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 8
       }
     }
   ],
@@ -146,6 +186,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/magentosh/superpowers/ai-image-generation"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 1
       }
     },
     {
@@ -161,6 +206,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/magentosh/superpowers/ai-video-generation"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 2
       }
     },
     {
@@ -176,6 +226,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 3
       }
     },
     {
@@ -191,6 +246,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/heygen-com/hyperframes/hyperframes"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 4
       }
     },
     {
@@ -207,6 +267,11 @@
         "note": "Sleek 提供一次性试用额度；持续使用 API 和 Agent 功能需 Pro 或 Team 计划，并消耗额度。",
         "url": "https://sleek.design/pricing",
         "checkedAt": "2026-09-22"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 5
       }
     },
     {
@@ -222,6 +287,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/site/uizze.sh/ui-taste"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 6
       }
     },
     {
@@ -237,6 +307,11 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/gencraft-labs/skills/ai-music"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 7
       }
     },
     {
@@ -252,7 +327,13 @@
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
         "url": "https://skills.sh/gencraft-labs/skills/video-edit"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 8
       }
     }
-  ]
+  ],
+  "rankComparedAt": "2026-10-19T10:21:28+08:00"
 }

@@ -188,6 +188,23 @@ def build_payload(skills: list[dict]) -> dict:
     }
 
 
+def annotate_rank_changes(payload: dict, previous: dict) -> None:
+    """Compare displayed ranks within each list, using source-specific URLs."""
+    payload['rankComparedAt'] = previous.get('updatedAt')
+    for group in ('official', 'community'):
+        old = previous.get(group) or []
+        ranks = {item['url'].rstrip('/').casefold(): index
+                 for index, item in enumerate(old, 1) if item.get('url')}
+        for index, item in enumerate(payload.get(group, []), 1):
+            prior = ranks.get(item['url'].rstrip('/').casefold())
+            if not ranks or not previous.get('updatedAt'):
+                item['rankChange'] = {'status': 'unknown'}
+            elif prior is None:
+                item['rankChange'] = {'status': 'new'}
+            else:
+                item['rankChange'] = {'status': 'compared', 'delta': prior - index, 'previousRank': prior}
+
+
 def fetch_html(url: str = SOURCE_URL) -> str:
     process = subprocess.run(
         ["curl", "-fsSL", "--retry", "2", "--connect-timeout", "15", "--max-time", "45", url],
@@ -220,6 +237,18 @@ def enrich_costs(payload: dict) -> None:
 
 
 def self_check() -> None:
+    old = {'updatedAt': '2026-10-18T08:00:00+08:00', 'official': [
+        {'url': 'https://skills.sh/one/a'}, {'url': 'https://skills.sh/two/b'},
+        {'url': 'https://skills.sh/three/c'}, {'url': 'https://skills.sh/four/d'}]}
+    current = {'official': [old['official'][3].copy(), old['official'][1].copy(),
+                           {'url': 'https://skills.sh/other/a'}, old['official'][0].copy()]}
+    annotate_rank_changes(current, old)
+    assert [item['rankChange'].get('delta') for item in current['official']] == [3, 0, None, -3]
+    assert current['official'][2]['rankChange']['status'] == 'new'
+    assert current['rankComparedAt'] == old['updatedAt']
+    annotate_rank_changes(current, {})
+    assert all(item['rankChange']['status'] == 'unknown' for item in current['official'])
+    annotate_rank_changes({'community': [{'url': 'https://skills.sh/one/a'}]}, old)
     assert normalize_skill({"source": "uizze.sh", "skillId": "ui-taste"})["url"] == "https://skills.sh/site/uizze.sh/ui-taste"
     assert normalize_skill({"source": "vercel-labs/skills", "skillId": "find-skills"})["url"] == "https://skills.sh/vercel-labs/skills/find-skills"
     cost_sample = {"official": [{"url": "https://skills.sh/unverified/skills/find-skills"}], "community": []}
@@ -286,6 +315,7 @@ def main() -> None:
     previous = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
     enrich_descriptions(payload, previous)
     enrich_costs(payload)
+    annotate_rank_changes(payload, previous)
     write_json(args.output, payload)
     print(f"updated {len(payload['official']) + len(payload['community'])} skills -> {args.output}")
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T08:17:40+08:00",
+  "updatedAt": "2026-10-24T08:33:07+08:00",
   "source": {
     "name": "Skills.sh"
   },
@@ -219,8 +219,8 @@
       "weeklyInstalls": 158584,
       "totalInstalls": 1212280,
       "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
-      "description": "使用 HyperFrames CLI 开发循环：初始化、添加、目录、捕获、lint、检查、快照、比较、等级比较、预览、播放、呈现、节拍、关键帧、单个或批量渲染、发布、云、cloudrun、反馈、lambda、医生、浏览器、信息、升级、技能、组合、时间线、历史记录、清理、文档、基准、遥测、转录、身份验证、tts 和删除背景。",
-      "descriptionOriginal": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, timeline, history, clean, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background.",
+      "description": "HyperFrames CLI 的工作 - 脚手架、检查、查看帧、编辑时间线、预览、在本地或云中渲染、发布、项目历史记录 - 以及读取其 JSON 并从构建或渲染失败中恢复。",
+      "descriptionOriginal": "The HyperFrames CLI by job - scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history - plus reading its JSON and recovering from build or render failures.",
       "cost": {
         "kind": "unknown",
         "label": "费用待核实",
@@ -239,8 +239,8 @@
       "weeklyInstalls": 155691,
       "totalInstalls": 1177054,
       "url": "https://skills.sh/heygen-com/hyperframes/hyperframes",
-      "description": "强制入口点：对于制作、创建、编辑、动画或渲染视频、动画或动态图形的任何请求，请首先阅读此内容，包括宣传片、解释器、带字幕的剪辑、标题卡、叠加层、幻灯片或交互式平台、Remotion 端口或任何 HyperFrames HTML 组合。",
-      "descriptionOriginal": "Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition.",
+      "description": "首先阅读如何使用 HyperFrames（HTML 渲染到视频）制作、编辑、动画或渲染任何视频，包括启动影片、讲解员、音乐视频、图表、地图、垂直剪辑、标题卡、字幕和叠加层。",
+      "descriptionOriginal": "Read first to make, edit, animate or render any video with HyperFrames (HTML rendered to video), including launch films, explainers, music videos, charts, maps, vertical clips, title cards, captions and overlays.",
       "cost": {
         "kind": "unknown",
         "label": "费用待核实",
@@ -335,5 +335,5 @@
       }
     }
   ],
-  "rankComparedAt": "2026-10-24T08:00:47+08:00"
+  "rankComparedAt": "2026-10-24T08:17:40+08:00"
 }

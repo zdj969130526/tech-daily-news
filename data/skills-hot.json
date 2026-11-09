@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-08T08:13:28+08:00",
+  "updatedAt": "2026-11-09T08:11:36+08:00",
   "source": {
     "name": "Skills.sh"
   },
-  "methodology": "按本周安装量排序；同名技能仅展示一次，优先官方来源，否则保留本周安装量最高的来源，安装量不累加；社区榜门槛：总安装量≥10万、本周≥1000",
+  "methodology": "按本周安装量排序；同名技能仅展示一次，优先官方来源，否则保留本周安装量最高的来源，安装量不累加；社区榜门槛：总安装量≥10万、本周≥1000；本次暂不展示 3 项未取得有效中文简介的技能",
   "official": [
     {
       "name": "find-skills",
       "source": "vercel-labs/skills",
-      "weeklyInstalls": 115285,
-      "totalInstalls": 4255498,
+      "weeklyInstalls": 110096,
+      "totalInstalls": 4267611,
       "url": "https://skills.sh/vercel-labs/skills/find-skills",
       "description": "当用户提出诸如“我如何做 X”、“查找 X 的技能”、“是否有一项技能可以...”或表达对扩展功能的兴趣等问题时，帮助用户发现并安装代理技能。",
       "descriptionOriginal": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities.",
@@ -29,8 +29,8 @@
     {
       "name": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "weeklyInstalls": 86942,
-      "totalInstalls": 1426271,
+      "weeklyInstalls": 103297,
+      "totalInstalls": 1435926,
       "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "description": "用于 AI 代理的浏览器自动化 CLI。",
       "descriptionOriginal": "Browser automation CLI for AI agents.",
@@ -50,8 +50,8 @@
     {
       "name": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "weeklyInstalls": 45239,
-      "totalInstalls": 769699,
+      "weeklyInstalls": 47586,
+      "totalInstalls": 775546,
       "url": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "description": "汇总并指引 Remotion 视频制作相关技能。",
       "descriptionOriginal": "Router for all Remotion skills",
@@ -70,8 +70,8 @@
     {
       "name": "remotion-render",
       "source": "remotion-dev/skills",
-      "weeklyInstalls": 41268,
-      "totalInstalls": 293531,
+      "weeklyInstalls": 44156,
+      "totalInstalls": 298957,
       "url": "https://skills.sh/remotion-dev/skills/remotion-render",
       "description": "将 Remotion 视频项目渲染并导出为视频文件。",
       "descriptionOriginal": "Export a Remotion video",
@@ -90,8 +90,8 @@
     {
       "name": "frontend-design",
       "source": "anthropics/skills",
-      "weeklyInstalls": 30354,
-      "totalInstalls": 1089792,
+      "weeklyInstalls": 30893,
+      "totalInstalls": 1093510,
       "url": "https://skills.sh/anthropics/skills/frontend-design",
       "description": "在构建新 UI 或重塑现有 UI 时提供独特、有意的视觉设计指南。",
       "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.",
@@ -111,8 +111,8 @@
     {
       "name": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "weeklyInstalls": 28740,
-      "totalInstalls": 836669,
+      "weeklyInstalls": 26986,
+      "totalInstalls": 839663,
       "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "description": "检查 UI 代码是否符合 Web 界面指南。",
       "descriptionOriginal": "Review UI code for Web Interface Guidelines compliance.",
@@ -128,75 +128,14 @@
         "delta": 0,
         "previousRank": 6
       }
-    },
-    {
-      "name": "vercel-react-best-practices",
-      "source": "vercel-labs/agent-skills",
-      "weeklyInstalls": 22802,
-      "totalInstalls": 879817,
-      "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
-      "description": "Vercel Engineering 的 React 和 Next.js 性能优化指南。",
-      "descriptionOriginal": "React and Next.js performance optimization guidelines from Vercel Engineering.",
-      "cost": {
-        "kind": "free",
-        "label": "无额外服务费",
-        "note": "React 性能优化指导，不要求购买 Vercel 托管服务。",
-        "url": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
-        "checkedAt": "2026-09-22"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 7
-      }
-    },
-    {
-      "name": "security-audit",
-      "source": "cloudflare/security-audit-skill",
-      "weeklyInstalls": 19665,
-      "totalInstalls": 90712,
-      "url": "https://skills.sh/cloudflare/security-audit-skill/security-audit",
-      "description": "代码库、API、服务、CLI 工具、库和守护程序的安全指南和漏洞审查。",
-      "descriptionOriginal": "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/cloudflare/security-audit-skill/security-audit"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 8
-      }
     }
   ],
   "community": [
     {
-      "name": "ui-taste",
-      "source": "uizze.sh",
-      "weeklyInstalls": 172470,
-      "totalInstalls": 1043774,
-      "url": "https://skills.sh/site/uizze.sh/ui-taste",
-      "description": "为您的 AI 代理安装 ui-taste 技能。",
-      "descriptionOriginal": "Install the ui-taste skill for your AI agent.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/site/uizze.sh/ui-taste"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 1
-      }
-    },
-    {
       "name": "ai-image-generation",
       "source": "skills-shell/superpowers",
-      "weeklyInstalls": 143630,
-      "totalInstalls": 745927,
+      "weeklyInstalls": 200290,
+      "totalInstalls": 774769,
       "url": "https://skills.sh/skills-shell/superpowers/ai-image-generation",
       "description": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
       "descriptionOriginal": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI.",
@@ -208,15 +147,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 2
       }
     },
     {
       "name": "ai-video-generation",
       "source": "skills-shell/superpowers",
-      "weeklyInstalls": 143585,
-      "totalInstalls": 745848,
+      "weeklyInstalls": 200187,
+      "totalInstalls": 774679,
       "url": "https://skills.sh/skills-shell/superpowers/ai-video-generation",
       "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
       "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI.",
@@ -228,15 +167,35 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 3
+      }
+    },
+    {
+      "name": "ui-taste",
+      "source": "uizze.sh",
+      "weeklyInstalls": 161684,
+      "totalInstalls": 1063609,
+      "url": "https://skills.sh/site/uizze.sh/ui-taste",
+      "description": "为您的 AI 代理安装 ui-taste 技能。",
+      "descriptionOriginal": "Install the ui-taste skill for your AI agent.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/site/uizze.sh/ui-taste"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": -2,
+        "previousRank": 1
       }
     },
     {
       "name": "design-mobile-apps",
       "source": "designed-by-ai/skills",
-      "weeklyInstalls": 136787,
-      "totalInstalls": 1291921,
+      "weeklyInstalls": 138882,
+      "totalInstalls": 1308072,
       "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "description": "使用 Sleek 设计移动应用程序屏幕，编辑 Sleek 项目，并在 React Native 或 HTML 中实现其设计。",
       "descriptionOriginal": "Design mobile app screens with Sleek, edit Sleek projects, and implement their designs in React Native or HTML.",
@@ -254,30 +213,10 @@
       }
     },
     {
-      "name": "hyperframes-cli",
-      "source": "heygen-com/hyperframes",
-      "weeklyInstalls": 125767,
-      "totalInstalls": 1463327,
-      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
-      "description": "HyperFrames CLI 的工作 - 脚手架、检查、查看帧、编辑时间线、预览、在本地或云中渲染、发布、项目历史记录 - 以及读取其 JSON 并从构建或渲染失败中恢复。",
-      "descriptionOriginal": "The HyperFrames CLI by job - scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history - plus reading its JSON and recovering from build or render failures.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 5
-      }
-    },
-    {
       "name": "media-use",
       "source": "heygen-com/hyperframes",
-      "weeklyInstalls": 125622,
-      "totalInstalls": 1335574,
+      "weeklyInstalls": 104156,
+      "totalInstalls": 1347181,
       "url": "https://skills.sh/heygen-com/hyperframes/media-use",
       "description": "使用 HeyGen 或免费的本地工具获取或制作 HyperFrames 视频的任何媒体 - 音乐、音效、图像、图标、徽标、画外音、头像和生成的视频、文字记录、剪纸、颜色等级和外观，并混合放置的音频。",
       "descriptionOriginal": "Get or make any media for a HyperFrames video - music, sound effects, images, icons, logos, voiceover, avatar and generated video, transcripts, cutouts, colour grades and looks - with HeyGen or free local tools, and mix placed audio.",
@@ -289,35 +228,35 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 6
       }
     },
     {
-      "name": "uizze-ui",
-      "source": "uizze/uizze",
-      "weeklyInstalls": 108363,
-      "totalInstalls": 337593,
-      "url": "https://skills.sh/uizze/uizze/uizze-ui",
-      "description": "用于构建和改进 UI/UX 的官方 Uizze 技能。",
-      "descriptionOriginal": "The official Uizze skill for building and improving UI/UX.",
+      "name": "hyperframes-cli",
+      "source": "heygen-com/hyperframes",
+      "weeklyInstalls": 103285,
+      "totalInstalls": 1474944,
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
+      "description": "HyperFrames CLI 的工作 - 脚手架、检查、查看帧、编辑时间线、预览、在本地或云中渲染、发布、项目历史记录 - 以及读取其 JSON 并从构建或渲染失败中恢复。",
+      "descriptionOriginal": "The HyperFrames CLI by job - scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history - plus reading its JSON and recovering from build or render failures.",
       "cost": {
         "kind": "unknown",
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/uizze/uizze/uizze-ui"
+        "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli"
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
-        "previousRank": 7
+        "delta": -1,
+        "previousRank": 5
       }
     },
     {
       "name": "video-edit",
       "source": "gencraft-labs/skills",
-      "weeklyInstalls": 105503,
-      "totalInstalls": 463957,
+      "weeklyInstalls": 98480,
+      "totalInstalls": 478622,
       "url": "https://skills.sh/gencraft-labs/skills/video-edit",
       "description": "编辑 RunComfy 上的现有视频 - 该技能是一个智能路由器，可将用户的意图与 RunComfy 目录中的正确编辑模型相匹配。",
       "descriptionOriginal": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog.",
@@ -329,10 +268,10 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 8
       }
     }
   ],
-  "rankComparedAt": "2026-11-07T08:14:00+08:00"
+  "rankComparedAt": "2026-11-08T08:13:28+08:00"
 }

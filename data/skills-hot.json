@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T08:12:33+08:00",
+  "updatedAt": "2026-11-11T08:11:42+08:00",
   "source": {
     "name": "Skills.sh"
   },
@@ -9,7 +9,7 @@
       "name": "find-skills",
       "source": "vercel-labs/skills",
       "weeklyInstalls": 110096,
-      "totalInstalls": 4283255,
+      "totalInstalls": 4300026,
       "url": "https://skills.sh/vercel-labs/skills/find-skills",
       "description": "当用户提出诸如“我如何做 X”、“查找 X 的技能”、“是否有一项技能可以...”或表达对扩展功能的兴趣等问题时，帮助用户发现并安装代理技能。",
       "descriptionOriginal": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities.",
@@ -30,7 +30,7 @@
       "name": "agent-browser",
       "source": "vercel-labs/agent-browser",
       "weeklyInstalls": 103297,
-      "totalInstalls": 1451145,
+      "totalInstalls": 1468292,
       "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "description": "用于 AI 代理的浏览器自动化 CLI。",
       "descriptionOriginal": "Browser automation CLI for AI agents.",
@@ -51,7 +51,7 @@
       "name": "azure-diagnostics",
       "source": "microsoft/azure-skills",
       "weeklyInstalls": 75552,
-      "totalInstalls": 662833,
+      "totalInstalls": 675501,
       "url": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
       "description": "使用 AppLens、Azure Monitor、资源运行状况和安全分类来调试 Azure 生产问题，包括无需实时访问的纯证据诊断。",
       "descriptionOriginal": "Debug Azure production issues using AppLens, Azure Monitor, resource health, and safe triage, including evidence-only diagnosis without live access.",
@@ -62,14 +62,16 @@
         "url": "https://skills.sh/microsoft/azure-skills/azure-diagnostics"
       },
       "rankChange": {
-        "status": "new"
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 3
       }
     },
     {
       "name": "microsoft-foundry",
       "source": "microsoft/azure-skills",
       "weeklyInstalls": 75545,
-      "totalInstalls": 672103,
+      "totalInstalls": 684778,
       "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
       "description": "端到端构建、部署、评估、优化、微调和管理 Microsoft Foundry 代理、模型和资源。",
       "descriptionOriginal": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end.",
@@ -80,14 +82,16 @@
         "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry"
       },
       "rankChange": {
-        "status": "new"
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 4
       }
     },
     {
       "name": "remotion-best-practices",
       "source": "remotion-dev/skills",
       "weeklyInstalls": 47586,
-      "totalInstalls": 783236,
+      "totalInstalls": 791576,
       "url": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "description": "汇总并指引 Remotion 视频制作相关技能。",
       "descriptionOriginal": "Router for all Remotion skills",
@@ -99,15 +103,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": -2,
-        "previousRank": 3
+        "delta": 0,
+        "previousRank": 5
       }
     },
     {
       "name": "remotion-render",
       "source": "remotion-dev/skills",
       "weeklyInstalls": 44156,
-      "totalInstalls": 306115,
+      "totalInstalls": 313893,
       "url": "https://skills.sh/remotion-dev/skills/remotion-render",
       "description": "将 Remotion 视频项目渲染并导出为视频文件。",
       "descriptionOriginal": "Export a Remotion video",
@@ -119,15 +123,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": -2,
-        "previousRank": 4
+        "delta": 0,
+        "previousRank": 6
       }
     },
     {
       "name": "frontend-design",
       "source": "anthropics/skills",
       "weeklyInstalls": 30893,
-      "totalInstalls": 1097661,
+      "totalInstalls": 1102073,
       "url": "https://skills.sh/anthropics/skills/frontend-design",
       "description": "在构建新 UI 或重塑现有 UI 时提供独特、有意的视觉设计指南。",
       "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.",
@@ -140,15 +144,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": -2,
-        "previousRank": 5
+        "delta": 0,
+        "previousRank": 7
       }
     },
     {
       "name": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
       "weeklyInstalls": 26986,
-      "totalInstalls": 843690,
+      "totalInstalls": 847615,
       "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "description": "检查 UI 代码是否符合 Web 界面指南。",
       "descriptionOriginal": "Review UI code for Web Interface Guidelines compliance.",
@@ -161,8 +165,8 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": -2,
-        "previousRank": 6
+        "delta": 0,
+        "previousRank": 8
       }
     }
   ],
@@ -171,7 +175,7 @@
       "name": "ai-image-generation",
       "source": "skills-shell/superpowers",
       "weeklyInstalls": 200290,
-      "totalInstalls": 788368,
+      "totalInstalls": 797943,
       "url": "https://skills.sh/skills-shell/superpowers/ai-image-generation",
       "description": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
       "descriptionOriginal": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI.",
@@ -191,7 +195,7 @@
       "name": "ai-video-generation",
       "source": "skills-shell/superpowers",
       "weeklyInstalls": 200187,
-      "totalInstalls": 788263,
+      "totalInstalls": 797838,
       "url": "https://skills.sh/skills-shell/superpowers/ai-video-generation",
       "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
       "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI.",
@@ -211,7 +215,7 @@
       "name": "ui-taste",
       "source": "uizze.sh",
       "weeklyInstalls": 161684,
-      "totalInstalls": 1084426,
+      "totalInstalls": 1095127,
       "url": "https://skills.sh/site/uizze.sh/ui-taste",
       "description": "为您的 AI 代理安装 ui-taste 技能。",
       "descriptionOriginal": "Install the ui-taste skill for your AI agent.",
@@ -231,7 +235,7 @@
       "name": "design-mobile-apps",
       "source": "designed-by-ai/skills",
       "weeklyInstalls": 138882,
-      "totalInstalls": 1329430,
+      "totalInstalls": 1349116,
       "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "description": "使用 Sleek 设计移动应用程序屏幕，编辑 Sleek 项目，并在 React Native 或 HTML 中实现其设计。",
       "descriptionOriginal": "Design mobile app screens with Sleek, edit Sleek projects, and implement their designs in React Native or HTML.",
@@ -252,7 +256,7 @@
       "name": "media-use",
       "source": "heygen-com/hyperframes",
       "weeklyInstalls": 104156,
-      "totalInstalls": 1361449,
+      "totalInstalls": 1376515,
       "url": "https://skills.sh/heygen-com/hyperframes/media-use",
       "description": "使用 HeyGen 或免费的本地工具获取或制作 HyperFrames 视频的任何媒体 - 音乐、音效、图像、图标、徽标、画外音、头像和生成的视频、文字记录、剪纸、颜色等级和外观，并混合放置的音频。",
       "descriptionOriginal": "Get or make any media for a HyperFrames video - music, sound effects, images, icons, logos, voiceover, avatar and generated video, transcripts, cutouts, colour grades and looks - with HeyGen or free local tools, and mix placed audio.",
@@ -272,7 +276,7 @@
       "name": "hyperframes-cli",
       "source": "heygen-com/hyperframes",
       "weeklyInstalls": 103285,
-      "totalInstalls": 1489587,
+      "totalInstalls": 1504353,
       "url": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
       "description": "HyperFrames CLI 的工作 - 脚手架、检查、查看帧、编辑时间线、预览、在本地或云中渲染、发布、项目历史记录 - 以及读取其 JSON 并从构建或渲染失败中恢复。",
       "descriptionOriginal": "The HyperFrames CLI by job - scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history - plus reading its JSON and recovering from build or render failures.",
@@ -292,7 +296,7 @@
       "name": "video-edit",
       "source": "gencraft-labs/skills",
       "weeklyInstalls": 98480,
-      "totalInstalls": 493052,
+      "totalInstalls": 502592,
       "url": "https://skills.sh/gencraft-labs/skills/video-edit",
       "description": "编辑 RunComfy 上的现有视频 - 该技能是一个智能路由器，可将用户的意图与 RunComfy 目录中的正确编辑模型相匹配。",
       "descriptionOriginal": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog.",
@@ -312,7 +316,7 @@
       "name": "ai-music",
       "source": "gencraft-labs/skills",
       "weeklyInstalls": 98440,
-      "totalInstalls": 493600,
+      "totalInstalls": 503178,
       "url": "https://skills.sh/gencraft-labs/skills/ai-music",
       "description": "通过“runco​​mfy”CLI（跨音乐模型目录的智能路由器）在 RunComfy 上生成 AI 音乐。",
       "descriptionOriginal": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog.",
@@ -323,9 +327,11 @@
         "url": "https://skills.sh/gencraft-labs/skills/ai-music"
       },
       "rankChange": {
-        "status": "new"
+        "status": "compared",
+        "delta": 0,
+        "previousRank": 8
       }
     }
   ],
-  "rankComparedAt": "2026-11-09T08:11:36+08:00"
+  "rankComparedAt": "2026-11-10T08:12:33+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T08:03:50+08:00",
+  "updatedAt": "2026-11-24T08:04:00+08:00",
   "source": {
     "name": "Skills.sh"
   },
@@ -8,8 +8,8 @@
     {
       "name": "find-skills",
       "source": "vercel-labs/skills",
-      "weeklyInstalls": 109742,
-      "totalInstalls": 4489381,
+      "weeklyInstalls": 112607,
+      "totalInstalls": 4506991,
       "url": "https://skills.sh/vercel-labs/skills/find-skills",
       "description": "当用户提出诸如“我如何做 X”、“查找 X 的技能”、“是否有一项技能可以...”或表达对扩展功能的兴趣等问题时，帮助用户发现并安装代理技能。",
       "descriptionOriginal": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities.",
@@ -29,8 +29,8 @@
     {
       "name": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "weeklyInstalls": 102954,
-      "totalInstalls": 1649798,
+      "weeklyInstalls": 111582,
+      "totalInstalls": 1669429,
       "url": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "description": "用于 AI 代理的浏览器自动化 CLI。",
       "descriptionOriginal": "Browser automation CLI for AI agents.",
@@ -48,50 +48,10 @@
       }
     },
     {
-      "name": "microsoft-foundry",
-      "source": "microsoft/azure-skills",
-      "weeklyInstalls": 56233,
-      "totalInstalls": 770915,
-      "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
-      "description": "端到端构建、部署、评估、优化、微调和管理 Microsoft Foundry 代理、模型和资源。",
-      "descriptionOriginal": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 3
-      }
-    },
-    {
-      "name": "azure-ai",
-      "source": "microsoft/azure-skills",
-      "weeklyInstalls": 56218,
-      "totalInstalls": 759981,
-      "url": "https://skills.sh/microsoft/azure-skills/azure-ai",
-      "description": "构建 Azure AI 搜索、语音、文档智能、内容理解、翻译器、内容安全和 OpenAI 应用程序并对其进行故障排除。",
-      "descriptionOriginal": "Build and troubleshoot Azure AI Search, Speech, Document Intelligence, Content Understanding, Translator, Content Safety, and OpenAI apps.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/microsoft/azure-skills/azure-ai"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 4
-      }
-    },
-    {
       "name": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "weeklyInstalls": 56019,
-      "totalInstalls": 890409,
+      "weeklyInstalls": 59194,
+      "totalInstalls": 899597,
       "url": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "description": "汇总并指引 Remotion 视频制作相关技能。",
       "descriptionOriginal": "Router for all Remotion skills",
@@ -103,15 +63,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 2,
         "previousRank": 5
       }
     },
     {
       "name": "remotion-render",
       "source": "remotion-dev/skills",
-      "weeklyInstalls": 51956,
-      "totalInstalls": 405872,
+      "weeklyInstalls": 55282,
+      "totalInstalls": 414465,
       "url": "https://skills.sh/remotion-dev/skills/remotion-render",
       "description": "导出 Remotion 视频、静态图像或可编辑的 OpenTimelineIO 时间线",
       "descriptionOriginal": "Export a Remotion video, still image, or editable OpenTimelineIO timeline",
@@ -123,15 +83,55 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 2,
         "previousRank": 6
+      }
+    },
+    {
+      "name": "microsoft-foundry",
+      "source": "microsoft/azure-skills",
+      "weeklyInstalls": 53598,
+      "totalInstalls": 779382,
+      "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
+      "description": "端到端构建、部署、评估、优化、微调和管理 Microsoft Foundry 代理、模型和资源。",
+      "descriptionOriginal": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/microsoft/azure-skills/microsoft-foundry"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": -2,
+        "previousRank": 3
+      }
+    },
+    {
+      "name": "azure-ai",
+      "source": "microsoft/azure-skills",
+      "weeklyInstalls": 53581,
+      "totalInstalls": 768452,
+      "url": "https://skills.sh/microsoft/azure-skills/azure-ai",
+      "description": "构建 Azure AI 搜索、语音、文档智能、内容理解、翻译器、内容安全和 OpenAI 应用程序并对其进行故障排除。",
+      "descriptionOriginal": "Build and troubleshoot Azure AI Search, Speech, Document Intelligence, Content Understanding, Translator, Content Safety, and OpenAI apps.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/microsoft/azure-skills/azure-ai"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": -2,
+        "previousRank": 4
       }
     },
     {
       "name": "frontend-design",
       "source": "anthropics/skills",
-      "weeklyInstalls": 30153,
-      "totalInstalls": 1154599,
+      "weeklyInstalls": 31137,
+      "totalInstalls": 1159411,
       "url": "https://skills.sh/anthropics/skills/frontend-design",
       "description": "在构建新 UI 或重塑现有 UI 时提供独特、有意的视觉设计指南。",
       "descriptionOriginal": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.",
@@ -151,8 +151,8 @@
     {
       "name": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "weeklyInstalls": 26859,
-      "totalInstalls": 893653,
+      "weeklyInstalls": 27323,
+      "totalInstalls": 898236,
       "url": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "description": "检查 UI 代码是否符合 Web 界面指南。",
       "descriptionOriginal": "Review UI code for Web Interface Guidelines compliance.",
@@ -172,10 +172,46 @@
   ],
   "community": [
     {
+      "name": "ai-video-generation",
+      "source": "beltsh/superpowers",
+      "weeklyInstalls": 152657,
+      "totalInstalls": 183974,
+      "url": "https://skills.sh/beltsh/superpowers/ai-video-generation",
+      "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.5、Kling、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
+      "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.5, Kling, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/beltsh/superpowers/ai-video-generation"
+      },
+      "rankChange": {
+        "status": "new"
+      }
+    },
+    {
+      "name": "ai-image-generation",
+      "source": "beltsh/superpowers",
+      "weeklyInstalls": 152584,
+      "totalInstalls": 183884,
+      "url": "https://skills.sh/beltsh/superpowers/ai-image-generation",
+      "description": "通过 inference.sh CLI 使用 GPT-Image-2.6、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
+      "descriptionOriginal": "Generate AI images with GPT-Image-2.6, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/beltsh/superpowers/ai-image-generation"
+      },
+      "rankChange": {
+        "status": "new"
+      }
+    },
+    {
       "name": "design-mobile-apps",
       "source": "designed-by-ai/skills",
-      "weeklyInstalls": 136332,
-      "totalInstalls": 1581606,
+      "weeklyInstalls": 138427,
+      "totalInstalls": 1601165,
       "url": "https://skills.sh/designed-by-ai/skills/design-mobile-apps",
       "description": "使用 Sleek 设计移动应用程序屏幕，编辑 Sleek 项目，并在 React Native 或 HTML 中实现其设计。",
       "descriptionOriginal": "Design mobile app screens with Sleek, edit Sleek projects, and implement their designs in React Native or HTML.",
@@ -188,95 +224,33 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": -2,
         "previousRank": 1
       }
     },
     {
-      "name": "hyperframes",
-      "source": "heygen-com/hyperframes",
-      "weeklyInstalls": 104944,
-      "totalInstalls": 1638548,
-      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes",
-      "description": "首先阅读如何使用 HyperFrames（HTML 渲染到视频）制作、编辑、动画或渲染任何视频，包括启动影片、讲解员、音乐视频、图表、地图、垂直剪辑、标题卡、字幕和叠加层。",
-      "descriptionOriginal": "Read first to make, edit, animate or render any video with HyperFrames (HTML rendered to video), including launch films, explainers, music videos, charts, maps, vertical clips, title cards, captions and overlays.",
+      "name": "website-builder",
+      "source": "flowkit-labs/skills",
+      "weeklyInstalls": 107911,
+      "totalInstalls": 187599,
+      "url": "https://skills.sh/flowkit-labs/skills/website-builder",
+      "description": "通过简单的语言简介为企业构建和预览托管网站。",
+      "descriptionOriginal": "Build and preview a hosted website for a business from a plain-language brief.",
       "cost": {
         "kind": "unknown",
         "label": "费用待核实",
         "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/heygen-com/hyperframes/hyperframes"
+        "url": "https://skills.sh/flowkit-labs/skills/website-builder"
       },
       "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 2
-      }
-    },
-    {
-      "name": "media-use",
-      "source": "heygen-com/hyperframes",
-      "weeklyInstalls": 103911,
-      "totalInstalls": 1547009,
-      "url": "https://skills.sh/heygen-com/hyperframes/media-use",
-      "description": "使用 HeyGen 或免费的本地工具获取或制作 HyperFrames 视频的任何媒体 - 音乐、音效、图像、图标、徽标、画外音、头像和生成的视频、文字记录、剪纸、颜色等级和外观，并混合放置的音频。",
-      "descriptionOriginal": "Get or make any media for a HyperFrames video - music, sound effects, images, icons, logos, voiceover, avatar and generated video, transcripts, cutouts, colour grades and looks - with HeyGen or free local tools, and mix placed audio.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/heygen-com/hyperframes/media-use"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 3
-      }
-    },
-    {
-      "name": "ai-video-generation",
-      "source": "bankai-skills/superpowers",
-      "weeklyInstalls": 100391,
-      "totalInstalls": 650680,
-      "url": "https://skills.sh/bankai-skills/superpowers/ai-video-generation",
-      "description": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.5、Kling、HappyHorse、Wan、Grok 和 40 多个模型生成 AI 视频。",
-      "descriptionOriginal": "Generate AI videos with Google Veo, Seedance 2.5, Kling, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/bankai-skills/superpowers/ai-video-generation"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 4
-      }
-    },
-    {
-      "name": "ai-image-generation",
-      "source": "bankai-skills/superpowers",
-      "weeklyInstalls": 100349,
-      "totalInstalls": 650756,
-      "url": "https://skills.sh/bankai-skills/superpowers/ai-image-generation",
-      "description": "通过 inference.sh CLI 使用 GPT-Image-2.6、FLUX、Gemini、Grok、Seedream、Reve 和 50 多个模型生成 AI 图像。",
-      "descriptionOriginal": "Generate AI images with GPT-Image-2.6, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI.",
-      "cost": {
-        "kind": "unknown",
-        "label": "费用待核实",
-        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
-        "url": "https://skills.sh/bankai-skills/superpowers/ai-image-generation"
-      },
-      "rankChange": {
-        "status": "compared",
-        "delta": 0,
-        "previousRank": 5
+        "status": "new"
       }
     },
     {
       "name": "reddit-automation",
       "source": "flowkit-labs/skills",
-      "weeklyInstalls": 97088,
-      "totalInstalls": 1502420,
+      "weeklyInstalls": 105895,
+      "totalInstalls": 1517354,
       "url": "https://skills.sh/flowkit-labs/skills/reddit-automation",
       "description": "找到人们真诚询问你提供的产品的 Reddit 帖子，然后起草简短、真正有用的回复——诚实地披露你的隶属关系，并仅在真正回答问题时才命名你的产品。",
       "descriptionOriginal": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question.",
@@ -289,15 +263,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 6
       }
     },
     {
       "name": "ai-music",
       "source": "gencraft-labs/skills",
-      "weeklyInstalls": 96963,
-      "totalInstalls": 680894,
+      "weeklyInstalls": 105826,
+      "totalInstalls": 695756,
       "url": "https://skills.sh/gencraft-labs/skills/ai-music",
       "description": "通过“runco​​mfy”CLI（跨音乐模型目录的智能路由器）在 RunComfy 上生成 AI 音乐。",
       "descriptionOriginal": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog.",
@@ -309,15 +283,15 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 7
       }
     },
     {
       "name": "video-edit",
       "source": "gencraft-labs/skills",
-      "weeklyInstalls": 96812,
-      "totalInstalls": 680124,
+      "weeklyInstalls": 105680,
+      "totalInstalls": 695067,
       "url": "https://skills.sh/gencraft-labs/skills/video-edit",
       "description": "编辑 RunComfy 上的现有视频 - 该技能是一个智能路由器，可将用户的意图与 RunComfy 目录中的正确编辑模型相匹配。",
       "descriptionOriginal": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog.",
@@ -329,10 +303,30 @@
       },
       "rankChange": {
         "status": "compared",
-        "delta": 0,
+        "delta": 1,
         "previousRank": 8
+      }
+    },
+    {
+      "name": "hyperframes",
+      "source": "heygen-com/hyperframes",
+      "weeklyInstalls": 97471,
+      "totalInstalls": 1653740,
+      "url": "https://skills.sh/heygen-com/hyperframes/hyperframes",
+      "description": "首先阅读如何使用 HyperFrames（HTML 渲染到视频）制作、编辑、动画或渲染任何视频，包括启动影片、讲解员、音乐视频、图表、地图、垂直剪辑、标题卡、字幕和叠加层。",
+      "descriptionOriginal": "Read first to make, edit, animate or render any video with HyperFrames (HTML rendered to video), including launch films, explainers, music videos, charts, maps, vertical clips, title cards, captions and overlays.",
+      "cost": {
+        "kind": "unknown",
+        "label": "费用待核实",
+        "note": "该来源的收费依赖尚未核实，不能据此判断为免费。",
+        "url": "https://skills.sh/heygen-com/hyperframes/hyperframes"
+      },
+      "rankChange": {
+        "status": "compared",
+        "delta": -6,
+        "previousRank": 2
       }
     }
   ],
-  "rankComparedAt": "2026-11-22T08:10:16+08:00"
+  "rankComparedAt": "2026-11-23T08:03:50+08:00"
 }
